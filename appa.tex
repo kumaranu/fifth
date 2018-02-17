@@ -1,0 +1,56 @@
+\chapter{The need for a non-Hermitian topology matrix $M$}
+
+The motivation for purely imaginary off-diagonal elements, and hence a non-Hermitian
+topology matrix $M$, arises from the following
+set of arguments. Let us take a 2 by 2 case of interpolation matrix.
+Say, $E^{PIE-ONIOM}_1$ and $E^{PIE-ONIOM}_2$ are energies corresponding to the two
+topologies 1 and 2 respectively and c is the off-diagonal element such that
+$c = a \pm ib$.
+
+\begin{enumerate}
+\item Case I : Interpolation matrix is hermitian
+\begin{equation}\label{eq2}
+\left.\begin{aligned}
+|M-\lambda I| &     =  u(\lambda)\\
+              &     =  (E^{PIE-ONIOM}_1-\lambda)(E^{PIE-ONIOM}_2-\lambda) - (a-ib)(a+ib)\\
+              &     =  \lambda^2 -(E^{PIE-ONIOM}_1 + E^{PIE-ONIOM}_2)\lambda + E^{PIE-ONIOM}_1E^{PIE-ONIOM}_2\\
+              &~~~  - (a^2+b^2)
+\end{aligned}\right.
+\end{equation}
+
+The above given function $u(\lambda)$ is a quadratic function which is a downward shifted
+case of a parabolic function :
+\begin{equation}\label{eq3}
+\left.\begin{aligned}
+v(\lambda) &     =  \lambda^2 -(E^{PIE-ONIOM}_1 + E^{PIE-ONIOM}_2)\lambda + E^{PIE-ONIOM}_1E^{PIE-ONIOM}_2
+\end{aligned}\right.
+\end{equation}
+
+with positive curvature,
+whose zeroes are $E^{PIE-ONIOM}_1$ and $E^{PIE-ONIOM}_2$. As the discriminant of the function
+$u(\lambda)$ is always positive, the zeros will always exist. As $v(\lambda)$ parabola is
+shifted downwards by $a^2+b^2$, the new zeros will lie outside the interval
+[$E^{PIE-ONIOM}_1$,$E^{PIE-ONIOM}_2$]. Hence, the zero of the $u(\lambda)$ or the eigenvalues of $M$
+cannot lie in [$E^{PIE-ONIOM}_1$,$E^{PIE-ONIOM}_2$].
+
+\item Case II : Interpolation matrix is not hermitian
+\begin{equation}\label{eq4}
+\left.\begin{aligned}
+|M-\lambda I| &     =  (E^{PIE-ONIOM}_1-\lambda)(E^{PIE-ONIOM}_2-\lambda) - (a+ib)(a+ib)\\
+              &     =  \lambda^2 -(E^{PIE-ONIOM}_1 + E^{PIE-ONIOM}_2)\lambda + E^{PIE-ONIOM}_1E^{PIE-ONIOM}_2\\
+              &     ~~~- (a^2-b^2-2iab)
+\end{aligned}\right.
+\end{equation}
+
+For above mentioned function to have zeros on real axis its imaginary part has to be zero hence
+either a or b should be equal to zero. If $b = 0$ then it is the same as case I, as the function
+is a case of downward shifting of $f(\lambda)$, the roots cannot lie in between $E^{PIE-ONIOM}_1$
+and $E^{PIE-ONIOM}_2$. Hence we will ignore this case. If $a = 0$ i.e. c is purely imaginary, the
+condition of positivity on discriminant of the above function enforces the condition that
+$|E^{PIE-ONIOM}_1-E^{PIE-ONIOM}_2| < |c|$. As the parabola is shifted upwards by $c^2$,
+the new zeros(only if they exist) will lie inside the interval [$E^{PIE-ONIOM}_1$,$E^{PIE-ONIOM}_2$].
+Hence, the zeros of the function $|M - \lambda I|$ or the eigenvalues of $M$ can lie between the
+two diabatic energy curves.
+\end{enumerate}
+
+\newpage

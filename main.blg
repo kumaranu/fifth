@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: contents.aux
+A level-1 auxiliary file: chap1.aux
+A level-1 auxiliary file: chap2.aux
+A level-1 auxiliary file: chap3.aux
+A level-1 auxiliary file: chap4.aux
+A level-1 auxiliary file: appa.aux
+A level-1 auxiliary file: appb.aux
+A level-1 auxiliary file: appc.aux
+A level-1 auxiliary file: biblio.aux
+The style file: unsrt.bst
+Reallocated field_info (elt_size=4) to 10014 items from 5000.
+Database file #1: main.bib
+Repeated entry---line 1475 of file main.bib
+ : @article{schmitt1998multistate
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2006 of file main.bib
+ : @article{ee-mbe-water
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Allen
+Warning--empty journal in Ciccotti
+Warning--can't use both author and editor fields in Kirchner-Hutter-Aimd-Apps
+Warning--empty chapter and pages in Kirchner-Hutter-Aimd-Apps
+Warning--empty publisher in Kirchner-Hutter-Aimd-Apps
+Warning--can't use both author and editor fields in BO-Hase
+Warning--empty title in Hessian
+Warning--can't use both author and editor fields in Hrant-Berny-PESreview
+Warning--empty title in Hrant-Berny-PESreview
+Warning--empty title in formaldehyde
+Warning--empty booktitle in Marx-Cpreview
+Warning--can't use both author and editor fields in Carpar89
+Warning--can't use both author and editor fields in Galli91
+Warning--empty title in Na+solv
+Warning--empty title in NH4+solv
+Warning--empty title in K+solv
+Warning--empty title in SO3solv
+Warning--empty title in Be2+solv
+Warning--empty title in H+OH-solv
+Warning--empty title in CP-Gaussians-Martyna
+Warning--empty title in truhlar
+Warning--can't use both volume and number fields in zener1932non
+You've used 218 entries,
+            1791 wiz_defined-function locations,
+            1691 strings with 42403 characters,
+and the built_in function-call counts, 52629 in all, are:
+= -- 4692
+> -- 2372
+< -- 14
++ -- 872
+- -- 654
+* -- 4256
+:= -- 8438
+add.period$ -- 644
+call.type$ -- 218
+change.case$ -- 196
+chr.to.int$ -- 0
+cite$ -- 240
+duplicate$ -- 2022
+empty$ -- 5097
+format.name$ -- 654
+if$ -- 11363
+int.to.chr$ -- 0
+int.to.str$ -- 218
+missing$ -- 228
+newline$ -- 1081
+num.names$ -- 218
+pop$ -- 331
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 780
+stack$ -- 0
+substring$ -- 4603
+swap$ -- 274
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 22
+while$ -- 541
+width$ -- 221
+write$ -- 2365
+(There were 2 error messages)

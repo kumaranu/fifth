@@ -1,0 +1,70 @@
+\chapter{Further computational efficiency for reduced-dimensional potential
+surface calculations by examining the span of the invariant subspace of the
+the topological overlap matrix}
+
+As mentioned earlier that fragmentation based electronic structure has made it possible to get
+post Hartree-fock accuracy on relatively large systems with an computational expense of DFT methods.
+As potential energy surface calculations involve these electronic structure calculations at each
+point on a grid, the computational expense grows exponentially. Use of parallel computing in the
+fragment based electronic structure calculations has made it possible to reduce the
+computational time at each point on the grid. However there is still a lot of scope to improve the algorithms to
+get the same accuracy at a lower computational expense. One of these options reusuability has been utilized here
+and its implementation is explained below.
+
+Say, there exists a molecular system with P number of primary and D number of derivative fragments.
+Let's only consider a 1D potential energy
+surface with M grid points. Let the average cpu time for the electronic structure calculations of primary
+fragments at lower and higher level are $t_{primary}^{low}$ and $t_{primary}^{high}$ respectively. Similarly,
+the average cpu times for the electronic structure calculations of derivative fragments at lower level,
+derivative fragments at higher level and full system at lower level are  $t_{derivative}^{low}$ ,
+$t_{derivative}^{high}$ and $t_{Full}^{low}$ respectively.
+
+The total CPU time for this potential energy scan (say, $T_{1}$) with $M$ grid points
+would be equal to:
+\begin{equation}\label{eq:withoutReusabilityEqn1}
+\left.\begin{aligned}
+T_{1} &     =  ($t_{Full}^{low}$ + $P.t_{primary}^{high}$ + $D.t_{derivative}^{high}$ + $P.t_{primary}^{low}$
+ + D.t_{derivative}^{low}) M
+\end{aligned}\right.
+\end{equation}
+
+Say, we know that only p out of P primary fragments and d out of D derivative fragments are changing
+during a potential energy scan, so we can avoid the repeated calculations. We can do all the
+ electronic structure calculations for the first step on the grid and avoid
+the calculations of non-changing fragments for the other M-1 points on the grid. This way, the total CPU time for
+potential energy scan (say, $T_{2}$) would be equal to:
+\begin{equation}\label{eq:withReusabilityEqn2}
+\left.\begin{aligned}
+T_{2} &     =  P.t_{primary}^{high} + D.t_{derivative}^{high} + P.t_{primary}^{low} 
+      + D.t_{derivative}^{low} + (t_{Full}^{low} + p.t_{primary}^{high}\\
+      &  ~~~ + d.t_{derivative}^{high} + p.t_{primary}^{low} + d.t_{derivative}^{low}) (M-1)
+\end{aligned}\right.
+\end{equation}
+
+The difference between $T_{1}$ and $T_{2}$ is equal to:
+\begin{equation}\label{eq2}
+\left.\begin{aligned}
+T_{1} - T_{2} &     =  ((P-p)(t_{primary}^{high} + t_{primary}^{low}) + (D-d)(t_{derivative}^{high} +
+ t_{derivative}^{low}))(M-1)
+\end{aligned}\right.
+\end{equation}
+
+Considering the example of a 1D potential energy scan with 200 grid points (M = 200) for 12-water water-wire ($(H_{2}O)_{12}H^{+}$),
+if primary fragments are chosen to be the water dimers formed by the neighbouring water molecules and their overlaps as
+derivative fragments. There are 11 primary fragments (P = 11) and 10 derivative fragments (D = 10). During the potential energy scan
+2 of the primary (p = 2) and 1 of the derivative (d = 1) fragments are changing.
+Therefore the CPU time saved is equal to:
+\begin{equation}\label{eq:withReusabilityEqn3}
+\left.\begin{aligned}
+CPU time saved & =  9((t_{primary}^{high} + t_{primary}^{low}) + (t_{derivative}^{high} + t_{derivative}^{low}))\times199
+\end{aligned}\right.
+\end{equation}
+
+This is a huge saving of computational time for the 1D PES case. This option for reusability is even more helpful in calculating
+the higher dimensional PES as the number of fragments changing in those cases are also small as compared to the total number of
+fragments. Similar to the development of Message Passing Interface (MPI) based fragment electronic structure methods
+\cite{fragAIMD-elbo,fragAIMD-CC}, a smart parallelization based program can be utilized. One of the good
+implementation for this reusability program would be to write a program which runs the full system
+calculations in parallel and computes the PES after all the calculations are finished.
+
+\newpage

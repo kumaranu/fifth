@@ -1,0 +1,44 @@
+\chapter{Analysis on the choice of $f(x)$}
+
+The function $f(x_{ij})$ includes Error function with a linear argument. Error function is defined as
+
+\begin{equation}
+erf(x) = \frac{2}{\sqrt{\pi}} \int_0^x e^{-t^{2}} dt.
+\label{erfDefinition}
+\end{equation}
+
+It is zero at x = 0 and goes asymptotically towards -1 and 1. Appropriate choice for
+$f(x_{ij})$ can be obtained by shifting and scaling of standard erf(x). Say, we take
+a function of the following form
+\begin{equation}
+f(x) = a(erf(b(x-c)) + 1)
+\label{fx_function}
+\end{equation}
+where a, b, c are real numbers. Here, f(x) is zero at x = c and it goes from 0 to 2a. To
+control the slope of $f(x)$ during the transition, let us calculate $f'(x)$ as
+
+\begin{eqnarray}
+\frac{d}{dx}f(x) & = & \frac{d}{dx}a(erf(b(x-c)) + 1)\\
+&  = & \frac{d}{dx}a(\frac{2}{\sqrt{\pi}} \int_0^{b(x-c)} e^{-t^{2}} dt + 1)\\
+&  = & \frac{2a}{\sqrt{\pi}} \frac{d}{dx}(\int_0^{b(x-c)} e^{-t^{2}} dt)\\
+&  = & \frac{2a}{\sqrt{\pi}} e^{-(b(x-c))^{2}} \frac{d}{dx}({b(x-c)})\\
+&  = & \frac{2ab}{\sqrt{\pi}} e^{-(b(x-c))^{2}}
+\end{eqnarray}
+
+As $\frac{d}{dx}f(x)|_{x = c}$ = $\frac{2ab}{\sqrt{\pi}}$, for a constant shift of 2a,
+increasing b would increase the slope of the sigmoid function $f(x)$. In fact the sigmoid
+function will tend to a step function as b \to \infty.
+
+Truncation error in interpolation is due to the non-zero value of $f(x)$ at the
+boundary, t \in $\{t_{ij}^{0},t_{ij}^{1}\}$ mentioned in Eq. \ref{paramEquation}.
+Increasing the slope of $f(x)$ at $x=c$ will lead to a quicker convergence of the value
+of $f(x)$ at the boundary and thus reducing the truncation error.
+
+%Another method where instead of solving an eigenvalue problem as in CTM,
+If the diabatic curves are shifted to match at the seam then it would be
+a special case of CTM with a big enough value of b so that erf(x) becomes a step
+function. Hence, shifting at the seam is just a lower level of the same
+method where the interpolated curve is not smoothened. After shifting the diabatic
+states to match each other at the seam, the one with the lowest potential
+energy among all is chosen on either sides of the seam.
+\newpage

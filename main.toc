@@ -1,0 +1,32 @@
+\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {chapter}{\numberline {2}Rigorous procedures to include multiple fragment topologies in electronic structure for dynamics and potential surface calculations}{9}
+\contentsline {section}{\numberline {2.1}Set theoretic measures for dividing a molecular system}{9}
+\contentsline {section}{\numberline {2.2}Challenges for AIMD and potential surface calculations}{11}
+\contentsline {section}{\numberline {2.3}Formal constructs for a multi-topology formalism}{14}
+\contentsline {section}{\numberline {2.4}A pseudo-Hamiltonian formalism that allows continuous morphing across topologies}{17}
+\contentsline {section}{\numberline {2.5}Computational efficiency for potential surface calculations}{20}
+\contentsline {section}{\numberline {2.6}NEEDS TO BE MODIFIED Other methods developed to solve similar problems}{21}
+\contentsline {chapter}{\numberline {3}Results and Discussion}{22}
+\contentsline {section}{\numberline {3.1}Protonated water clusters and wires}{24}
+\contentsline {section}{\numberline {3.2}Adaptive detection of changes in topological networks}{26}
+\contentsline {section}{\numberline {3.3}CTM interpolation with known seam}{28}
+\contentsline {subsection}{\numberline {3.3.1}Comparison of diabatic surfaces with their CTM interpolation for $(H_{2}O)_{12}H^+$}{28}
+\contentsline {subsection}{\numberline {3.3.2}Potentials and proton eigenstates for eigen cation during dynamics}{32}
+\contentsline {subsubsection}{Error analysis on potentials obtained by CTM interpolation}{34}
+\contentsline {subsubsection}{Potential and ground state analysis during a classical dynamics trajectory}{36}
+\contentsline {subsubsection}{Accuracy of proton eigenstates and eigenvalues obtained by CTM}{38}
+\contentsline {subsection}{\numberline {3.3.3}Potential surfaces for water-wire systems}{41}
+\contentsline {subsubsection}{Accuracy of CTM interpolated potentials for waterwires}{42}
+\contentsline {subsubsection}{CTM interpolated potentials and corresponding proton ground states}{45}
+\contentsline {subsubsection}{Accuracy of proton eigenstates and eigenvalues for waterwires}{47}
+\contentsline {subsubsection}{CTM interpolation using three diabatic states in waterwires}{49}
+\contentsline {section}{\numberline {3.4}Unknown seam}{51}
+\contentsline {subsection}{\numberline {3.4.1}Error in CTM interpolation as a function of seams}{51}
+\contentsline {section}{\numberline {3.5}Coupled proton motion}{53}
+\contentsline {chapter}{\numberline {4}Conclusion and future work}{56}
+\contentsline {section}{\numberline {4.1}Using fragmentation with sampling}{56}
+\contentsline {section}{\numberline {4.2}Landau-Zener based topological transition probabilities}{58}
+\contentsline {section}{\numberline {4.3}Stochastic surface hopping based multi-topology scheme}{59}
+\contentsline {chapter}{Appendix \numberline {A}The need for a non-Hermitian topology matrix $M$}{61}
+\contentsline {chapter}{Appendix \numberline {B}Further computational efficiency for reduced-dimensional potential surface calculations by examining the span of the invariant subspace of the the topological overlap matrix}{64}
+\contentsline {chapter}{Appendix \numberline {C}Analysis on the choice of $f(x)$}{68}

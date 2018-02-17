@@ -1,0 +1,17 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Fragment based electronic structure for ab initio molecular dynamics and potential surface calculations}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Set theoretic measures for dividing a molecular system}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Problems with fragmentation schemes in AIMD and potential energy surface calculations}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Formal constructs for a multi-topology formalism}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{Adaptive detection of changes in topological networks}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.5}{Interpolation across the diabatic, topological states to obtain smooth potential surfaces}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.6}{Analysis on the choice of f\(xij\) and truncation error}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Results and Discussion}{}% 9
+\BOOKMARK [1][-]{section.3.1}{Analysis of CTM with respect to diabatic states}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.2}{Analysis of eigen cation system}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.3}{Analysis of different water-wire systems}{chapter.3}% 12
+\BOOKMARK [0][-]{chapter.4}{Conclusion and future work}{}% 13
+\BOOKMARK [1][-]{section.4.1}{Using fragmentation with sampling}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.2}{Landau-Zener based topological transition probabilities}{chapter.4}% 15
+\BOOKMARK [0][-]{appendix.A}{The need for a non-Hermitian topology matrix M}{}% 16
+\BOOKMARK [0][-]{appendix.B}{Further computational efficiency for reduced-dimensional potential surface calculations by examining the span of the invariant subspace of the the topological overlap matrix}{}% 17

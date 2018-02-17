@@ -1,0 +1,7447 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: barsEditted.eps
+%%Creator: gnuplot 4.6 patchlevel 3
+%%CreationDate: Sun Feb  4 12:54:40 2018
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 410 302
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color true def
+/Blacktext false def
+/Solid true def
+/Dashlength 1 def
+/Landscape false def
+/Level1 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -33 def
+/dl1 {
+  10.0 Dashlength mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 410 50 lineto 410 302 lineto 50 302 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 4.6 (September 2012)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Default Line colors
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default Line Types
+/LTw {PL [] 1 setgray} def
+/LTb {BL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [4 dl1 2 dl2] LC1 DL} def
+/LT2 {PL [2 dl1 3 dl2] LC2 DL} def
+/LT3 {PL [1 dl1 1.5 dl2] LC3 DL} def
+/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def
+/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+ 2 lt
+	{/InterpretLevel1 true def}
+	{/InterpretLevel1 Level1 def}
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {Gshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
+     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
+     show 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (barsEditted.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 4.6 patchlevel 3)
+  /Author (kumaranu)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Sun Feb  4 12:54:40 2018)
+  /DOCINFO pdfmark
+end
+} ifelse
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(Verdana) findfont 100 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 7200.00 5040.00 BoxColFill} if
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 510 4523 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+510 4523 M
+63 0 V
+stroke
+498 4523 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 10)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 510 4845 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+510 4845 M
+63 0 V
+stroke
+498 4845 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 20)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+3209 4410 M
+-63 0 V
+stroke
+3173 4410 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 1)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+3209 4829 M
+-63 0 V
+stroke
+3173 4829 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 3)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+510 5039 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+stroke
+LCb setrgbcolor
+100 4619 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Symbol) 160.0 -60.0 true true 0 (y)]
+[(Verdana) 128.0 -108.0 true true 0 (4)]
+] -30.7 MCshow
+grestore
+LTb
+LCb setrgbcolor
+3438 4619 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Verdana) 160.0 -60.0 true true 0 (E)]
+] -46.7 MCshow
+grestore
+LTb
+0.300 UP
+0.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LT0
+0.11 0.62 0.47 C LCb setrgbcolor
+1462 131 M
+[ [(Verdana) 180.0 0.0 true true 0 (CTM)]
+] -60.0 MRshow
+LT0
+0.11 0.62 0.47 C 1.000 1522 81 258 100 BoxColFill
+1522 81 N
+258 0 V
+0 100 V
+-258 0 V
+0 -100 V
+Z stroke
+LT0
+0.11 0.62 0.47 C 1.000 637 4200 52 93 BoxColFill
+637 4200 N
+0 92 V
+51 0 V
+0 -92 V
+-51 0 V
+Z stroke
+1.000 892 4200 52 223 BoxColFill
+892 4200 N
+0 222 V
+51 0 V
+0 -222 V
+-51 0 V
+Z stroke
+1.000 1147 4200 51 359 BoxColFill
+1147 4200 N
+0 358 V
+50 0 V
+0 -358 V
+-50 0 V
+Z stroke
+1.000 1503 4200 52 661 BoxColFill
+1503 4200 N
+0 660 V
+51 0 V
+0 -660 V
+-51 0 V
+Z stroke
+1.000 1758 4200 52 174 BoxColFill
+1758 4200 N
+0 173 V
+51 0 V
+0 -173 V
+-51 0 V
+Z stroke
+1.000 2012 4200 52 161 BoxColFill
+2012 4200 N
+0 160 V
+51 0 V
+0 -160 V
+-51 0 V
+Z stroke
+1.000 2369 4200 52 229 BoxColFill
+2369 4200 N
+0 228 V
+51 0 V
+0 -228 V
+-51 0 V
+Z stroke
+1.000 2623 4200 52 158 BoxColFill
+2623 4200 N
+0 157 V
+51 0 V
+0 -157 V
+-51 0 V
+Z stroke
+1.000 2878 4200 52 160 BoxColFill
+2878 4200 N
+0 159 V
+51 0 V
+0 -159 V
+-51 0 V
+Z stroke
+% End plot #1
+% Begin plot #2
+1.000 UL
+LT1
+0.85 0.37 0.01 C LCb setrgbcolor
+2920 131 M
+[ [(Verdana) 180.0 0.0 true true 0 (JS)]
+] -60.0 MRshow
+LT1
+0.85 0.37 0.01 C 1.000 2980 81 258 100 BoxColFill
+2980 81 N
+258 0 V
+0 100 V
+-258 0 V
+0 -100 V
+Z stroke
+LT1
+0.85 0.37 0.01 C 1.000 688 4200 52 130 BoxColFill
+688 4200 N
+0 129 V
+51 0 V
+0 -129 V
+-51 0 V
+Z stroke
+1.000 943 4200 52 223 BoxColFill
+943 4200 N
+0 222 V
+51 0 V
+0 -222 V
+-51 0 V
+Z stroke
+1.000 1197 4200 52 278 BoxColFill
+1197 4200 N
+0 277 V
+51 0 V
+0 -277 V
+-51 0 V
+Z stroke
+1.000 1554 4200 52 660 BoxColFill
+1554 4200 N
+0 659 V
+51 0 V
+0 -659 V
+-51 0 V
+Z stroke
+1.000 1809 4200 52 178 BoxColFill
+1809 4200 N
+0 177 V
+51 0 V
+0 -177 V
+-51 0 V
+Z stroke
+1.000 2063 4200 52 160 BoxColFill
+2063 4200 N
+0 159 V
+51 0 V
+0 -159 V
+-51 0 V
+Z stroke
+1.000 2420 4200 52 229 BoxColFill
+2420 4200 N
+0 228 V
+51 0 V
+0 -228 V
+-51 0 V
+Z stroke
+1.000 2674 4200 52 158 BoxColFill
+2674 4200 N
+0 157 V
+51 0 V
+0 -157 V
+-51 0 V
+Z stroke
+1.000 2929 4200 52 181 BoxColFill
+2929 4200 N
+0 180 V
+51 0 V
+0 -180 V
+-51 0 V
+Z stroke
+% End plot #2
+% Begin plot #3
+1.000 UL
+LT2
+0.46 0.44 0.70 C LCb setrgbcolor
+4378 131 M
+[ [(Verdana) 180.0 0.0 true true 0 (         Topology1)]
+] -60.0 MRshow
+LT2
+0.46 0.44 0.70 C 1.000 4438 81 258 100 BoxColFill
+4438 81 N
+258 0 V
+0 100 V
+-258 0 V
+0 -100 V
+Z stroke
+LT2
+0.46 0.44 0.70 C 1.000 739 4200 52 70 BoxColFill
+739 4200 N
+0 69 V
+51 0 V
+0 -69 V
+-51 0 V
+Z stroke
+1.000 994 4200 52 352 BoxColFill
+994 4200 N
+0 351 V
+51 0 V
+0 -351 V
+-51 0 V
+Z stroke
+1.000 1248 4200 52 267 BoxColFill
+1248 4200 N
+0 266 V
+51 0 V
+0 -266 V
+-51 0 V
+Z stroke
+1.000 1605 4200 52 815 BoxColFill
+1605 4200 N
+0 814 V
+51 0 V
+0 -814 V
+-51 0 V
+Z stroke
+1.000 1860 4200 51 67 BoxColFill
+1860 4200 N
+0 66 V
+50 0 V
+0 -66 V
+-50 0 V
+Z stroke
+1.000 2114 4200 52 223 BoxColFill
+2114 4200 N
+0 222 V
+51 0 V
+0 -222 V
+-51 0 V
+Z stroke
+1.000 2471 4200 52 338 BoxColFill
+2471 4200 N
+0 337 V
+51 0 V
+0 -337 V
+-51 0 V
+Z stroke
+1.000 2725 4200 52 229 BoxColFill
+2725 4200 N
+0 228 V
+51 0 V
+0 -228 V
+-51 0 V
+Z stroke
+1.000 2980 4200 52 70 BoxColFill
+2980 4200 N
+0 69 V
+51 0 V
+0 -69 V
+-51 0 V
+Z stroke
+% End plot #3
+% Begin plot #4
+1.000 UL
+LT3
+0.91 0.16 0.54 C LCb setrgbcolor
+5836 131 M
+[ [(Verdana) 180.0 0.0 true true 0 (         Topology2)]
+] -60.0 MRshow
+LT3
+0.91 0.16 0.54 C 1.000 5896 81 258 100 BoxColFill
+5896 81 N
+258 0 V
+0 100 V
+-258 0 V
+0 -100 V
+Z stroke
+LT3
+0.91 0.16 0.54 C 1.000 790 4200 52 116 BoxColFill
+790 4200 N
+0 115 V
+51 0 V
+0 -115 V
+-51 0 V
+Z stroke
+1.000 1045 4200 52 156 BoxColFill
+1045 4200 N
+0 155 V
+51 0 V
+0 -155 V
+-51 0 V
+Z stroke
+1.000 1299 4200 52 388 BoxColFill
+1299 4200 N
+0 387 V
+51 0 V
+0 -387 V
+-51 0 V
+Z stroke
+1.000 1656 4200 52 306 BoxColFill
+1656 4200 N
+0 305 V
+51 0 V
+0 -305 V
+-51 0 V
+Z stroke
+1.000 1910 4200 52 175 BoxColFill
+1910 4200 N
+0 174 V
+51 0 V
+0 -174 V
+-51 0 V
+Z stroke
+1.000 2165 4200 52 149 BoxColFill
+2165 4200 N
+0 148 V
+51 0 V
+0 -148 V
+-51 0 V
+Z stroke
+1.000 2522 4200 51 186 BoxColFill
+2522 4200 N
+0 185 V
+50 0 V
+0 -185 V
+-50 0 V
+Z stroke
+1.000 2776 4200 52 142 BoxColFill
+2776 4200 N
+0 141 V
+51 0 V
+0 -141 V
+-51 0 V
+Z stroke
+1.000 3031 4200 52 172 BoxColFill
+3031 4200 N
+0 171 V
+51 0 V
+0 -171 V
+-51 0 V
+Z stroke
+% End plot #4
+% Begin plot #5
+0.300 UP
+1.000 UL
+LT4
+0.00 0.00 0.00 C 663 4437 M
+51 -80 V
+51 -87 V
+51 113 V
+101 11 R
+51 0 V
+51 141 V
+51 -224 V
+102 87 R
+51 -113 V
+51 -50 V
+51 140 V
+203 85 R
+51 1 V
+51 172 V
+51 -429 V
+102 67 R
+51 -5 V
+51 36 V
+51 -33 V
+102 82 R
+51 0 V
+51 94 V
+51 -148 V
+203 129 R
+51 1 V
+51 108 V
+51 -160 V
+102 68 R
+51 0 V
+51 57 V
+51 -89 V
+101 -40 R
+51 -36 V
+51 -27 V
+51 40 V
+663 4437 BoxF
+714 4357 BoxF
+765 4270 BoxF
+816 4383 BoxF
+917 4394 BoxF
+968 4394 BoxF
+1019 4535 BoxF
+1070 4311 BoxF
+1172 4398 BoxF
+1223 4285 BoxF
+1274 4235 BoxF
+1325 4375 BoxF
+1528 4460 BoxF
+1579 4461 BoxF
+1630 4633 BoxF
+1681 4204 BoxF
+1783 4271 BoxF
+1834 4266 BoxF
+1885 4302 BoxF
+1936 4269 BoxF
+2038 4351 BoxF
+2089 4351 BoxF
+2140 4445 BoxF
+2191 4297 BoxF
+2394 4426 BoxF
+2445 4427 BoxF
+2496 4535 BoxF
+2547 4375 BoxF
+2649 4443 BoxF
+2700 4443 BoxF
+2751 4500 BoxF
+2802 4411 BoxF
+2903 4371 BoxF
+2954 4335 BoxF
+3005 4308 BoxF
+3056 4348 BoxF
+% End plot #5
+% Begin plot #6
+0.300 UP
+1.000 UL
+LT5
+0.00 0.00 0.00 C 663 4437 M
+51 -80 V
+51 -87 V
+51 113 V
+101 11 R
+51 0 V
+51 141 V
+51 -224 V
+102 87 R
+51 -113 V
+51 -50 V
+51 140 V
+203 85 R
+51 1 V
+51 172 V
+51 -429 V
+102 67 R
+51 -5 V
+51 36 V
+51 -33 V
+102 82 R
+51 0 V
+51 94 V
+51 -148 V
+203 129 R
+51 1 V
+51 108 V
+51 -160 V
+102 68 R
+51 0 V
+51 57 V
+51 -89 V
+101 -40 R
+51 -36 V
+51 -27 V
+51 40 V
+663 4437 Circle
+714 4357 Circle
+765 4270 Circle
+816 4383 Circle
+917 4394 Circle
+968 4394 Circle
+1019 4535 Circle
+1070 4311 Circle
+1172 4398 Circle
+1223 4285 Circle
+1274 4235 Circle
+1325 4375 Circle
+1528 4460 Circle
+1579 4461 Circle
+1630 4633 Circle
+1681 4204 Circle
+1783 4271 Circle
+1834 4266 Circle
+1885 4302 Circle
+1936 4269 Circle
+2038 4351 Circle
+2089 4351 Circle
+2140 4445 Circle
+2191 4297 Circle
+2394 4426 Circle
+2445 4427 Circle
+2496 4535 Circle
+2547 4375 Circle
+2649 4443 Circle
+2700 4443 Circle
+2751 4500 Circle
+2802 4411 Circle
+2903 4371 Circle
+2954 4335 Circle
+3005 4308 Circle
+3056 4348 Circle
+% End plot #6
+% Begin plot #7
+0.300 UP
+1.000 UL
+LT6
+0.00 0.00 0.00 C 663 4437 M
+51 -80 V
+51 -87 V
+51 113 V
+101 11 R
+51 0 V
+51 141 V
+51 -224 V
+102 87 R
+51 -113 V
+51 -50 V
+51 140 V
+203 85 R
+51 1 V
+51 172 V
+51 -429 V
+102 67 R
+51 -5 V
+51 36 V
+51 -33 V
+102 82 R
+51 0 V
+51 94 V
+51 -148 V
+203 129 R
+51 1 V
+51 108 V
+51 -160 V
+102 68 R
+51 0 V
+51 57 V
+51 -89 V
+101 -40 R
+51 -36 V
+51 -27 V
+51 40 V
+663 4437 CircleF
+714 4357 CircleF
+765 4270 CircleF
+816 4383 CircleF
+917 4394 CircleF
+968 4394 CircleF
+1019 4535 CircleF
+1070 4311 CircleF
+1172 4398 CircleF
+1223 4285 CircleF
+1274 4235 CircleF
+1325 4375 CircleF
+1528 4460 CircleF
+1579 4461 CircleF
+1630 4633 CircleF
+1681 4204 CircleF
+1783 4271 CircleF
+1834 4266 CircleF
+1885 4302 CircleF
+1936 4269 CircleF
+2038 4351 CircleF
+2089 4351 CircleF
+2140 4445 CircleF
+2191 4297 CircleF
+2394 4426 CircleF
+2445 4427 CircleF
+2496 4535 CircleF
+2547 4375 CircleF
+2649 4443 CircleF
+2700 4443 CircleF
+2751 4500 CircleF
+2802 4411 CircleF
+2903 4371 CircleF
+2954 4335 CircleF
+3005 4308 CircleF
+3056 4348 CircleF
+% End plot #7
+% Begin plot #8
+0.300 UP
+1.000 UL
+LT7
+0.00 0.00 0.00 C 663 4437 M
+51 -80 V
+51 -87 V
+51 113 V
+101 11 R
+51 0 V
+51 141 V
+51 -224 V
+102 87 R
+51 -113 V
+51 -50 V
+51 140 V
+203 85 R
+51 1 V
+51 172 V
+51 -429 V
+102 67 R
+51 -5 V
+51 36 V
+51 -33 V
+102 82 R
+51 0 V
+51 94 V
+51 -148 V
+203 129 R
+51 1 V
+51 108 V
+51 -160 V
+102 68 R
+51 0 V
+51 57 V
+51 -89 V
+101 -40 R
+51 -36 V
+51 -27 V
+51 40 V
+663 4437 TriU
+714 4357 TriU
+765 4270 TriU
+816 4383 TriU
+917 4394 TriU
+968 4394 TriU
+1019 4535 TriU
+1070 4311 TriU
+1172 4398 TriU
+1223 4285 TriU
+1274 4235 TriU
+1325 4375 TriU
+1528 4460 TriU
+1579 4461 TriU
+1630 4633 TriU
+1681 4204 TriU
+1783 4271 TriU
+1834 4266 TriU
+1885 4302 TriU
+1936 4269 TriU
+2038 4351 TriU
+2089 4351 TriU
+2140 4445 TriU
+2191 4297 TriU
+2394 4426 TriU
+2445 4427 TriU
+2496 4535 TriU
+2547 4375 TriU
+2649 4443 TriU
+2700 4443 TriU
+2751 4500 TriU
+2802 4411 TriU
+2903 4371 TriU
+2954 4335 TriU
+3005 4308 TriU
+3056 4348 TriU
+% End plot #8
+0.000 UL
+LTb
+LCb setrgbcolor
+510 5039 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+0.300 UP
+stroke
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 4110 4523 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 4523 M
+63 0 V
+stroke
+4098 4523 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 10)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 4110 4845 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 4845 M
+63 0 V
+stroke
+4098 4845 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 20)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6809 4410 M
+-63 0 V
+stroke
+6773 4410 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 1)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6809 4829 M
+-63 0 V
+stroke
+6773 4829 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 3)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 5039 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+stroke
+LCb setrgbcolor
+3700 4619 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Symbol) 160.0 -60.0 true true 0 (y)]
+[(Verdana) 128.0 -108.0 true true 0 (9)]
+] -30.7 MCshow
+grestore
+LTb
+LCb setrgbcolor
+7038 4619 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Verdana) 160.0 -60.0 true true 0 (E)]
+] -46.7 MCshow
+grestore
+LTb
+0.300 UP
+0.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LT0
+0.11 0.62 0.47 C 1.000 4237 4200 52 137 BoxColFill
+4237 4200 N
+0 136 V
+51 0 V
+0 -136 V
+-51 0 V
+Z stroke
+1.000 4492 4200 52 177 BoxColFill
+4492 4200 N
+0 176 V
+51 0 V
+0 -176 V
+-51 0 V
+Z stroke
+1.000 4747 4200 51 156 BoxColFill
+4747 4200 N
+0 155 V
+50 0 V
+0 -155 V
+-50 0 V
+Z stroke
+1.000 5103 4200 52 457 BoxColFill
+5103 4200 N
+0 456 V
+51 0 V
+0 -456 V
+-51 0 V
+Z stroke
+1.000 5358 4200 52 203 BoxColFill
+5358 4200 N
+0 202 V
+51 0 V
+0 -202 V
+-51 0 V
+Z stroke
+1.000 5612 4200 52 145 BoxColFill
+5612 4200 N
+0 144 V
+51 0 V
+0 -144 V
+-51 0 V
+Z stroke
+1.000 5969 4200 52 205 BoxColFill
+5969 4200 N
+0 204 V
+51 0 V
+0 -204 V
+-51 0 V
+Z stroke
+1.000 6223 4200 52 145 BoxColFill
+6223 4200 N
+0 144 V
+51 0 V
+0 -144 V
+-51 0 V
+Z stroke
+1.000 6478 4200 52 200 BoxColFill
+6478 4200 N
+0 199 V
+51 0 V
+0 -199 V
+-51 0 V
+Z stroke
+% End plot #1
+% Begin plot #2
+1.000 UL
+LT1
+0.85 0.37 0.01 C 1.000 4288 4200 52 207 BoxColFill
+4288 4200 N
+0 206 V
+51 0 V
+0 -206 V
+-51 0 V
+Z stroke
+1.000 4543 4200 52 177 BoxColFill
+4543 4200 N
+0 176 V
+51 0 V
+0 -176 V
+-51 0 V
+Z stroke
+1.000 4797 4200 52 160 BoxColFill
+4797 4200 N
+0 159 V
+51 0 V
+0 -159 V
+-51 0 V
+Z stroke
+1.000 5154 4200 52 456 BoxColFill
+5154 4200 N
+0 455 V
+51 0 V
+0 -455 V
+-51 0 V
+Z stroke
+1.000 5409 4200 52 207 BoxColFill
+5409 4200 N
+0 206 V
+51 0 V
+0 -206 V
+-51 0 V
+Z stroke
+1.000 5663 4200 52 145 BoxColFill
+5663 4200 N
+0 144 V
+51 0 V
+0 -144 V
+-51 0 V
+Z stroke
+1.000 6020 4200 52 205 BoxColFill
+6020 4200 N
+0 204 V
+51 0 V
+0 -204 V
+-51 0 V
+Z stroke
+1.000 6274 4200 52 145 BoxColFill
+6274 4200 N
+0 144 V
+51 0 V
+0 -144 V
+-51 0 V
+Z stroke
+1.000 6529 4200 52 234 BoxColFill
+6529 4200 N
+0 233 V
+51 0 V
+0 -233 V
+-51 0 V
+Z stroke
+% End plot #2
+% Begin plot #3
+1.000 UL
+LT2
+0.46 0.44 0.70 C 1.000 4339 4200 52 135 BoxColFill
+4339 4200 N
+0 134 V
+51 0 V
+0 -134 V
+-51 0 V
+Z stroke
+1.000 4594 4200 52 276 BoxColFill
+4594 4200 N
+0 275 V
+51 0 V
+0 -275 V
+-51 0 V
+Z stroke
+1.000 4848 4200 52 110 BoxColFill
+4848 4200 N
+0 109 V
+51 0 V
+0 -109 V
+-51 0 V
+Z stroke
+1.000 5205 4200 52 572 BoxColFill
+5205 4200 N
+0 571 V
+51 0 V
+0 -571 V
+-51 0 V
+Z stroke
+1.000 5460 4200 51 66 BoxColFill
+5460 4200 N
+0 65 V
+50 0 V
+0 -65 V
+-50 0 V
+Z stroke
+1.000 5714 4200 52 170 BoxColFill
+5714 4200 N
+0 169 V
+51 0 V
+0 -169 V
+-51 0 V
+Z stroke
+1.000 6071 4200 52 300 BoxColFill
+6071 4200 N
+0 299 V
+51 0 V
+0 -299 V
+-51 0 V
+Z stroke
+1.000 6325 4200 52 186 BoxColFill
+6325 4200 N
+0 185 V
+51 0 V
+0 -185 V
+-51 0 V
+Z stroke
+1.000 6580 4200 52 96 BoxColFill
+6580 4200 N
+0 95 V
+51 0 V
+0 -95 V
+-51 0 V
+Z stroke
+% End plot #3
+% Begin plot #4
+1.000 UL
+LT3
+0.91 0.16 0.54 C 1.000 4390 4200 52 146 BoxColFill
+4390 4200 N
+0 145 V
+51 0 V
+0 -145 V
+-51 0 V
+Z stroke
+1.000 4645 4200 52 151 BoxColFill
+4645 4200 N
+0 150 V
+51 0 V
+0 -150 V
+-51 0 V
+Z stroke
+1.000 4899 4200 52 168 BoxColFill
+4899 4200 N
+0 167 V
+51 0 V
+0 -167 V
+-51 0 V
+Z stroke
+1.000 5256 4200 52 182 BoxColFill
+5256 4200 N
+0 181 V
+51 0 V
+0 -181 V
+-51 0 V
+Z stroke
+1.000 5510 4200 52 204 BoxColFill
+5510 4200 N
+0 203 V
+51 0 V
+0 -203 V
+-51 0 V
+Z stroke
+1.000 5765 4200 52 173 BoxColFill
+5765 4200 N
+0 172 V
+51 0 V
+0 -172 V
+-51 0 V
+Z stroke
+1.000 6122 4200 51 157 BoxColFill
+6122 4200 N
+0 156 V
+50 0 V
+0 -156 V
+-50 0 V
+Z stroke
+1.000 6376 4200 52 146 BoxColFill
+6376 4200 N
+0 145 V
+51 0 V
+0 -145 V
+-51 0 V
+Z stroke
+1.000 6631 4200 52 205 BoxColFill
+6631 4200 N
+0 204 V
+51 0 V
+0 -204 V
+-51 0 V
+Z stroke
+% End plot #4
+% Begin plot #5
+0.300 UP
+1.000 UL
+LT4
+0.00 0.00 0.00 C 4263 4500 M
+51 -119 V
+51 -128 V
+51 202 V
+101 72 R
+51 0 V
+51 95 V
+51 -252 V
+102 60 R
+51 -106 V
+51 -79 V
+51 161 V
+203 179 R
+51 1 V
+51 115 V
+51 -494 V
+102 127 R
+51 -6 V
+51 -2 V
+51 6 V
+102 134 R
+51 0 V
+51 50 V
+51 -152 V
+203 231 R
+51 1 V
+51 59 V
+51 -184 V
+102 101 R
+51 0 V
+51 8 V
+51 -81 V
+101 -54 R
+51 -55 V
+51 -69 V
+51 104 V
+4263 4500 BoxF
+4314 4381 BoxF
+4365 4253 BoxF
+4416 4455 BoxF
+4517 4527 BoxF
+4568 4527 BoxF
+4619 4622 BoxF
+4670 4370 BoxF
+4772 4430 BoxF
+4823 4324 BoxF
+4874 4245 BoxF
+4925 4406 BoxF
+5128 4585 BoxF
+5179 4586 BoxF
+5230 4701 BoxF
+5281 4207 BoxF
+5383 4334 BoxF
+5434 4328 BoxF
+5485 4326 BoxF
+5536 4332 BoxF
+5638 4466 BoxF
+5689 4466 BoxF
+5740 4516 BoxF
+5791 4364 BoxF
+5994 4595 BoxF
+6045 4596 BoxF
+6096 4655 BoxF
+6147 4471 BoxF
+6249 4572 BoxF
+6300 4572 BoxF
+6351 4580 BoxF
+6402 4499 BoxF
+6503 4445 BoxF
+6554 4390 BoxF
+6605 4321 BoxF
+6656 4425 BoxF
+% End plot #5
+% Begin plot #6
+0.300 UP
+1.000 UL
+LT5
+0.00 0.00 0.00 C 4263 4500 M
+51 -119 V
+51 -128 V
+51 202 V
+101 72 R
+51 0 V
+51 95 V
+51 -252 V
+102 60 R
+51 -106 V
+51 -79 V
+51 161 V
+203 179 R
+51 1 V
+51 115 V
+51 -494 V
+102 127 R
+51 -6 V
+51 -2 V
+51 6 V
+102 134 R
+51 0 V
+51 50 V
+51 -152 V
+203 231 R
+51 1 V
+51 59 V
+51 -184 V
+102 101 R
+51 0 V
+51 8 V
+51 -81 V
+101 -54 R
+51 -55 V
+51 -69 V
+51 104 V
+4263 4500 Circle
+4314 4381 Circle
+4365 4253 Circle
+4416 4455 Circle
+4517 4527 Circle
+4568 4527 Circle
+4619 4622 Circle
+4670 4370 Circle
+4772 4430 Circle
+4823 4324 Circle
+4874 4245 Circle
+4925 4406 Circle
+5128 4585 Circle
+5179 4586 Circle
+5230 4701 Circle
+5281 4207 Circle
+5383 4334 Circle
+5434 4328 Circle
+5485 4326 Circle
+5536 4332 Circle
+5638 4466 Circle
+5689 4466 Circle
+5740 4516 Circle
+5791 4364 Circle
+5994 4595 Circle
+6045 4596 Circle
+6096 4655 Circle
+6147 4471 Circle
+6249 4572 Circle
+6300 4572 Circle
+6351 4580 Circle
+6402 4499 Circle
+6503 4445 Circle
+6554 4390 Circle
+6605 4321 Circle
+6656 4425 Circle
+% End plot #6
+% Begin plot #7
+0.300 UP
+1.000 UL
+LT6
+0.00 0.00 0.00 C 4263 4500 M
+51 -119 V
+51 -128 V
+51 202 V
+101 72 R
+51 0 V
+51 95 V
+51 -252 V
+102 60 R
+51 -106 V
+51 -79 V
+51 161 V
+203 179 R
+51 1 V
+51 115 V
+51 -494 V
+102 127 R
+51 -6 V
+51 -2 V
+51 6 V
+102 134 R
+51 0 V
+51 50 V
+51 -152 V
+203 231 R
+51 1 V
+51 59 V
+51 -184 V
+102 101 R
+51 0 V
+51 8 V
+51 -81 V
+101 -54 R
+51 -55 V
+51 -69 V
+51 104 V
+4263 4500 CircleF
+4314 4381 CircleF
+4365 4253 CircleF
+4416 4455 CircleF
+4517 4527 CircleF
+4568 4527 CircleF
+4619 4622 CircleF
+4670 4370 CircleF
+4772 4430 CircleF
+4823 4324 CircleF
+4874 4245 CircleF
+4925 4406 CircleF
+5128 4585 CircleF
+5179 4586 CircleF
+5230 4701 CircleF
+5281 4207 CircleF
+5383 4334 CircleF
+5434 4328 CircleF
+5485 4326 CircleF
+5536 4332 CircleF
+5638 4466 CircleF
+5689 4466 CircleF
+5740 4516 CircleF
+5791 4364 CircleF
+5994 4595 CircleF
+6045 4596 CircleF
+6096 4655 CircleF
+6147 4471 CircleF
+6249 4572 CircleF
+6300 4572 CircleF
+6351 4580 CircleF
+6402 4499 CircleF
+6503 4445 CircleF
+6554 4390 CircleF
+6605 4321 CircleF
+6656 4425 CircleF
+% End plot #7
+% Begin plot #8
+0.300 UP
+1.000 UL
+LT7
+0.00 0.00 0.00 C 4263 4500 M
+51 -119 V
+51 -128 V
+51 202 V
+101 72 R
+51 0 V
+51 95 V
+51 -252 V
+102 60 R
+51 -106 V
+51 -79 V
+51 161 V
+203 179 R
+51 1 V
+51 115 V
+51 -494 V
+102 127 R
+51 -6 V
+51 -2 V
+51 6 V
+102 134 R
+51 0 V
+51 50 V
+51 -152 V
+203 231 R
+51 1 V
+51 59 V
+51 -184 V
+102 101 R
+51 0 V
+51 8 V
+51 -81 V
+101 -54 R
+51 -55 V
+51 -69 V
+51 104 V
+4263 4500 TriU
+4314 4381 TriU
+4365 4253 TriU
+4416 4455 TriU
+4517 4527 TriU
+4568 4527 TriU
+4619 4622 TriU
+4670 4370 TriU
+4772 4430 TriU
+4823 4324 TriU
+4874 4245 TriU
+4925 4406 TriU
+5128 4585 TriU
+5179 4586 TriU
+5230 4701 TriU
+5281 4207 TriU
+5383 4334 TriU
+5434 4328 TriU
+5485 4326 TriU
+5536 4332 TriU
+5638 4466 TriU
+5689 4466 TriU
+5740 4516 TriU
+5791 4364 TriU
+5994 4595 TriU
+6045 4596 TriU
+6096 4655 TriU
+6147 4471 TriU
+6249 4572 TriU
+6300 4572 TriU
+6351 4580 TriU
+6402 4499 TriU
+6503 4445 TriU
+6554 4390 TriU
+6605 4321 TriU
+6656 4425 TriU
+% End plot #8
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 5039 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+0.300 UP
+stroke
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 510 3683 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+510 3683 M
+63 0 V
+stroke
+498 3683 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 10)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 510 4005 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+510 4005 M
+63 0 V
+stroke
+498 4005 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 20)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+3209 3570 M
+-63 0 V
+stroke
+3173 3570 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 1)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+3209 3989 M
+-63 0 V
+stroke
+3173 3989 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 3)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+510 4199 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+stroke
+LCb setrgbcolor
+100 3779 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Symbol) 160.0 -60.0 true true 0 (y)]
+[(Verdana) 128.0 -108.0 true true 0 (3)]
+] -30.7 MCshow
+grestore
+LTb
+LCb setrgbcolor
+3438 3779 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Verdana) 160.0 -60.0 true true 0 (E)]
+] -46.7 MCshow
+grestore
+LTb
+0.300 UP
+0.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LT0
+0.11 0.62 0.47 C 1.000 637 3360 52 80 BoxColFill
+637 3360 N
+0 79 V
+51 0 V
+0 -79 V
+-51 0 V
+Z stroke
+1.000 892 3360 52 205 BoxColFill
+892 3360 N
+0 204 V
+51 0 V
+0 -204 V
+-51 0 V
+Z stroke
+1.000 1147 3360 51 309 BoxColFill
+1147 3360 N
+0 308 V
+50 0 V
+0 -308 V
+-50 0 V
+Z stroke
+1.000 1503 3360 52 513 BoxColFill
+1503 3360 N
+0 512 V
+51 0 V
+0 -512 V
+-51 0 V
+Z stroke
+1.000 1758 3360 52 166 BoxColFill
+1758 3360 N
+0 165 V
+51 0 V
+0 -165 V
+-51 0 V
+Z stroke
+1.000 2012 3360 52 159 BoxColFill
+2012 3360 N
+0 158 V
+51 0 V
+0 -158 V
+-51 0 V
+Z stroke
+1.000 2369 3360 52 198 BoxColFill
+2369 3360 N
+0 197 V
+51 0 V
+0 -197 V
+-51 0 V
+Z stroke
+1.000 2623 3360 52 153 BoxColFill
+2623 3360 N
+0 152 V
+51 0 V
+0 -152 V
+-51 0 V
+Z stroke
+1.000 2878 3360 52 151 BoxColFill
+2878 3360 N
+0 150 V
+51 0 V
+0 -150 V
+-51 0 V
+Z stroke
+% End plot #1
+% Begin plot #2
+1.000 UL
+LT1
+0.85 0.37 0.01 C 1.000 688 3360 52 113 BoxColFill
+688 3360 N
+0 112 V
+51 0 V
+0 -112 V
+-51 0 V
+Z stroke
+1.000 943 3360 52 205 BoxColFill
+943 3360 N
+0 204 V
+51 0 V
+0 -204 V
+-51 0 V
+Z stroke
+1.000 1197 3360 52 244 BoxColFill
+1197 3360 N
+0 243 V
+51 0 V
+0 -243 V
+-51 0 V
+Z stroke
+1.000 1554 3360 52 511 BoxColFill
+1554 3360 N
+0 510 V
+51 0 V
+0 -510 V
+-51 0 V
+Z stroke
+1.000 1809 3360 52 169 BoxColFill
+1809 3360 N
+0 168 V
+51 0 V
+0 -168 V
+-51 0 V
+Z stroke
+1.000 2063 3360 52 159 BoxColFill
+2063 3360 N
+0 158 V
+51 0 V
+0 -158 V
+-51 0 V
+Z stroke
+1.000 2420 3360 52 198 BoxColFill
+2420 3360 N
+0 197 V
+51 0 V
+0 -197 V
+-51 0 V
+Z stroke
+1.000 2674 3360 52 153 BoxColFill
+2674 3360 N
+0 152 V
+51 0 V
+0 -152 V
+-51 0 V
+Z stroke
+1.000 2929 3360 52 169 BoxColFill
+2929 3360 N
+0 168 V
+51 0 V
+0 -168 V
+-51 0 V
+Z stroke
+% End plot #2
+% Begin plot #3
+1.000 UL
+LT2
+0.46 0.44 0.70 C 1.000 739 3360 52 54 BoxColFill
+739 3360 N
+0 53 V
+51 0 V
+0 -53 V
+-51 0 V
+Z stroke
+1.000 994 3360 52 347 BoxColFill
+994 3360 N
+0 346 V
+51 0 V
+0 -346 V
+-51 0 V
+Z stroke
+1.000 1248 3360 52 232 BoxColFill
+1248 3360 N
+0 231 V
+51 0 V
+0 -231 V
+-51 0 V
+Z stroke
+1.000 1605 3360 52 604 BoxColFill
+1605 3360 N
+0 603 V
+51 0 V
+0 -603 V
+-51 0 V
+Z stroke
+1.000 1860 3360 51 75 BoxColFill
+1860 3360 N
+0 74 V
+50 0 V
+0 -74 V
+-50 0 V
+Z stroke
+1.000 2114 3360 52 234 BoxColFill
+2114 3360 N
+0 233 V
+51 0 V
+0 -233 V
+-51 0 V
+Z stroke
+1.000 2471 3360 52 289 BoxColFill
+2471 3360 N
+0 288 V
+51 0 V
+0 -288 V
+-51 0 V
+Z stroke
+1.000 2725 3360 52 225 BoxColFill
+2725 3360 N
+0 224 V
+51 0 V
+0 -224 V
+-51 0 V
+Z stroke
+1.000 2980 3360 52 70 BoxColFill
+2980 3360 N
+0 69 V
+51 0 V
+0 -69 V
+-51 0 V
+Z stroke
+% End plot #3
+% Begin plot #4
+1.000 UL
+LT3
+0.91 0.16 0.54 C 1.000 790 3360 52 110 BoxColFill
+790 3360 N
+0 109 V
+51 0 V
+0 -109 V
+-51 0 V
+Z stroke
+1.000 1045 3360 52 155 BoxColFill
+1045 3360 N
+0 154 V
+51 0 V
+0 -154 V
+-51 0 V
+Z stroke
+1.000 1299 3360 52 337 BoxColFill
+1299 3360 N
+0 336 V
+51 0 V
+0 -336 V
+-51 0 V
+Z stroke
+1.000 1656 3360 52 308 BoxColFill
+1656 3360 N
+0 307 V
+51 0 V
+0 -307 V
+-51 0 V
+Z stroke
+1.000 1910 3360 52 167 BoxColFill
+1910 3360 N
+0 166 V
+51 0 V
+0 -166 V
+-51 0 V
+Z stroke
+1.000 2165 3360 52 146 BoxColFill
+2165 3360 N
+0 145 V
+51 0 V
+0 -145 V
+-51 0 V
+Z stroke
+1.000 2522 3360 51 174 BoxColFill
+2522 3360 N
+0 173 V
+50 0 V
+0 -173 V
+-50 0 V
+Z stroke
+1.000 2776 3360 52 141 BoxColFill
+2776 3360 N
+0 140 V
+51 0 V
+0 -140 V
+-51 0 V
+Z stroke
+1.000 3031 3360 52 165 BoxColFill
+3031 3360 N
+0 164 V
+51 0 V
+0 -164 V
+-51 0 V
+Z stroke
+% End plot #4
+% Begin plot #5
+0.300 UP
+1.000 UL
+LT4
+0.00 0.00 0.00 C 663 3577 M
+51 -70 V
+51 -76 V
+51 89 V
+101 -13 R
+51 1 V
+51 158 V
+51 -215 V
+102 75 R
+51 -107 V
+51 -44 V
+51 132 V
+203 -103 R
+51 -1 V
+51 87 V
+51 30 V
+102 -108 R
+51 -5 V
+51 47 V
+51 -44 V
+102 67 R
+51 1 V
+51 106 V
+51 -147 V
+203 71 R
+51 2 V
+51 121 V
+51 -149 V
+102 76 R
+51 1 V
+51 68 V
+51 -88 V
+101 -32 R
+51 -32 V
+51 -15 V
+51 21 V
+663 3577 BoxF
+714 3507 BoxF
+765 3431 BoxF
+816 3520 BoxF
+917 3507 BoxF
+968 3508 BoxF
+1019 3666 BoxF
+1070 3451 BoxF
+1172 3526 BoxF
+1223 3419 BoxF
+1274 3375 BoxF
+1325 3507 BoxF
+1528 3404 BoxF
+1579 3403 BoxF
+1630 3490 BoxF
+1681 3520 BoxF
+1783 3412 BoxF
+1834 3407 BoxF
+1885 3454 BoxF
+1936 3410 BoxF
+2038 3477 BoxF
+2089 3478 BoxF
+2140 3584 BoxF
+2191 3437 BoxF
+2394 3508 BoxF
+2445 3510 BoxF
+2496 3631 BoxF
+2547 3482 BoxF
+2649 3558 BoxF
+2700 3559 BoxF
+2751 3627 BoxF
+2802 3539 BoxF
+2903 3507 BoxF
+2954 3475 BoxF
+3005 3460 BoxF
+3056 3481 BoxF
+% End plot #5
+% Begin plot #6
+0.300 UP
+1.000 UL
+LT5
+0.00 0.00 0.00 C 663 3577 M
+51 -70 V
+51 -76 V
+51 89 V
+101 -13 R
+51 1 V
+51 158 V
+51 -215 V
+102 75 R
+51 -107 V
+51 -44 V
+51 132 V
+203 -103 R
+51 -1 V
+51 87 V
+51 30 V
+102 -108 R
+51 -5 V
+51 47 V
+51 -44 V
+102 67 R
+51 1 V
+51 106 V
+51 -147 V
+203 71 R
+51 2 V
+51 121 V
+51 -149 V
+102 76 R
+51 1 V
+51 68 V
+51 -88 V
+101 -32 R
+51 -32 V
+51 -15 V
+51 21 V
+663 3577 Circle
+714 3507 Circle
+765 3431 Circle
+816 3520 Circle
+917 3507 Circle
+968 3508 Circle
+1019 3666 Circle
+1070 3451 Circle
+1172 3526 Circle
+1223 3419 Circle
+1274 3375 Circle
+1325 3507 Circle
+1528 3404 Circle
+1579 3403 Circle
+1630 3490 Circle
+1681 3520 Circle
+1783 3412 Circle
+1834 3407 Circle
+1885 3454 Circle
+1936 3410 Circle
+2038 3477 Circle
+2089 3478 Circle
+2140 3584 Circle
+2191 3437 Circle
+2394 3508 Circle
+2445 3510 Circle
+2496 3631 Circle
+2547 3482 Circle
+2649 3558 Circle
+2700 3559 Circle
+2751 3627 Circle
+2802 3539 Circle
+2903 3507 Circle
+2954 3475 Circle
+3005 3460 Circle
+3056 3481 Circle
+% End plot #6
+% Begin plot #7
+0.300 UP
+1.000 UL
+LT6
+0.00 0.00 0.00 C 663 3577 M
+51 -70 V
+51 -76 V
+51 89 V
+101 -13 R
+51 1 V
+51 158 V
+51 -215 V
+102 75 R
+51 -107 V
+51 -44 V
+51 132 V
+203 -103 R
+51 -1 V
+51 87 V
+51 30 V
+102 -108 R
+51 -5 V
+51 47 V
+51 -44 V
+102 67 R
+51 1 V
+51 106 V
+51 -147 V
+203 71 R
+51 2 V
+51 121 V
+51 -149 V
+102 76 R
+51 1 V
+51 68 V
+51 -88 V
+101 -32 R
+51 -32 V
+51 -15 V
+51 21 V
+663 3577 CircleF
+714 3507 CircleF
+765 3431 CircleF
+816 3520 CircleF
+917 3507 CircleF
+968 3508 CircleF
+1019 3666 CircleF
+1070 3451 CircleF
+1172 3526 CircleF
+1223 3419 CircleF
+1274 3375 CircleF
+1325 3507 CircleF
+1528 3404 CircleF
+1579 3403 CircleF
+1630 3490 CircleF
+1681 3520 CircleF
+1783 3412 CircleF
+1834 3407 CircleF
+1885 3454 CircleF
+1936 3410 CircleF
+2038 3477 CircleF
+2089 3478 CircleF
+2140 3584 CircleF
+2191 3437 CircleF
+2394 3508 CircleF
+2445 3510 CircleF
+2496 3631 CircleF
+2547 3482 CircleF
+2649 3558 CircleF
+2700 3559 CircleF
+2751 3627 CircleF
+2802 3539 CircleF
+2903 3507 CircleF
+2954 3475 CircleF
+3005 3460 CircleF
+3056 3481 CircleF
+% End plot #7
+% Begin plot #8
+0.300 UP
+1.000 UL
+LT7
+0.00 0.00 0.00 C 663 3577 M
+51 -70 V
+51 -76 V
+51 89 V
+101 -13 R
+51 1 V
+51 158 V
+51 -215 V
+102 75 R
+51 -107 V
+51 -44 V
+51 132 V
+203 -103 R
+51 -1 V
+51 87 V
+51 30 V
+102 -108 R
+51 -5 V
+51 47 V
+51 -44 V
+102 67 R
+51 1 V
+51 106 V
+51 -147 V
+203 71 R
+51 2 V
+51 121 V
+51 -149 V
+102 76 R
+51 1 V
+51 68 V
+51 -88 V
+101 -32 R
+51 -32 V
+51 -15 V
+51 21 V
+663 3577 TriU
+714 3507 TriU
+765 3431 TriU
+816 3520 TriU
+917 3507 TriU
+968 3508 TriU
+1019 3666 TriU
+1070 3451 TriU
+1172 3526 TriU
+1223 3419 TriU
+1274 3375 TriU
+1325 3507 TriU
+1528 3404 TriU
+1579 3403 TriU
+1630 3490 TriU
+1681 3520 TriU
+1783 3412 TriU
+1834 3407 TriU
+1885 3454 TriU
+1936 3410 TriU
+2038 3477 TriU
+2089 3478 TriU
+2140 3584 TriU
+2191 3437 TriU
+2394 3508 TriU
+2445 3510 TriU
+2496 3631 TriU
+2547 3482 TriU
+2649 3558 TriU
+2700 3559 TriU
+2751 3627 TriU
+2802 3539 TriU
+2903 3507 TriU
+2954 3475 TriU
+3005 3460 TriU
+3056 3481 TriU
+% End plot #8
+0.000 UL
+LTb
+LCb setrgbcolor
+510 4199 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+0.300 UP
+stroke
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 4110 3683 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 3683 M
+63 0 V
+stroke
+4098 3683 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 10)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 4110 4005 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 4005 M
+63 0 V
+stroke
+4098 4005 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 20)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6809 3570 M
+-63 0 V
+stroke
+6773 3570 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 1)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6809 3989 M
+-63 0 V
+stroke
+6773 3989 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 3)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 4199 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+stroke
+LCb setrgbcolor
+3700 3779 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Symbol) 160.0 -60.0 true true 0 (y)]
+[(Verdana) 128.0 -108.0 true true 0 (8)]
+] -30.7 MCshow
+grestore
+LTb
+LCb setrgbcolor
+7038 3779 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Verdana) 160.0 -60.0 true true 0 (E)]
+] -46.7 MCshow
+grestore
+LTb
+0.300 UP
+0.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LT0
+0.11 0.62 0.47 C 1.000 4237 3360 52 131 BoxColFill
+4237 3360 N
+0 130 V
+51 0 V
+0 -130 V
+-51 0 V
+Z stroke
+1.000 4492 3360 52 183 BoxColFill
+4492 3360 N
+0 182 V
+51 0 V
+0 -182 V
+-51 0 V
+Z stroke
+1.000 4747 3360 51 166 BoxColFill
+4747 3360 N
+0 165 V
+50 0 V
+0 -165 V
+-50 0 V
+Z stroke
+1.000 5103 3360 52 480 BoxColFill
+5103 3360 N
+0 479 V
+51 0 V
+0 -479 V
+-51 0 V
+Z stroke
+1.000 5358 3360 52 200 BoxColFill
+5358 3360 N
+0 199 V
+51 0 V
+0 -199 V
+-51 0 V
+Z stroke
+1.000 5612 3360 52 146 BoxColFill
+5612 3360 N
+0 145 V
+51 0 V
+0 -145 V
+-51 0 V
+Z stroke
+1.000 5969 3360 52 211 BoxColFill
+5969 3360 N
+0 210 V
+51 0 V
+0 -210 V
+-51 0 V
+Z stroke
+1.000 6223 3360 52 147 BoxColFill
+6223 3360 N
+0 146 V
+51 0 V
+0 -146 V
+-51 0 V
+Z stroke
+1.000 6478 3360 52 194 BoxColFill
+6478 3360 N
+0 193 V
+51 0 V
+0 -193 V
+-51 0 V
+Z stroke
+% End plot #1
+% Begin plot #2
+1.000 UL
+LT1
+0.85 0.37 0.01 C 1.000 4288 3360 52 195 BoxColFill
+4288 3360 N
+0 194 V
+51 0 V
+0 -194 V
+-51 0 V
+Z stroke
+1.000 4543 3360 52 183 BoxColFill
+4543 3360 N
+0 182 V
+51 0 V
+0 -182 V
+-51 0 V
+Z stroke
+1.000 4797 3360 52 162 BoxColFill
+4797 3360 N
+0 161 V
+51 0 V
+0 -161 V
+-51 0 V
+Z stroke
+1.000 5154 3360 52 480 BoxColFill
+5154 3360 N
+0 479 V
+51 0 V
+0 -479 V
+-51 0 V
+Z stroke
+1.000 5409 3360 52 204 BoxColFill
+5409 3360 N
+0 203 V
+51 0 V
+0 -203 V
+-51 0 V
+Z stroke
+1.000 5663 3360 52 146 BoxColFill
+5663 3360 N
+0 145 V
+51 0 V
+0 -145 V
+-51 0 V
+Z stroke
+1.000 6020 3360 52 211 BoxColFill
+6020 3360 N
+0 210 V
+51 0 V
+0 -210 V
+-51 0 V
+Z stroke
+1.000 6274 3360 52 147 BoxColFill
+6274 3360 N
+0 146 V
+51 0 V
+0 -146 V
+-51 0 V
+Z stroke
+1.000 6529 3360 52 227 BoxColFill
+6529 3360 N
+0 226 V
+51 0 V
+0 -226 V
+-51 0 V
+Z stroke
+% End plot #2
+% Begin plot #3
+1.000 UL
+LT2
+0.46 0.44 0.70 C 1.000 4339 3360 52 126 BoxColFill
+4339 3360 N
+0 125 V
+51 0 V
+0 -125 V
+-51 0 V
+Z stroke
+1.000 4594 3360 52 286 BoxColFill
+4594 3360 N
+0 285 V
+51 0 V
+0 -285 V
+-51 0 V
+Z stroke
+1.000 4848 3360 52 119 BoxColFill
+4848 3360 N
+0 118 V
+51 0 V
+0 -118 V
+-51 0 V
+Z stroke
+1.000 5205 3360 52 598 BoxColFill
+5205 3360 N
+0 597 V
+51 0 V
+0 -597 V
+-51 0 V
+Z stroke
+1.000 5460 3360 51 64 BoxColFill
+5460 3360 N
+0 63 V
+50 0 V
+0 -63 V
+-50 0 V
+Z stroke
+1.000 5714 3360 52 177 BoxColFill
+5714 3360 N
+0 176 V
+51 0 V
+0 -176 V
+-51 0 V
+Z stroke
+1.000 6071 3360 52 308 BoxColFill
+6071 3360 N
+0 307 V
+51 0 V
+0 -307 V
+-51 0 V
+Z stroke
+1.000 6325 3360 52 193 BoxColFill
+6325 3360 N
+0 192 V
+51 0 V
+0 -192 V
+-51 0 V
+Z stroke
+1.000 6580 3360 52 91 BoxColFill
+6580 3360 N
+0 90 V
+51 0 V
+0 -90 V
+-51 0 V
+Z stroke
+% End plot #3
+% Begin plot #4
+1.000 UL
+LT3
+0.91 0.16 0.54 C 1.000 4390 3360 52 141 BoxColFill
+4390 3360 N
+0 140 V
+51 0 V
+0 -140 V
+-51 0 V
+Z stroke
+1.000 4645 3360 52 149 BoxColFill
+4645 3360 N
+0 148 V
+51 0 V
+0 -148 V
+-51 0 V
+Z stroke
+1.000 4899 3360 52 181 BoxColFill
+4899 3360 N
+0 180 V
+51 0 V
+0 -180 V
+-51 0 V
+Z stroke
+1.000 5256 3360 52 187 BoxColFill
+5256 3360 N
+0 186 V
+51 0 V
+0 -186 V
+-51 0 V
+Z stroke
+1.000 5510 3360 52 201 BoxColFill
+5510 3360 N
+0 200 V
+51 0 V
+0 -200 V
+-51 0 V
+Z stroke
+1.000 5765 3360 52 168 BoxColFill
+5765 3360 N
+0 167 V
+51 0 V
+0 -167 V
+-51 0 V
+Z stroke
+1.000 6122 3360 51 159 BoxColFill
+6122 3360 N
+0 158 V
+50 0 V
+0 -158 V
+-50 0 V
+Z stroke
+1.000 6376 3360 52 143 BoxColFill
+6376 3360 N
+0 142 V
+51 0 V
+0 -142 V
+-51 0 V
+Z stroke
+1.000 6631 3360 52 200 BoxColFill
+6631 3360 N
+0 199 V
+51 0 V
+0 -199 V
+-51 0 V
+Z stroke
+% End plot #4
+% Begin plot #5
+0.300 UP
+1.000 UL
+LT4
+0.00 0.00 0.00 C 4263 3652 M
+51 -114 V
+51 -121 V
+51 187 V
+101 61 R
+51 1 V
+51 102 V
+51 -247 V
+102 61 R
+51 -108 V
+51 -73 V
+51 156 V
+203 160 R
+51 0 V
+51 124 V
+51 -480 V
+102 123 R
+51 -5 V
+51 4 V
+51 0 V
+102 124 R
+51 0 V
+51 57 V
+51 -151 V
+203 216 R
+51 1 V
+51 68 V
+51 -180 V
+102 93 R
+51 0 V
+51 17 V
+51 -82 V
+101 -53 R
+51 -51 V
+51 -63 V
+51 94 V
+4263 3652 BoxF
+4314 3538 BoxF
+4365 3417 BoxF
+4416 3604 BoxF
+4517 3665 BoxF
+4568 3666 BoxF
+4619 3768 BoxF
+4670 3521 BoxF
+4772 3582 BoxF
+4823 3474 BoxF
+4874 3401 BoxF
+4925 3557 BoxF
+5128 3717 BoxF
+5179 3717 BoxF
+5230 3841 BoxF
+5281 3361 BoxF
+5383 3484 BoxF
+5434 3479 BoxF
+5485 3483 BoxF
+5536 3483 BoxF
+5638 3607 BoxF
+5689 3607 BoxF
+5740 3664 BoxF
+5791 3513 BoxF
+5994 3729 BoxF
+6045 3730 BoxF
+6096 3798 BoxF
+6147 3618 BoxF
+6249 3711 BoxF
+6300 3711 BoxF
+6351 3728 BoxF
+6402 3646 BoxF
+6503 3593 BoxF
+6554 3542 BoxF
+6605 3479 BoxF
+6656 3573 BoxF
+% End plot #5
+% Begin plot #6
+0.300 UP
+1.000 UL
+LT5
+0.00 0.00 0.00 C 4263 3652 M
+51 -114 V
+51 -121 V
+51 187 V
+101 61 R
+51 1 V
+51 102 V
+51 -247 V
+102 61 R
+51 -108 V
+51 -73 V
+51 156 V
+203 160 R
+51 0 V
+51 124 V
+51 -480 V
+102 123 R
+51 -5 V
+51 4 V
+51 0 V
+102 124 R
+51 0 V
+51 57 V
+51 -151 V
+203 216 R
+51 1 V
+51 68 V
+51 -180 V
+102 93 R
+51 0 V
+51 17 V
+51 -82 V
+101 -53 R
+51 -51 V
+51 -63 V
+51 94 V
+4263 3652 Circle
+4314 3538 Circle
+4365 3417 Circle
+4416 3604 Circle
+4517 3665 Circle
+4568 3666 Circle
+4619 3768 Circle
+4670 3521 Circle
+4772 3582 Circle
+4823 3474 Circle
+4874 3401 Circle
+4925 3557 Circle
+5128 3717 Circle
+5179 3717 Circle
+5230 3841 Circle
+5281 3361 Circle
+5383 3484 Circle
+5434 3479 Circle
+5485 3483 Circle
+5536 3483 Circle
+5638 3607 Circle
+5689 3607 Circle
+5740 3664 Circle
+5791 3513 Circle
+5994 3729 Circle
+6045 3730 Circle
+6096 3798 Circle
+6147 3618 Circle
+6249 3711 Circle
+6300 3711 Circle
+6351 3728 Circle
+6402 3646 Circle
+6503 3593 Circle
+6554 3542 Circle
+6605 3479 Circle
+6656 3573 Circle
+% End plot #6
+% Begin plot #7
+0.300 UP
+1.000 UL
+LT6
+0.00 0.00 0.00 C 4263 3652 M
+51 -114 V
+51 -121 V
+51 187 V
+101 61 R
+51 1 V
+51 102 V
+51 -247 V
+102 61 R
+51 -108 V
+51 -73 V
+51 156 V
+203 160 R
+51 0 V
+51 124 V
+51 -480 V
+102 123 R
+51 -5 V
+51 4 V
+51 0 V
+102 124 R
+51 0 V
+51 57 V
+51 -151 V
+203 216 R
+51 1 V
+51 68 V
+51 -180 V
+102 93 R
+51 0 V
+51 17 V
+51 -82 V
+101 -53 R
+51 -51 V
+51 -63 V
+51 94 V
+4263 3652 CircleF
+4314 3538 CircleF
+4365 3417 CircleF
+4416 3604 CircleF
+4517 3665 CircleF
+4568 3666 CircleF
+4619 3768 CircleF
+4670 3521 CircleF
+4772 3582 CircleF
+4823 3474 CircleF
+4874 3401 CircleF
+4925 3557 CircleF
+5128 3717 CircleF
+5179 3717 CircleF
+5230 3841 CircleF
+5281 3361 CircleF
+5383 3484 CircleF
+5434 3479 CircleF
+5485 3483 CircleF
+5536 3483 CircleF
+5638 3607 CircleF
+5689 3607 CircleF
+5740 3664 CircleF
+5791 3513 CircleF
+5994 3729 CircleF
+6045 3730 CircleF
+6096 3798 CircleF
+6147 3618 CircleF
+6249 3711 CircleF
+6300 3711 CircleF
+6351 3728 CircleF
+6402 3646 CircleF
+6503 3593 CircleF
+6554 3542 CircleF
+6605 3479 CircleF
+6656 3573 CircleF
+% End plot #7
+% Begin plot #8
+0.300 UP
+1.000 UL
+LT7
+0.00 0.00 0.00 C 4263 3652 M
+51 -114 V
+51 -121 V
+51 187 V
+101 61 R
+51 1 V
+51 102 V
+51 -247 V
+102 61 R
+51 -108 V
+51 -73 V
+51 156 V
+203 160 R
+51 0 V
+51 124 V
+51 -480 V
+102 123 R
+51 -5 V
+51 4 V
+51 0 V
+102 124 R
+51 0 V
+51 57 V
+51 -151 V
+203 216 R
+51 1 V
+51 68 V
+51 -180 V
+102 93 R
+51 0 V
+51 17 V
+51 -82 V
+101 -53 R
+51 -51 V
+51 -63 V
+51 94 V
+4263 3652 TriU
+4314 3538 TriU
+4365 3417 TriU
+4416 3604 TriU
+4517 3665 TriU
+4568 3666 TriU
+4619 3768 TriU
+4670 3521 TriU
+4772 3582 TriU
+4823 3474 TriU
+4874 3401 TriU
+4925 3557 TriU
+5128 3717 TriU
+5179 3717 TriU
+5230 3841 TriU
+5281 3361 TriU
+5383 3484 TriU
+5434 3479 TriU
+5485 3483 TriU
+5536 3483 TriU
+5638 3607 TriU
+5689 3607 TriU
+5740 3664 TriU
+5791 3513 TriU
+5994 3729 TriU
+6045 3730 TriU
+6096 3798 TriU
+6147 3618 TriU
+6249 3711 TriU
+6300 3711 TriU
+6351 3728 TriU
+6402 3646 TriU
+6503 3593 TriU
+6554 3542 TriU
+6605 3479 TriU
+6656 3573 TriU
+% End plot #8
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 4199 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+0.300 UP
+stroke
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 510 2843 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+510 2843 M
+63 0 V
+stroke
+498 2843 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 10)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 510 3165 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+510 3165 M
+63 0 V
+stroke
+498 3165 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 20)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+3209 2730 M
+-63 0 V
+stroke
+3173 2730 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 1)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+3209 3149 M
+-63 0 V
+stroke
+3173 3149 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 3)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+510 3359 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+stroke
+LCb setrgbcolor
+100 2939 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Symbol) 160.0 -60.0 true true 0 (y)]
+[(Verdana) 128.0 -108.0 true true 0 (2)]
+] -30.7 MCshow
+grestore
+LTb
+LCb setrgbcolor
+3438 2939 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Verdana) 160.0 -60.0 true true 0 (E)]
+] -46.7 MCshow
+grestore
+LTb
+0.300 UP
+0.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LT0
+0.11 0.62 0.47 C 1.000 637 2520 52 64 BoxColFill
+637 2520 N
+0 63 V
+51 0 V
+0 -63 V
+-51 0 V
+Z stroke
+1.000 892 2520 52 195 BoxColFill
+892 2520 N
+0 194 V
+51 0 V
+0 -194 V
+-51 0 V
+Z stroke
+1.000 1147 2520 51 257 BoxColFill
+1147 2520 N
+0 256 V
+50 0 V
+0 -256 V
+-50 0 V
+Z stroke
+1.000 1503 2520 52 347 BoxColFill
+1503 2520 N
+0 346 V
+51 0 V
+0 -346 V
+-51 0 V
+Z stroke
+1.000 1758 2520 52 165 BoxColFill
+1758 2520 N
+0 164 V
+51 0 V
+0 -164 V
+-51 0 V
+Z stroke
+1.000 2012 2520 52 161 BoxColFill
+2012 2520 N
+0 160 V
+51 0 V
+0 -160 V
+-51 0 V
+Z stroke
+1.000 2369 2520 52 210 BoxColFill
+2369 2520 N
+0 209 V
+51 0 V
+0 -209 V
+-51 0 V
+Z stroke
+1.000 2623 2520 52 145 BoxColFill
+2623 2520 N
+0 144 V
+51 0 V
+0 -144 V
+-51 0 V
+Z stroke
+1.000 2878 2520 52 147 BoxColFill
+2878 2520 N
+0 146 V
+51 0 V
+0 -146 V
+-51 0 V
+Z stroke
+% End plot #1
+% Begin plot #2
+1.000 UL
+LT1
+0.85 0.37 0.01 C 1.000 688 2520 52 102 BoxColFill
+688 2520 N
+0 101 V
+51 0 V
+0 -101 V
+-51 0 V
+Z stroke
+1.000 943 2520 52 195 BoxColFill
+943 2520 N
+0 194 V
+51 0 V
+0 -194 V
+-51 0 V
+Z stroke
+1.000 1197 2520 52 265 BoxColFill
+1197 2520 N
+0 264 V
+51 0 V
+0 -264 V
+-51 0 V
+Z stroke
+1.000 1554 2520 52 346 BoxColFill
+1554 2520 N
+0 345 V
+51 0 V
+0 -345 V
+-51 0 V
+Z stroke
+1.000 1809 2520 52 169 BoxColFill
+1809 2520 N
+0 168 V
+51 0 V
+0 -168 V
+-51 0 V
+Z stroke
+1.000 2063 2520 52 161 BoxColFill
+2063 2520 N
+0 160 V
+51 0 V
+0 -160 V
+-51 0 V
+Z stroke
+1.000 2420 2520 52 209 BoxColFill
+2420 2520 N
+0 208 V
+51 0 V
+0 -208 V
+-51 0 V
+Z stroke
+1.000 2674 2520 52 145 BoxColFill
+2674 2520 N
+0 144 V
+51 0 V
+0 -144 V
+-51 0 V
+Z stroke
+1.000 2929 2520 52 171 BoxColFill
+2929 2520 N
+0 170 V
+51 0 V
+0 -170 V
+-51 0 V
+Z stroke
+% End plot #2
+% Begin plot #3
+1.000 UL
+LT2
+0.46 0.44 0.70 C 1.000 739 2520 52 42 BoxColFill
+739 2520 N
+0 41 V
+51 0 V
+0 -41 V
+-51 0 V
+Z stroke
+1.000 994 2520 52 239 BoxColFill
+994 2520 N
+0 238 V
+51 0 V
+0 -238 V
+-51 0 V
+Z stroke
+1.000 1248 2520 52 211 BoxColFill
+1248 2520 N
+0 210 V
+51 0 V
+0 -210 V
+-51 0 V
+Z stroke
+1.000 1605 2520 52 213 BoxColFill
+1605 2520 N
+0 212 V
+51 0 V
+0 -212 V
+-51 0 V
+Z stroke
+1.000 1860 2520 51 67 BoxColFill
+1860 2520 N
+0 66 V
+50 0 V
+0 -66 V
+-50 0 V
+Z stroke
+1.000 2114 2520 52 178 BoxColFill
+2114 2520 N
+0 177 V
+51 0 V
+0 -177 V
+-51 0 V
+Z stroke
+1.000 2471 2520 52 179 BoxColFill
+2471 2520 N
+0 178 V
+51 0 V
+0 -178 V
+-51 0 V
+Z stroke
+1.000 2725 2520 52 168 BoxColFill
+2725 2520 N
+0 167 V
+51 0 V
+0 -167 V
+-51 0 V
+Z stroke
+1.000 2980 2520 52 65 BoxColFill
+2980 2520 N
+0 64 V
+51 0 V
+0 -64 V
+-51 0 V
+Z stroke
+% End plot #3
+% Begin plot #4
+1.000 UL
+LT3
+0.91 0.16 0.54 C 1.000 790 2520 52 102 BoxColFill
+790 2520 N
+0 101 V
+51 0 V
+0 -101 V
+-51 0 V
+Z stroke
+1.000 1045 2520 52 179 BoxColFill
+1045 2520 N
+0 178 V
+51 0 V
+0 -178 V
+-51 0 V
+Z stroke
+1.000 1299 2520 52 274 BoxColFill
+1299 2520 N
+0 273 V
+51 0 V
+0 -273 V
+-51 0 V
+Z stroke
+1.000 1656 2520 52 352 BoxColFill
+1656 2520 N
+0 351 V
+51 0 V
+0 -351 V
+-51 0 V
+Z stroke
+1.000 1910 2520 52 168 BoxColFill
+1910 2520 N
+0 167 V
+51 0 V
+0 -167 V
+-51 0 V
+Z stroke
+1.000 2165 2520 52 156 BoxColFill
+2165 2520 N
+0 155 V
+51 0 V
+0 -155 V
+-51 0 V
+Z stroke
+1.000 2522 2520 51 206 BoxColFill
+2522 2520 N
+0 205 V
+50 0 V
+0 -205 V
+-50 0 V
+Z stroke
+1.000 2776 2520 52 140 BoxColFill
+2776 2520 N
+0 139 V
+51 0 V
+0 -139 V
+-51 0 V
+Z stroke
+1.000 3031 2520 52 170 BoxColFill
+3031 2520 N
+0 169 V
+51 0 V
+0 -169 V
+-51 0 V
+Z stroke
+% End plot #4
+% Begin plot #5
+0.300 UP
+1.000 UL
+LT4
+0.00 0.00 0.00 C 663 2722 M
+51 -80 V
+51 -53 V
+51 56 V
+917 2530 M
+51 2 V
+51 154 V
+51 -163 V
+102 110 R
+51 57 V
+51 29 V
+51 -42 V
+203 152 R
+51 -1 V
+51 -105 V
+51 113 V
+102 -296 R
+51 -4 V
+51 59 V
+51 -57 V
+102 22 R
+51 1 V
+51 117 V
+51 -133 V
+203 -19 R
+51 1 V
+51 114 V
+51 -120 V
+102 116 R
+51 0 V
+51 77 V
+51 -83 V
+101 3 R
+51 -39 V
+51 4 V
+51 -2 V
+663 2722 BoxF
+714 2642 BoxF
+765 2589 BoxF
+816 2645 BoxF
+917 2530 BoxF
+968 2532 BoxF
+1019 2686 BoxF
+1070 2523 BoxF
+1172 2633 BoxF
+1223 2690 BoxF
+1274 2719 BoxF
+1325 2677 BoxF
+1528 2829 BoxF
+1579 2828 BoxF
+1630 2723 BoxF
+1681 2836 BoxF
+1783 2540 BoxF
+1834 2536 BoxF
+1885 2595 BoxF
+1936 2538 BoxF
+2038 2560 BoxF
+2089 2561 BoxF
+2140 2678 BoxF
+2191 2545 BoxF
+2394 2526 BoxF
+2445 2527 BoxF
+2496 2641 BoxF
+2547 2521 BoxF
+2649 2637 BoxF
+2700 2637 BoxF
+2751 2714 BoxF
+2802 2631 BoxF
+2903 2634 BoxF
+2954 2595 BoxF
+3005 2599 BoxF
+3056 2597 BoxF
+% End plot #5
+% Begin plot #6
+0.300 UP
+1.000 UL
+LT5
+0.00 0.00 0.00 C 663 2722 M
+51 -80 V
+51 -53 V
+51 56 V
+917 2530 M
+51 2 V
+51 154 V
+51 -163 V
+102 110 R
+51 57 V
+51 29 V
+51 -42 V
+203 152 R
+51 -1 V
+51 -105 V
+51 113 V
+102 -296 R
+51 -4 V
+51 59 V
+51 -57 V
+102 22 R
+51 1 V
+51 117 V
+51 -133 V
+203 -19 R
+51 1 V
+51 114 V
+51 -120 V
+102 116 R
+51 0 V
+51 77 V
+51 -83 V
+101 3 R
+51 -39 V
+51 4 V
+51 -2 V
+663 2722 Circle
+714 2642 Circle
+765 2589 Circle
+816 2645 Circle
+917 2530 Circle
+968 2532 Circle
+1019 2686 Circle
+1070 2523 Circle
+1172 2633 Circle
+1223 2690 Circle
+1274 2719 Circle
+1325 2677 Circle
+1528 2829 Circle
+1579 2828 Circle
+1630 2723 Circle
+1681 2836 Circle
+1783 2540 Circle
+1834 2536 Circle
+1885 2595 Circle
+1936 2538 Circle
+2038 2560 Circle
+2089 2561 Circle
+2140 2678 Circle
+2191 2545 Circle
+2394 2526 Circle
+2445 2527 Circle
+2496 2641 Circle
+2547 2521 Circle
+2649 2637 Circle
+2700 2637 Circle
+2751 2714 Circle
+2802 2631 Circle
+2903 2634 Circle
+2954 2595 Circle
+3005 2599 Circle
+3056 2597 Circle
+% End plot #6
+% Begin plot #7
+0.300 UP
+1.000 UL
+LT6
+0.00 0.00 0.00 C 663 2722 M
+51 -80 V
+51 -53 V
+51 56 V
+917 2530 M
+51 2 V
+51 154 V
+51 -163 V
+102 110 R
+51 57 V
+51 29 V
+51 -42 V
+203 152 R
+51 -1 V
+51 -105 V
+51 113 V
+102 -296 R
+51 -4 V
+51 59 V
+51 -57 V
+102 22 R
+51 1 V
+51 117 V
+51 -133 V
+203 -19 R
+51 1 V
+51 114 V
+51 -120 V
+102 116 R
+51 0 V
+51 77 V
+51 -83 V
+101 3 R
+51 -39 V
+51 4 V
+51 -2 V
+663 2722 CircleF
+714 2642 CircleF
+765 2589 CircleF
+816 2645 CircleF
+917 2530 CircleF
+968 2532 CircleF
+1019 2686 CircleF
+1070 2523 CircleF
+1172 2633 CircleF
+1223 2690 CircleF
+1274 2719 CircleF
+1325 2677 CircleF
+1528 2829 CircleF
+1579 2828 CircleF
+1630 2723 CircleF
+1681 2836 CircleF
+1783 2540 CircleF
+1834 2536 CircleF
+1885 2595 CircleF
+1936 2538 CircleF
+2038 2560 CircleF
+2089 2561 CircleF
+2140 2678 CircleF
+2191 2545 CircleF
+2394 2526 CircleF
+2445 2527 CircleF
+2496 2641 CircleF
+2547 2521 CircleF
+2649 2637 CircleF
+2700 2637 CircleF
+2751 2714 CircleF
+2802 2631 CircleF
+2903 2634 CircleF
+2954 2595 CircleF
+3005 2599 CircleF
+3056 2597 CircleF
+% End plot #7
+% Begin plot #8
+0.300 UP
+1.000 UL
+LT7
+0.00 0.00 0.00 C 663 2722 M
+51 -80 V
+51 -53 V
+51 56 V
+917 2530 M
+51 2 V
+51 154 V
+51 -163 V
+102 110 R
+51 57 V
+51 29 V
+51 -42 V
+203 152 R
+51 -1 V
+51 -105 V
+51 113 V
+102 -296 R
+51 -4 V
+51 59 V
+51 -57 V
+102 22 R
+51 1 V
+51 117 V
+51 -133 V
+203 -19 R
+51 1 V
+51 114 V
+51 -120 V
+102 116 R
+51 0 V
+51 77 V
+51 -83 V
+101 3 R
+51 -39 V
+51 4 V
+51 -2 V
+663 2722 TriU
+714 2642 TriU
+765 2589 TriU
+816 2645 TriU
+917 2530 TriU
+968 2532 TriU
+1019 2686 TriU
+1070 2523 TriU
+1172 2633 TriU
+1223 2690 TriU
+1274 2719 TriU
+1325 2677 TriU
+1528 2829 TriU
+1579 2828 TriU
+1630 2723 TriU
+1681 2836 TriU
+1783 2540 TriU
+1834 2536 TriU
+1885 2595 TriU
+1936 2538 TriU
+2038 2560 TriU
+2089 2561 TriU
+2140 2678 TriU
+2191 2545 TriU
+2394 2526 TriU
+2445 2527 TriU
+2496 2641 TriU
+2547 2521 TriU
+2649 2637 TriU
+2700 2637 TriU
+2751 2714 TriU
+2802 2631 TriU
+2903 2634 TriU
+2954 2595 TriU
+3005 2599 TriU
+3056 2597 TriU
+% End plot #8
+0.000 UL
+LTb
+LCb setrgbcolor
+510 3359 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+0.300 UP
+stroke
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 4110 2843 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 2843 M
+63 0 V
+stroke
+4098 2843 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 10)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 4110 3165 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 3165 M
+63 0 V
+stroke
+4098 3165 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 20)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6809 2730 M
+-63 0 V
+stroke
+6773 2730 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 1)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6809 3149 M
+-63 0 V
+stroke
+6773 3149 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 3)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 3359 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+stroke
+LCb setrgbcolor
+3700 2939 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Symbol) 160.0 -60.0 true true 0 (y)]
+[(Verdana) 128.0 -108.0 true true 0 (7)]
+] -30.7 MCshow
+grestore
+LTb
+LCb setrgbcolor
+7038 2939 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Verdana) 160.0 -60.0 true true 0 (E)]
+] -46.7 MCshow
+grestore
+LTb
+0.300 UP
+0.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LT0
+0.11 0.62 0.47 C 1.000 4237 2520 52 122 BoxColFill
+4237 2520 N
+0 121 V
+51 0 V
+0 -121 V
+-51 0 V
+Z stroke
+1.000 4492 2520 52 190 BoxColFill
+4492 2520 N
+0 189 V
+51 0 V
+0 -189 V
+-51 0 V
+Z stroke
+1.000 4747 2520 51 183 BoxColFill
+4747 2520 N
+0 182 V
+50 0 V
+0 -182 V
+-50 0 V
+Z stroke
+1.000 5103 2520 52 510 BoxColFill
+5103 2520 N
+0 509 V
+51 0 V
+0 -509 V
+-51 0 V
+Z stroke
+1.000 5358 2520 52 195 BoxColFill
+5358 2520 N
+0 194 V
+51 0 V
+0 -194 V
+-51 0 V
+Z stroke
+1.000 5612 2520 52 148 BoxColFill
+5612 2520 N
+0 147 V
+51 0 V
+0 -147 V
+-51 0 V
+Z stroke
+1.000 5969 2520 52 217 BoxColFill
+5969 2520 N
+0 216 V
+51 0 V
+0 -216 V
+-51 0 V
+Z stroke
+1.000 6223 2520 52 149 BoxColFill
+6223 2520 N
+0 148 V
+51 0 V
+0 -148 V
+-51 0 V
+Z stroke
+1.000 6478 2520 52 187 BoxColFill
+6478 2520 N
+0 186 V
+51 0 V
+0 -186 V
+-51 0 V
+Z stroke
+% End plot #1
+% Begin plot #2
+1.000 UL
+LT1
+0.85 0.37 0.01 C 1.000 4288 2520 52 181 BoxColFill
+4288 2520 N
+0 180 V
+51 0 V
+0 -180 V
+-51 0 V
+Z stroke
+1.000 4543 2520 52 190 BoxColFill
+4543 2520 N
+0 189 V
+51 0 V
+0 -189 V
+-51 0 V
+Z stroke
+1.000 4797 2520 52 169 BoxColFill
+4797 2520 N
+0 168 V
+51 0 V
+0 -168 V
+-51 0 V
+Z stroke
+1.000 5154 2520 52 510 BoxColFill
+5154 2520 N
+0 509 V
+51 0 V
+0 -509 V
+-51 0 V
+Z stroke
+1.000 5409 2520 52 199 BoxColFill
+5409 2520 N
+0 198 V
+51 0 V
+0 -198 V
+-51 0 V
+Z stroke
+1.000 5663 2520 52 148 BoxColFill
+5663 2520 N
+0 147 V
+51 0 V
+0 -147 V
+-51 0 V
+Z stroke
+1.000 6020 2520 52 217 BoxColFill
+6020 2520 N
+0 216 V
+51 0 V
+0 -216 V
+-51 0 V
+Z stroke
+1.000 6274 2520 52 149 BoxColFill
+6274 2520 N
+0 148 V
+51 0 V
+0 -148 V
+-51 0 V
+Z stroke
+1.000 6529 2520 52 217 BoxColFill
+6529 2520 N
+0 216 V
+51 0 V
+0 -216 V
+-51 0 V
+Z stroke
+% End plot #2
+% Begin plot #3
+1.000 UL
+LT2
+0.46 0.44 0.70 C 1.000 4339 2520 52 115 BoxColFill
+4339 2520 N
+0 114 V
+51 0 V
+0 -114 V
+-51 0 V
+Z stroke
+1.000 4594 2520 52 298 BoxColFill
+4594 2520 N
+0 297 V
+51 0 V
+0 -297 V
+-51 0 V
+Z stroke
+1.000 4848 2520 52 133 BoxColFill
+4848 2520 N
+0 132 V
+51 0 V
+0 -132 V
+-51 0 V
+Z stroke
+1.000 5205 2520 52 631 BoxColFill
+5205 2520 N
+0 630 V
+51 0 V
+0 -630 V
+-51 0 V
+Z stroke
+1.000 5460 2520 51 63 BoxColFill
+5460 2520 N
+0 62 V
+50 0 V
+0 -62 V
+-50 0 V
+Z stroke
+1.000 5714 2520 52 185 BoxColFill
+5714 2520 N
+0 184 V
+51 0 V
+0 -184 V
+-51 0 V
+Z stroke
+1.000 6071 2520 52 317 BoxColFill
+6071 2520 N
+0 316 V
+51 0 V
+0 -316 V
+-51 0 V
+Z stroke
+1.000 6325 2520 52 201 BoxColFill
+6325 2520 N
+0 200 V
+51 0 V
+0 -200 V
+-51 0 V
+Z stroke
+1.000 6580 2520 52 85 BoxColFill
+6580 2520 N
+0 84 V
+51 0 V
+0 -84 V
+-51 0 V
+Z stroke
+% End plot #3
+% Begin plot #4
+1.000 UL
+LT3
+0.91 0.16 0.54 C 1.000 4390 2520 52 135 BoxColFill
+4390 2520 N
+0 134 V
+51 0 V
+0 -134 V
+-51 0 V
+Z stroke
+1.000 4645 2520 52 147 BoxColFill
+4645 2520 N
+0 146 V
+51 0 V
+0 -146 V
+-51 0 V
+Z stroke
+1.000 4899 2520 52 201 BoxColFill
+4899 2520 N
+0 200 V
+51 0 V
+0 -200 V
+-51 0 V
+Z stroke
+1.000 5256 2520 52 197 BoxColFill
+5256 2520 N
+0 196 V
+51 0 V
+0 -196 V
+-51 0 V
+Z stroke
+1.000 5510 2520 52 196 BoxColFill
+5510 2520 N
+0 195 V
+51 0 V
+0 -195 V
+-51 0 V
+Z stroke
+1.000 5765 2520 52 163 BoxColFill
+5765 2520 N
+0 162 V
+51 0 V
+0 -162 V
+-51 0 V
+Z stroke
+1.000 6122 2520 51 162 BoxColFill
+6122 2520 N
+0 161 V
+50 0 V
+0 -161 V
+-50 0 V
+Z stroke
+1.000 6376 2520 52 141 BoxColFill
+6376 2520 N
+0 140 V
+51 0 V
+0 -140 V
+-51 0 V
+Z stroke
+1.000 6631 2520 52 194 BoxColFill
+6631 2520 N
+0 193 V
+51 0 V
+0 -193 V
+-51 0 V
+Z stroke
+% End plot #4
+% Begin plot #5
+0.300 UP
+1.000 UL
+LT4
+0.00 0.00 0.00 C 4263 2798 M
+51 -103 V
+51 -114 V
+51 170 V
+101 51 R
+51 1 V
+51 110 V
+51 -242 V
+102 62 R
+51 -110 V
+51 -66 V
+51 151 V
+203 139 R
+51 1 V
+51 131 V
+51 -450 V
+102 104 R
+51 -5 V
+51 11 V
+51 -7 V
+102 114 R
+51 1 V
+51 65 V
+51 -151 V
+203 200 R
+51 0 V
+51 78 V
+51 -177 V
+102 86 R
+51 1 V
+51 25 V
+51 -83 V
+101 -50 R
+51 -49 V
+51 -54 V
+51 82 V
+4263 2798 BoxF
+4314 2695 BoxF
+4365 2581 BoxF
+4416 2751 BoxF
+4517 2802 BoxF
+4568 2803 BoxF
+4619 2913 BoxF
+4670 2671 BoxF
+4772 2733 BoxF
+4823 2623 BoxF
+4874 2557 BoxF
+4925 2708 BoxF
+5128 2847 BoxF
+5179 2848 BoxF
+5230 2979 BoxF
+5281 2529 BoxF
+5383 2633 BoxF
+5434 2628 BoxF
+5485 2639 BoxF
+5536 2632 BoxF
+5638 2746 BoxF
+5689 2747 BoxF
+5740 2812 BoxF
+5791 2661 BoxF
+5994 2861 BoxF
+6045 2861 BoxF
+6096 2939 BoxF
+6147 2762 BoxF
+6249 2848 BoxF
+6300 2849 BoxF
+6351 2874 BoxF
+6402 2791 BoxF
+6503 2741 BoxF
+6554 2692 BoxF
+6605 2638 BoxF
+6656 2720 BoxF
+% End plot #5
+% Begin plot #6
+0.300 UP
+1.000 UL
+LT5
+0.00 0.00 0.00 C 4263 2798 M
+51 -103 V
+51 -114 V
+51 170 V
+101 51 R
+51 1 V
+51 110 V
+51 -242 V
+102 62 R
+51 -110 V
+51 -66 V
+51 151 V
+203 139 R
+51 1 V
+51 131 V
+51 -450 V
+102 104 R
+51 -5 V
+51 11 V
+51 -7 V
+102 114 R
+51 1 V
+51 65 V
+51 -151 V
+203 200 R
+51 0 V
+51 78 V
+51 -177 V
+102 86 R
+51 1 V
+51 25 V
+51 -83 V
+101 -50 R
+51 -49 V
+51 -54 V
+51 82 V
+4263 2798 Circle
+4314 2695 Circle
+4365 2581 Circle
+4416 2751 Circle
+4517 2802 Circle
+4568 2803 Circle
+4619 2913 Circle
+4670 2671 Circle
+4772 2733 Circle
+4823 2623 Circle
+4874 2557 Circle
+4925 2708 Circle
+5128 2847 Circle
+5179 2848 Circle
+5230 2979 Circle
+5281 2529 Circle
+5383 2633 Circle
+5434 2628 Circle
+5485 2639 Circle
+5536 2632 Circle
+5638 2746 Circle
+5689 2747 Circle
+5740 2812 Circle
+5791 2661 Circle
+5994 2861 Circle
+6045 2861 Circle
+6096 2939 Circle
+6147 2762 Circle
+6249 2848 Circle
+6300 2849 Circle
+6351 2874 Circle
+6402 2791 Circle
+6503 2741 Circle
+6554 2692 Circle
+6605 2638 Circle
+6656 2720 Circle
+% End plot #6
+% Begin plot #7
+0.300 UP
+1.000 UL
+LT6
+0.00 0.00 0.00 C 4263 2798 M
+51 -103 V
+51 -114 V
+51 170 V
+101 51 R
+51 1 V
+51 110 V
+51 -242 V
+102 62 R
+51 -110 V
+51 -66 V
+51 151 V
+203 139 R
+51 1 V
+51 131 V
+51 -450 V
+102 104 R
+51 -5 V
+51 11 V
+51 -7 V
+102 114 R
+51 1 V
+51 65 V
+51 -151 V
+203 200 R
+51 0 V
+51 78 V
+51 -177 V
+102 86 R
+51 1 V
+51 25 V
+51 -83 V
+101 -50 R
+51 -49 V
+51 -54 V
+51 82 V
+4263 2798 CircleF
+4314 2695 CircleF
+4365 2581 CircleF
+4416 2751 CircleF
+4517 2802 CircleF
+4568 2803 CircleF
+4619 2913 CircleF
+4670 2671 CircleF
+4772 2733 CircleF
+4823 2623 CircleF
+4874 2557 CircleF
+4925 2708 CircleF
+5128 2847 CircleF
+5179 2848 CircleF
+5230 2979 CircleF
+5281 2529 CircleF
+5383 2633 CircleF
+5434 2628 CircleF
+5485 2639 CircleF
+5536 2632 CircleF
+5638 2746 CircleF
+5689 2747 CircleF
+5740 2812 CircleF
+5791 2661 CircleF
+5994 2861 CircleF
+6045 2861 CircleF
+6096 2939 CircleF
+6147 2762 CircleF
+6249 2848 CircleF
+6300 2849 CircleF
+6351 2874 CircleF
+6402 2791 CircleF
+6503 2741 CircleF
+6554 2692 CircleF
+6605 2638 CircleF
+6656 2720 CircleF
+% End plot #7
+% Begin plot #8
+0.300 UP
+1.000 UL
+LT7
+0.00 0.00 0.00 C 4263 2798 M
+51 -103 V
+51 -114 V
+51 170 V
+101 51 R
+51 1 V
+51 110 V
+51 -242 V
+102 62 R
+51 -110 V
+51 -66 V
+51 151 V
+203 139 R
+51 1 V
+51 131 V
+51 -450 V
+102 104 R
+51 -5 V
+51 11 V
+51 -7 V
+102 114 R
+51 1 V
+51 65 V
+51 -151 V
+203 200 R
+51 0 V
+51 78 V
+51 -177 V
+102 86 R
+51 1 V
+51 25 V
+51 -83 V
+101 -50 R
+51 -49 V
+51 -54 V
+51 82 V
+4263 2798 TriU
+4314 2695 TriU
+4365 2581 TriU
+4416 2751 TriU
+4517 2802 TriU
+4568 2803 TriU
+4619 2913 TriU
+4670 2671 TriU
+4772 2733 TriU
+4823 2623 TriU
+4874 2557 TriU
+4925 2708 TriU
+5128 2847 TriU
+5179 2848 TriU
+5230 2979 TriU
+5281 2529 TriU
+5383 2633 TriU
+5434 2628 TriU
+5485 2639 TriU
+5536 2632 TriU
+5638 2746 TriU
+5689 2747 TriU
+5740 2812 TriU
+5791 2661 TriU
+5994 2861 TriU
+6045 2861 TriU
+6096 2939 TriU
+6147 2762 TriU
+6249 2848 TriU
+6300 2849 TriU
+6351 2874 TriU
+6402 2791 TriU
+6503 2741 TriU
+6554 2692 TriU
+6605 2638 TriU
+6656 2720 TriU
+% End plot #8
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 3359 M
+0 -839 V
+2699 0 V
+0 839 V
+-2699 0 R
+0.300 UP
+stroke
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 510 2003 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+510 2003 M
+63 0 V
+stroke
+498 2003 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 10)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 510 2326 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+510 2326 M
+63 0 V
+stroke
+498 2326 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 20)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+3209 1890 M
+-63 0 V
+stroke
+3173 1890 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 1)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+3209 2310 M
+-63 0 V
+stroke
+3173 2310 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 3)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+510 2520 M
+0 -840 V
+2699 0 V
+0 840 V
+-2699 0 R
+stroke
+LCb setrgbcolor
+100 2100 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Symbol) 160.0 -60.0 true true 0 (y)]
+[(Verdana) 128.0 -108.0 true true 0 (1)]
+] -30.7 MCshow
+grestore
+LTb
+LCb setrgbcolor
+3438 2100 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Verdana) 160.0 -60.0 true true 0 (E)]
+] -46.7 MCshow
+grestore
+LTb
+0.300 UP
+0.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LT0
+0.11 0.62 0.47 C 1.000 637 1680 52 55 BoxColFill
+637 1680 N
+0 54 V
+51 0 V
+0 -54 V
+-51 0 V
+Z stroke
+1.000 892 1680 52 234 BoxColFill
+892 1680 N
+0 233 V
+51 0 V
+0 -233 V
+-51 0 V
+Z stroke
+1.000 1147 1680 51 265 BoxColFill
+1147 1680 N
+0 264 V
+50 0 V
+0 -264 V
+-50 0 V
+Z stroke
+1.000 1503 1680 52 333 BoxColFill
+1503 1680 N
+0 332 V
+51 0 V
+0 -332 V
+-51 0 V
+Z stroke
+1.000 1758 1680 52 204 BoxColFill
+1758 1680 N
+0 203 V
+51 0 V
+0 -203 V
+-51 0 V
+Z stroke
+1.000 2012 1680 52 214 BoxColFill
+2012 1680 N
+0 213 V
+51 0 V
+0 -213 V
+-51 0 V
+Z stroke
+1.000 2369 1680 52 258 BoxColFill
+2369 1680 N
+0 257 V
+51 0 V
+0 -257 V
+-51 0 V
+Z stroke
+1.000 2623 1680 52 187 BoxColFill
+2623 1680 N
+0 186 V
+51 0 V
+0 -186 V
+-51 0 V
+Z stroke
+1.000 2878 1680 52 163 BoxColFill
+2878 1680 N
+0 162 V
+51 0 V
+0 -162 V
+-51 0 V
+Z stroke
+% End plot #1
+% Begin plot #2
+1.000 UL
+LT1
+0.85 0.37 0.01 C 1.000 688 1680 52 120 BoxColFill
+688 1680 N
+0 119 V
+51 0 V
+0 -119 V
+-51 0 V
+Z stroke
+1.000 943 1680 52 234 BoxColFill
+943 1680 N
+0 233 V
+51 0 V
+0 -233 V
+-51 0 V
+Z stroke
+1.000 1197 1680 52 298 BoxColFill
+1197 1680 N
+0 297 V
+51 0 V
+0 -297 V
+-51 0 V
+Z stroke
+1.000 1554 1680 52 333 BoxColFill
+1554 1680 N
+0 332 V
+51 0 V
+0 -332 V
+-51 0 V
+Z stroke
+1.000 1809 1680 52 208 BoxColFill
+1809 1680 N
+0 207 V
+51 0 V
+0 -207 V
+-51 0 V
+Z stroke
+1.000 2063 1680 52 213 BoxColFill
+2063 1680 N
+0 212 V
+51 0 V
+0 -212 V
+-51 0 V
+Z stroke
+1.000 2420 1680 52 257 BoxColFill
+2420 1680 N
+0 256 V
+51 0 V
+0 -256 V
+-51 0 V
+Z stroke
+1.000 2674 1680 52 186 BoxColFill
+2674 1680 N
+0 185 V
+51 0 V
+0 -185 V
+-51 0 V
+Z stroke
+1.000 2929 1680 52 209 BoxColFill
+2929 1680 N
+0 208 V
+51 0 V
+0 -208 V
+-51 0 V
+Z stroke
+% End plot #2
+% Begin plot #3
+1.000 UL
+LT2
+0.46 0.44 0.70 C 1.000 739 1680 52 43 BoxColFill
+739 1680 N
+0 42 V
+51 0 V
+0 -42 V
+-51 0 V
+Z stroke
+1.000 994 1680 52 107 BoxColFill
+994 1680 N
+0 106 V
+51 0 V
+0 -106 V
+-51 0 V
+Z stroke
+1.000 1248 1680 52 229 BoxColFill
+1248 1680 N
+0 228 V
+51 0 V
+0 -228 V
+-51 0 V
+Z stroke
+1.000 1605 1680 52 215 BoxColFill
+1605 1680 N
+0 214 V
+51 0 V
+0 -214 V
+-51 0 V
+Z stroke
+1.000 1860 1680 51 85 BoxColFill
+1860 1680 N
+0 84 V
+50 0 V
+0 -84 V
+-50 0 V
+Z stroke
+1.000 2114 1680 52 104 BoxColFill
+2114 1680 N
+0 103 V
+51 0 V
+0 -103 V
+-51 0 V
+Z stroke
+1.000 2471 1680 52 116 BoxColFill
+2471 1680 N
+0 115 V
+51 0 V
+0 -115 V
+-51 0 V
+Z stroke
+1.000 2725 1680 52 91 BoxColFill
+2725 1680 N
+0 90 V
+51 0 V
+0 -90 V
+-51 0 V
+Z stroke
+1.000 2980 1680 52 84 BoxColFill
+2980 1680 N
+0 83 V
+51 0 V
+0 -83 V
+-51 0 V
+Z stroke
+% End plot #3
+% Begin plot #4
+1.000 UL
+LT3
+0.91 0.16 0.54 C 1.000 790 1680 52 120 BoxColFill
+790 1680 N
+0 119 V
+51 0 V
+0 -119 V
+-51 0 V
+Z stroke
+1.000 1045 1680 52 234 BoxColFill
+1045 1680 N
+0 233 V
+51 0 V
+0 -233 V
+-51 0 V
+Z stroke
+1.000 1299 1680 52 297 BoxColFill
+1299 1680 N
+0 296 V
+51 0 V
+0 -296 V
+-51 0 V
+Z stroke
+1.000 1656 1680 52 333 BoxColFill
+1656 1680 N
+0 332 V
+51 0 V
+0 -332 V
+-51 0 V
+Z stroke
+1.000 1910 1680 52 208 BoxColFill
+1910 1680 N
+0 207 V
+51 0 V
+0 -207 V
+-51 0 V
+Z stroke
+1.000 2165 1680 52 214 BoxColFill
+2165 1680 N
+0 213 V
+51 0 V
+0 -213 V
+-51 0 V
+Z stroke
+1.000 2522 1680 51 258 BoxColFill
+2522 1680 N
+0 257 V
+50 0 V
+0 -257 V
+-50 0 V
+Z stroke
+1.000 2776 1680 52 187 BoxColFill
+2776 1680 N
+0 186 V
+51 0 V
+0 -186 V
+-51 0 V
+Z stroke
+1.000 3031 1680 52 209 BoxColFill
+3031 1680 N
+0 208 V
+51 0 V
+0 -208 V
+-51 0 V
+Z stroke
+% End plot #4
+% Begin plot #5
+0.300 UP
+1.000 UL
+LT4
+0.00 0.00 0.00 C 663 1852 M
+51 -110 V
+51 -14 V
+51 15 V
+101 33 R
+51 0 V
+51 -88 V
+51 89 V
+102 27 R
+51 77 V
+51 0 V
+51 -1 V
+203 48 R
+51 0 V
+51 -54 V
+51 54 V
+102 -212 R
+51 5 V
+51 -24 V
+51 24 V
+102 20 R
+51 0 V
+51 -40 V
+51 41 V
+203 30 R
+51 -1 V
+51 -76 V
+51 77 V
+102 -88 R
+51 0 V
+51 63 V
+51 -63 V
+101 56 R
+51 -53 V
+51 24 V
+51 -24 V
+663 1852 BoxF
+714 1742 BoxF
+765 1728 BoxF
+816 1743 BoxF
+917 1776 BoxF
+968 1776 BoxF
+1019 1688 BoxF
+1070 1777 BoxF
+1172 1804 BoxF
+1223 1881 BoxF
+1274 1881 BoxF
+1325 1880 BoxF
+1528 1928 BoxF
+1579 1928 BoxF
+1630 1874 BoxF
+1681 1928 BoxF
+1783 1716 BoxF
+1834 1721 BoxF
+1885 1697 BoxF
+1936 1721 BoxF
+2038 1741 BoxF
+2089 1741 BoxF
+2140 1701 BoxF
+2191 1742 BoxF
+2394 1772 BoxF
+2445 1771 BoxF
+2496 1695 BoxF
+2547 1772 BoxF
+2649 1684 BoxF
+2700 1684 BoxF
+2751 1747 BoxF
+2802 1684 BoxF
+2903 1740 BoxF
+2954 1687 BoxF
+3005 1711 BoxF
+3056 1687 BoxF
+% End plot #5
+% Begin plot #6
+0.300 UP
+1.000 UL
+LT5
+0.00 0.00 0.00 C 663 1852 M
+51 -110 V
+51 -14 V
+51 15 V
+101 33 R
+51 0 V
+51 -88 V
+51 89 V
+102 27 R
+51 77 V
+51 0 V
+51 -1 V
+203 48 R
+51 0 V
+51 -54 V
+51 54 V
+102 -212 R
+51 5 V
+51 -24 V
+51 24 V
+102 20 R
+51 0 V
+51 -40 V
+51 41 V
+203 30 R
+51 -1 V
+51 -76 V
+51 77 V
+102 -88 R
+51 0 V
+51 63 V
+51 -63 V
+101 56 R
+51 -53 V
+51 24 V
+51 -24 V
+663 1852 Circle
+714 1742 Circle
+765 1728 Circle
+816 1743 Circle
+917 1776 Circle
+968 1776 Circle
+1019 1688 Circle
+1070 1777 Circle
+1172 1804 Circle
+1223 1881 Circle
+1274 1881 Circle
+1325 1880 Circle
+1528 1928 Circle
+1579 1928 Circle
+1630 1874 Circle
+1681 1928 Circle
+1783 1716 Circle
+1834 1721 Circle
+1885 1697 Circle
+1936 1721 Circle
+2038 1741 Circle
+2089 1741 Circle
+2140 1701 Circle
+2191 1742 Circle
+2394 1772 Circle
+2445 1771 Circle
+2496 1695 Circle
+2547 1772 Circle
+2649 1684 Circle
+2700 1684 Circle
+2751 1747 Circle
+2802 1684 Circle
+2903 1740 Circle
+2954 1687 Circle
+3005 1711 Circle
+3056 1687 Circle
+% End plot #6
+% Begin plot #7
+0.300 UP
+1.000 UL
+LT6
+0.00 0.00 0.00 C 663 1852 M
+51 -110 V
+51 -14 V
+51 15 V
+101 33 R
+51 0 V
+51 -88 V
+51 89 V
+102 27 R
+51 77 V
+51 0 V
+51 -1 V
+203 48 R
+51 0 V
+51 -54 V
+51 54 V
+102 -212 R
+51 5 V
+51 -24 V
+51 24 V
+102 20 R
+51 0 V
+51 -40 V
+51 41 V
+203 30 R
+51 -1 V
+51 -76 V
+51 77 V
+102 -88 R
+51 0 V
+51 63 V
+51 -63 V
+101 56 R
+51 -53 V
+51 24 V
+51 -24 V
+663 1852 CircleF
+714 1742 CircleF
+765 1728 CircleF
+816 1743 CircleF
+917 1776 CircleF
+968 1776 CircleF
+1019 1688 CircleF
+1070 1777 CircleF
+1172 1804 CircleF
+1223 1881 CircleF
+1274 1881 CircleF
+1325 1880 CircleF
+1528 1928 CircleF
+1579 1928 CircleF
+1630 1874 CircleF
+1681 1928 CircleF
+1783 1716 CircleF
+1834 1721 CircleF
+1885 1697 CircleF
+1936 1721 CircleF
+2038 1741 CircleF
+2089 1741 CircleF
+2140 1701 CircleF
+2191 1742 CircleF
+2394 1772 CircleF
+2445 1771 CircleF
+2496 1695 CircleF
+2547 1772 CircleF
+2649 1684 CircleF
+2700 1684 CircleF
+2751 1747 CircleF
+2802 1684 CircleF
+2903 1740 CircleF
+2954 1687 CircleF
+3005 1711 CircleF
+3056 1687 CircleF
+% End plot #7
+% Begin plot #8
+0.300 UP
+1.000 UL
+LT7
+0.00 0.00 0.00 C 663 1852 M
+51 -110 V
+51 -14 V
+51 15 V
+101 33 R
+51 0 V
+51 -88 V
+51 89 V
+102 27 R
+51 77 V
+51 0 V
+51 -1 V
+203 48 R
+51 0 V
+51 -54 V
+51 54 V
+102 -212 R
+51 5 V
+51 -24 V
+51 24 V
+102 20 R
+51 0 V
+51 -40 V
+51 41 V
+203 30 R
+51 -1 V
+51 -76 V
+51 77 V
+102 -88 R
+51 0 V
+51 63 V
+51 -63 V
+101 56 R
+51 -53 V
+51 24 V
+51 -24 V
+663 1852 TriU
+714 1742 TriU
+765 1728 TriU
+816 1743 TriU
+917 1776 TriU
+968 1776 TriU
+1019 1688 TriU
+1070 1777 TriU
+1172 1804 TriU
+1223 1881 TriU
+1274 1881 TriU
+1325 1880 TriU
+1528 1928 TriU
+1579 1928 TriU
+1630 1874 TriU
+1681 1928 TriU
+1783 1716 TriU
+1834 1721 TriU
+1885 1697 TriU
+1936 1721 TriU
+2038 1741 TriU
+2089 1741 TriU
+2140 1701 TriU
+2191 1742 TriU
+2394 1772 TriU
+2445 1771 TriU
+2496 1695 TriU
+2547 1772 TriU
+2649 1684 TriU
+2700 1684 TriU
+2751 1747 TriU
+2802 1684 TriU
+2903 1740 TriU
+2954 1687 TriU
+3005 1711 TriU
+3056 1687 TriU
+% End plot #8
+0.000 UL
+LTb
+LCb setrgbcolor
+510 2520 M
+0 -840 V
+2699 0 V
+0 840 V
+-2699 0 R
+0.300 UP
+stroke
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 4110 2003 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 2003 M
+63 0 V
+stroke
+4098 2003 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 10)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 4110 2326 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 2326 M
+63 0 V
+stroke
+4098 2326 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 20)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6809 1890 M
+-63 0 V
+stroke
+6773 1890 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 1)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6809 2310 M
+-63 0 V
+stroke
+6773 2310 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 3)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 2520 M
+0 -840 V
+2699 0 V
+0 840 V
+-2699 0 R
+stroke
+LCb setrgbcolor
+3700 2100 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Symbol) 160.0 -60.0 true true 0 (y)]
+[(Verdana) 128.0 -108.0 true true 0 (6)]
+] -30.7 MCshow
+grestore
+LTb
+LCb setrgbcolor
+7038 2100 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Verdana) 160.0 -60.0 true true 0 (E)]
+] -46.7 MCshow
+grestore
+LTb
+0.300 UP
+0.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LT0
+0.11 0.62 0.47 C 1.000 4237 1680 52 114 BoxColFill
+4237 1680 N
+0 113 V
+51 0 V
+0 -113 V
+-51 0 V
+Z stroke
+1.000 4492 1680 52 199 BoxColFill
+4492 1680 N
+0 198 V
+51 0 V
+0 -198 V
+-51 0 V
+Z stroke
+1.000 4747 1680 51 211 BoxColFill
+4747 1680 N
+0 210 V
+50 0 V
+0 -210 V
+-50 0 V
+Z stroke
+1.000 5103 1680 52 550 BoxColFill
+5103 1680 N
+0 549 V
+51 0 V
+0 -549 V
+-51 0 V
+Z stroke
+1.000 5358 1680 52 190 BoxColFill
+5358 1680 N
+0 189 V
+51 0 V
+0 -189 V
+-51 0 V
+Z stroke
+1.000 5612 1680 52 151 BoxColFill
+5612 1680 N
+0 150 V
+51 0 V
+0 -150 V
+-51 0 V
+Z stroke
+1.000 5969 1680 52 224 BoxColFill
+5969 1680 N
+0 223 V
+51 0 V
+0 -223 V
+-51 0 V
+Z stroke
+1.000 6223 1680 52 152 BoxColFill
+6223 1680 N
+0 151 V
+51 0 V
+0 -151 V
+-51 0 V
+Z stroke
+1.000 6478 1680 52 179 BoxColFill
+6478 1680 N
+0 178 V
+51 0 V
+0 -178 V
+-51 0 V
+Z stroke
+% End plot #1
+% Begin plot #2
+1.000 UL
+LT1
+0.85 0.37 0.01 C 1.000 4288 1680 52 165 BoxColFill
+4288 1680 N
+0 164 V
+51 0 V
+0 -164 V
+-51 0 V
+Z stroke
+1.000 4543 1680 52 199 BoxColFill
+4543 1680 N
+0 198 V
+51 0 V
+0 -198 V
+-51 0 V
+Z stroke
+1.000 4797 1680 52 180 BoxColFill
+4797 1680 N
+0 179 V
+51 0 V
+0 -179 V
+-51 0 V
+Z stroke
+1.000 5154 1680 52 550 BoxColFill
+5154 1680 N
+0 549 V
+51 0 V
+0 -549 V
+-51 0 V
+Z stroke
+1.000 5409 1680 52 193 BoxColFill
+5409 1680 N
+0 192 V
+51 0 V
+0 -192 V
+-51 0 V
+Z stroke
+1.000 5663 1680 52 151 BoxColFill
+5663 1680 N
+0 150 V
+51 0 V
+0 -150 V
+-51 0 V
+Z stroke
+1.000 6020 1680 52 224 BoxColFill
+6020 1680 N
+0 223 V
+51 0 V
+0 -223 V
+-51 0 V
+Z stroke
+1.000 6274 1680 52 152 BoxColFill
+6274 1680 N
+0 151 V
+51 0 V
+0 -151 V
+-51 0 V
+Z stroke
+1.000 6529 1680 52 207 BoxColFill
+6529 1680 N
+0 206 V
+51 0 V
+0 -206 V
+-51 0 V
+Z stroke
+% End plot #2
+% Begin plot #3
+1.000 UL
+LT2
+0.46 0.44 0.70 C 1.000 4339 1680 52 102 BoxColFill
+4339 1680 N
+0 101 V
+51 0 V
+0 -101 V
+-51 0 V
+Z stroke
+1.000 4594 1680 52 312 BoxColFill
+4594 1680 N
+0 311 V
+51 0 V
+0 -311 V
+-51 0 V
+Z stroke
+1.000 4848 1680 52 153 BoxColFill
+4848 1680 N
+0 152 V
+51 0 V
+0 -152 V
+-51 0 V
+Z stroke
+1.000 5205 1680 52 675 BoxColFill
+5205 1680 N
+0 674 V
+51 0 V
+0 -674 V
+-51 0 V
+Z stroke
+1.000 5460 1680 51 63 BoxColFill
+5460 1680 N
+0 62 V
+50 0 V
+0 -62 V
+-50 0 V
+Z stroke
+1.000 5714 1680 52 196 BoxColFill
+5714 1680 N
+0 195 V
+51 0 V
+0 -195 V
+-51 0 V
+Z stroke
+1.000 6071 1680 52 327 BoxColFill
+6071 1680 N
+0 326 V
+51 0 V
+0 -326 V
+-51 0 V
+Z stroke
+1.000 6325 1680 52 210 BoxColFill
+6325 1680 N
+0 209 V
+51 0 V
+0 -209 V
+-51 0 V
+Z stroke
+1.000 6580 1680 52 78 BoxColFill
+6580 1680 N
+0 77 V
+51 0 V
+0 -77 V
+-51 0 V
+Z stroke
+% End plot #3
+% Begin plot #4
+1.000 UL
+LT3
+0.91 0.16 0.54 C 1.000 4390 1680 52 129 BoxColFill
+4390 1680 N
+0 128 V
+51 0 V
+0 -128 V
+-51 0 V
+Z stroke
+1.000 4645 1680 52 146 BoxColFill
+4645 1680 N
+0 145 V
+51 0 V
+0 -145 V
+-51 0 V
+Z stroke
+1.000 4899 1680 52 231 BoxColFill
+4899 1680 N
+0 230 V
+51 0 V
+0 -230 V
+-51 0 V
+Z stroke
+1.000 5256 1680 52 215 BoxColFill
+5256 1680 N
+0 214 V
+51 0 V
+0 -214 V
+-51 0 V
+Z stroke
+1.000 5510 1680 52 190 BoxColFill
+5510 1680 N
+0 189 V
+51 0 V
+0 -189 V
+-51 0 V
+Z stroke
+1.000 5765 1680 52 158 BoxColFill
+5765 1680 N
+0 157 V
+51 0 V
+0 -157 V
+-51 0 V
+Z stroke
+1.000 6122 1680 51 168 BoxColFill
+6122 1680 N
+0 167 V
+50 0 V
+0 -167 V
+-50 0 V
+Z stroke
+1.000 6376 1680 52 139 BoxColFill
+6376 1680 N
+0 138 V
+51 0 V
+0 -138 V
+-51 0 V
+Z stroke
+1.000 6631 1680 52 187 BoxColFill
+6631 1680 N
+0 186 V
+51 0 V
+0 -186 V
+-51 0 V
+Z stroke
+% End plot #4
+% Begin plot #5
+0.300 UP
+1.000 UL
+LT4
+0.00 0.00 0.00 C 4263 1948 M
+51 -98 V
+51 -106 V
+51 154 V
+101 38 R
+51 2 V
+51 118 V
+51 -237 V
+102 64 R
+51 -109 V
+51 -61 V
+51 147 V
+203 115 R
+51 0 V
+51 142 V
+51 -420 V
+102 84 R
+51 -5 V
+51 18 V
+51 -14 V
+102 105 R
+51 0 V
+51 74 V
+51 -151 V
+203 181 R
+51 1 V
+51 87 V
+51 -172 V
+102 79 R
+51 0 V
+51 35 V
+51 -85 V
+101 -47 R
+51 -46 V
+51 -46 V
+51 70 V
+4263 1948 BoxF
+4314 1850 BoxF
+4365 1744 BoxF
+4416 1898 BoxF
+4517 1936 BoxF
+4568 1938 BoxF
+4619 2056 BoxF
+4670 1819 BoxF
+4772 1883 BoxF
+4823 1774 BoxF
+4874 1713 BoxF
+4925 1860 BoxF
+5128 1975 BoxF
+5179 1975 BoxF
+5230 2117 BoxF
+5281 1697 BoxF
+5383 1781 BoxF
+5434 1776 BoxF
+5485 1794 BoxF
+5536 1780 BoxF
+5638 1885 BoxF
+5689 1885 BoxF
+5740 1959 BoxF
+5791 1808 BoxF
+5994 1989 BoxF
+6045 1990 BoxF
+6096 2077 BoxF
+6147 1905 BoxF
+6249 1984 BoxF
+6300 1984 BoxF
+6351 2019 BoxF
+6402 1934 BoxF
+6503 1887 BoxF
+6554 1841 BoxF
+6605 1795 BoxF
+6656 1865 BoxF
+% End plot #5
+% Begin plot #6
+0.300 UP
+1.000 UL
+LT5
+0.00 0.00 0.00 C 4263 1948 M
+51 -98 V
+51 -106 V
+51 154 V
+101 38 R
+51 2 V
+51 118 V
+51 -237 V
+102 64 R
+51 -109 V
+51 -61 V
+51 147 V
+203 115 R
+51 0 V
+51 142 V
+51 -420 V
+102 84 R
+51 -5 V
+51 18 V
+51 -14 V
+102 105 R
+51 0 V
+51 74 V
+51 -151 V
+203 181 R
+51 1 V
+51 87 V
+51 -172 V
+102 79 R
+51 0 V
+51 35 V
+51 -85 V
+101 -47 R
+51 -46 V
+51 -46 V
+51 70 V
+4263 1948 Circle
+4314 1850 Circle
+4365 1744 Circle
+4416 1898 Circle
+4517 1936 Circle
+4568 1938 Circle
+4619 2056 Circle
+4670 1819 Circle
+4772 1883 Circle
+4823 1774 Circle
+4874 1713 Circle
+4925 1860 Circle
+5128 1975 Circle
+5179 1975 Circle
+5230 2117 Circle
+5281 1697 Circle
+5383 1781 Circle
+5434 1776 Circle
+5485 1794 Circle
+5536 1780 Circle
+5638 1885 Circle
+5689 1885 Circle
+5740 1959 Circle
+5791 1808 Circle
+5994 1989 Circle
+6045 1990 Circle
+6096 2077 Circle
+6147 1905 Circle
+6249 1984 Circle
+6300 1984 Circle
+6351 2019 Circle
+6402 1934 Circle
+6503 1887 Circle
+6554 1841 Circle
+6605 1795 Circle
+6656 1865 Circle
+% End plot #6
+% Begin plot #7
+0.300 UP
+1.000 UL
+LT6
+0.00 0.00 0.00 C 4263 1948 M
+51 -98 V
+51 -106 V
+51 154 V
+101 38 R
+51 2 V
+51 118 V
+51 -237 V
+102 64 R
+51 -109 V
+51 -61 V
+51 147 V
+203 115 R
+51 0 V
+51 142 V
+51 -420 V
+102 84 R
+51 -5 V
+51 18 V
+51 -14 V
+102 105 R
+51 0 V
+51 74 V
+51 -151 V
+203 181 R
+51 1 V
+51 87 V
+51 -172 V
+102 79 R
+51 0 V
+51 35 V
+51 -85 V
+101 -47 R
+51 -46 V
+51 -46 V
+51 70 V
+4263 1948 CircleF
+4314 1850 CircleF
+4365 1744 CircleF
+4416 1898 CircleF
+4517 1936 CircleF
+4568 1938 CircleF
+4619 2056 CircleF
+4670 1819 CircleF
+4772 1883 CircleF
+4823 1774 CircleF
+4874 1713 CircleF
+4925 1860 CircleF
+5128 1975 CircleF
+5179 1975 CircleF
+5230 2117 CircleF
+5281 1697 CircleF
+5383 1781 CircleF
+5434 1776 CircleF
+5485 1794 CircleF
+5536 1780 CircleF
+5638 1885 CircleF
+5689 1885 CircleF
+5740 1959 CircleF
+5791 1808 CircleF
+5994 1989 CircleF
+6045 1990 CircleF
+6096 2077 CircleF
+6147 1905 CircleF
+6249 1984 CircleF
+6300 1984 CircleF
+6351 2019 CircleF
+6402 1934 CircleF
+6503 1887 CircleF
+6554 1841 CircleF
+6605 1795 CircleF
+6656 1865 CircleF
+% End plot #7
+% Begin plot #8
+0.300 UP
+1.000 UL
+LT7
+0.00 0.00 0.00 C 4263 1948 M
+51 -98 V
+51 -106 V
+51 154 V
+101 38 R
+51 2 V
+51 118 V
+51 -237 V
+102 64 R
+51 -109 V
+51 -61 V
+51 147 V
+203 115 R
+51 0 V
+51 142 V
+51 -420 V
+102 84 R
+51 -5 V
+51 18 V
+51 -14 V
+102 105 R
+51 0 V
+51 74 V
+51 -151 V
+203 181 R
+51 1 V
+51 87 V
+51 -172 V
+102 79 R
+51 0 V
+51 35 V
+51 -85 V
+101 -47 R
+51 -46 V
+51 -46 V
+51 70 V
+4263 1948 TriU
+4314 1850 TriU
+4365 1744 TriU
+4416 1898 TriU
+4517 1936 TriU
+4568 1938 TriU
+4619 2056 TriU
+4670 1819 TriU
+4772 1883 TriU
+4823 1774 TriU
+4874 1713 TriU
+4925 1860 TriU
+5128 1975 TriU
+5179 1975 TriU
+5230 2117 TriU
+5281 1697 TriU
+5383 1781 TriU
+5434 1776 TriU
+5485 1794 TriU
+5536 1780 TriU
+5638 1885 TriU
+5689 1885 TriU
+5740 1959 TriU
+5791 1808 TriU
+5994 1989 TriU
+6045 1990 TriU
+6096 2077 TriU
+6147 1905 TriU
+6249 1984 TriU
+6300 1984 TriU
+6351 2019 TriU
+6402 1934 TriU
+6503 1887 TriU
+6554 1841 TriU
+6605 1795 TriU
+6656 1865 TriU
+% End plot #8
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 2520 M
+0 -840 V
+2699 0 V
+0 840 V
+-2699 0 R
+0.300 UP
+stroke
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 510 1163 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+510 1163 M
+63 0 V
+stroke
+498 1163 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 10)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 510 1486 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+510 1486 M
+63 0 V
+stroke
+498 1486 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 20)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+739 840 M
+0 63 V
+stroke
+739 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H1)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+994 840 M
+0 63 V
+stroke
+994 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H2)]
+] -60.0 MCshow
+994 510 M
+[ [(Verdana) 180.0 0.0 true true 0 (1 ps)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+1248 840 M
+0 63 V
+stroke
+1248 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H3)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+1605 840 M
+0 63 V
+stroke
+1605 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H1)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+1860 840 M
+0 63 V
+stroke
+1860 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H2)]
+] -60.0 MCshow
+1860 510 M
+[ [(Verdana) 180.0 0.0 true true 0 (2 ps)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+2114 840 M
+0 63 V
+stroke
+2114 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H3)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+2471 840 M
+0 63 V
+stroke
+2471 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H1)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+2725 840 M
+0 63 V
+stroke
+2725 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H2)]
+] -60.0 MCshow
+2725 510 M
+[ [(Verdana) 180.0 0.0 true true 0 (3 ps)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+2980 840 M
+0 63 V
+stroke
+2980 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H3)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+3209 1050 M
+-63 0 V
+stroke
+3173 1050 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 1)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+3209 1470 M
+-63 0 V
+stroke
+3173 1470 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 3)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+510 1680 M
+0 -840 V
+2699 0 V
+0 840 V
+-2699 0 R
+stroke
+LCb setrgbcolor
+100 1260 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Symbol) 160.0 -60.0 true true 0 (y)]
+[(Verdana) 128.0 -108.0 true true 0 (0)]
+] -30.7 MCshow
+grestore
+LTb
+LCb setrgbcolor
+3438 1260 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Verdana) 160.0 -60.0 true true 0 (E)]
+] -46.7 MCshow
+grestore
+LTb
+0.300 UP
+0.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LT0
+0.11 0.62 0.47 C 1.000 637 840 52 45 BoxColFill
+637 840 N
+0 44 V
+51 0 V
+0 -44 V
+-51 0 V
+Z stroke
+1.000 892 840 52 174 BoxColFill
+892 840 N
+0 173 V
+51 0 V
+0 -173 V
+-51 0 V
+Z stroke
+1.000 1147 840 51 163 BoxColFill
+1147 840 N
+0 162 V
+50 0 V
+0 -162 V
+-50 0 V
+Z stroke
+1.000 1503 840 52 201 BoxColFill
+1503 840 N
+0 200 V
+51 0 V
+0 -200 V
+-51 0 V
+Z stroke
+1.000 1758 840 52 166 BoxColFill
+1758 840 N
+0 165 V
+51 0 V
+0 -165 V
+-51 0 V
+Z stroke
+1.000 2012 840 52 170 BoxColFill
+2012 840 N
+0 169 V
+51 0 V
+0 -169 V
+-51 0 V
+Z stroke
+1.000 2369 840 52 190 BoxColFill
+2369 840 N
+0 189 V
+51 0 V
+0 -189 V
+-51 0 V
+Z stroke
+1.000 2623 840 52 155 BoxColFill
+2623 840 N
+0 154 V
+51 0 V
+0 -154 V
+-51 0 V
+Z stroke
+1.000 2878 840 52 130 BoxColFill
+2878 840 N
+0 129 V
+51 0 V
+0 -129 V
+-51 0 V
+Z stroke
+% End plot #1
+% Begin plot #2
+1.000 UL
+LT1
+0.85 0.37 0.01 C 1.000 688 840 52 106 BoxColFill
+688 840 N
+0 105 V
+51 0 V
+0 -105 V
+-51 0 V
+Z stroke
+1.000 943 840 52 174 BoxColFill
+943 840 N
+0 173 V
+51 0 V
+0 -173 V
+-51 0 V
+Z stroke
+1.000 1197 840 52 195 BoxColFill
+1197 840 N
+0 194 V
+51 0 V
+0 -194 V
+-51 0 V
+Z stroke
+1.000 1554 840 52 201 BoxColFill
+1554 840 N
+0 200 V
+51 0 V
+0 -200 V
+-51 0 V
+Z stroke
+1.000 1809 840 52 167 BoxColFill
+1809 840 N
+0 166 V
+51 0 V
+0 -166 V
+-51 0 V
+Z stroke
+1.000 2063 840 52 169 BoxColFill
+2063 840 N
+0 168 V
+51 0 V
+0 -168 V
+-51 0 V
+Z stroke
+1.000 2420 840 52 190 BoxColFill
+2420 840 N
+0 189 V
+51 0 V
+0 -189 V
+-51 0 V
+Z stroke
+1.000 2674 840 52 155 BoxColFill
+2674 840 N
+0 154 V
+51 0 V
+0 -154 V
+-51 0 V
+Z stroke
+1.000 2929 840 52 170 BoxColFill
+2929 840 N
+0 169 V
+51 0 V
+0 -169 V
+-51 0 V
+Z stroke
+% End plot #2
+% Begin plot #3
+1.000 UL
+LT2
+0.46 0.44 0.70 C 1.000 739 840 52 41 BoxColFill
+739 840 N
+0 40 V
+51 0 V
+0 -40 V
+-51 0 V
+Z stroke
+1.000 994 840 52 84 BoxColFill
+994 840 N
+0 83 V
+51 0 V
+0 -83 V
+-51 0 V
+Z stroke
+1.000 1248 840 52 145 BoxColFill
+1248 840 N
+0 144 V
+51 0 V
+0 -144 V
+-51 0 V
+Z stroke
+1.000 1605 840 52 134 BoxColFill
+1605 840 N
+0 133 V
+51 0 V
+0 -133 V
+-51 0 V
+Z stroke
+1.000 1860 840 51 76 BoxColFill
+1860 840 N
+0 75 V
+50 0 V
+0 -75 V
+-50 0 V
+Z stroke
+1.000 2114 840 52 80 BoxColFill
+2114 840 N
+0 79 V
+51 0 V
+0 -79 V
+-51 0 V
+Z stroke
+1.000 2471 840 52 94 BoxColFill
+2471 840 N
+0 93 V
+51 0 V
+0 -93 V
+-51 0 V
+Z stroke
+1.000 2725 840 52 60 BoxColFill
+2725 840 N
+0 59 V
+51 0 V
+0 -59 V
+-51 0 V
+Z stroke
+1.000 2980 840 52 75 BoxColFill
+2980 840 N
+0 74 V
+51 0 V
+0 -74 V
+-51 0 V
+Z stroke
+% End plot #3
+% Begin plot #4
+1.000 UL
+LT3
+0.91 0.16 0.54 C 1.000 790 840 52 106 BoxColFill
+790 840 N
+0 105 V
+51 0 V
+0 -105 V
+-51 0 V
+Z stroke
+1.000 1045 840 52 174 BoxColFill
+1045 840 N
+0 173 V
+51 0 V
+0 -173 V
+-51 0 V
+Z stroke
+1.000 1299 840 52 195 BoxColFill
+1299 840 N
+0 194 V
+51 0 V
+0 -194 V
+-51 0 V
+Z stroke
+1.000 1656 840 52 201 BoxColFill
+1656 840 N
+0 200 V
+51 0 V
+0 -200 V
+-51 0 V
+Z stroke
+1.000 1910 840 52 167 BoxColFill
+1910 840 N
+0 166 V
+51 0 V
+0 -166 V
+-51 0 V
+Z stroke
+1.000 2165 840 52 170 BoxColFill
+2165 840 N
+0 169 V
+51 0 V
+0 -169 V
+-51 0 V
+Z stroke
+1.000 2522 840 51 190 BoxColFill
+2522 840 N
+0 189 V
+50 0 V
+0 -189 V
+-50 0 V
+Z stroke
+1.000 2776 840 52 155 BoxColFill
+2776 840 N
+0 154 V
+51 0 V
+0 -154 V
+-51 0 V
+Z stroke
+1.000 3031 840 52 170 BoxColFill
+3031 840 N
+0 169 V
+51 0 V
+0 -169 V
+-51 0 V
+Z stroke
+% End plot #4
+% Begin plot #5
+0.300 UP
+1.000 UL
+LT4
+0.00 0.00 0.00 C 663 967 M
+714 847 L
+51 5 V
+51 -5 V
+101 45 R
+51 0 V
+51 -27 V
+51 27 V
+102 -29 R
+51 67 V
+51 -7 V
+51 7 V
+203 6 R
+51 0 V
+51 -18 V
+51 18 V
+102 -65 R
+51 0 V
+51 -22 V
+51 22 V
+102 10 R
+51 0 V
+51 -27 V
+51 27 V
+203 17 R
+51 0 V
+51 -29 V
+51 29 V
+102 -38 R
+51 0 V
+51 -18 V
+51 18 V
+101 -3 R
+51 -1 V
+51 -14 V
+51 14 V
+663 967 BoxF
+714 847 BoxF
+765 852 BoxF
+816 847 BoxF
+917 892 BoxF
+968 892 BoxF
+1019 865 BoxF
+1070 892 BoxF
+1172 863 BoxF
+1223 930 BoxF
+1274 923 BoxF
+1325 930 BoxF
+1528 936 BoxF
+1579 936 BoxF
+1630 918 BoxF
+1681 936 BoxF
+1783 871 BoxF
+1834 871 BoxF
+1885 849 BoxF
+1936 871 BoxF
+2038 881 BoxF
+2089 881 BoxF
+2140 854 BoxF
+2191 881 BoxF
+2394 898 BoxF
+2445 898 BoxF
+2496 869 BoxF
+2547 898 BoxF
+2649 860 BoxF
+2700 860 BoxF
+2751 842 BoxF
+2802 860 BoxF
+2903 857 BoxF
+2954 856 BoxF
+3005 842 BoxF
+3056 856 BoxF
+% End plot #5
+% Begin plot #6
+0.300 UP
+1.000 UL
+LT5
+0.00 0.00 0.00 C 663 967 M
+714 847 L
+51 5 V
+51 -5 V
+101 45 R
+51 0 V
+51 -27 V
+51 27 V
+102 -29 R
+51 67 V
+51 -7 V
+51 7 V
+203 6 R
+51 0 V
+51 -18 V
+51 18 V
+102 -65 R
+51 0 V
+51 -22 V
+51 22 V
+102 10 R
+51 0 V
+51 -27 V
+51 27 V
+203 17 R
+51 0 V
+51 -29 V
+51 29 V
+102 -38 R
+51 0 V
+51 -18 V
+51 18 V
+101 -3 R
+51 -1 V
+51 -14 V
+51 14 V
+663 967 Circle
+714 847 Circle
+765 852 Circle
+816 847 Circle
+917 892 Circle
+968 892 Circle
+1019 865 Circle
+1070 892 Circle
+1172 863 Circle
+1223 930 Circle
+1274 923 Circle
+1325 930 Circle
+1528 936 Circle
+1579 936 Circle
+1630 918 Circle
+1681 936 Circle
+1783 871 Circle
+1834 871 Circle
+1885 849 Circle
+1936 871 Circle
+2038 881 Circle
+2089 881 Circle
+2140 854 Circle
+2191 881 Circle
+2394 898 Circle
+2445 898 Circle
+2496 869 Circle
+2547 898 Circle
+2649 860 Circle
+2700 860 Circle
+2751 842 Circle
+2802 860 Circle
+2903 857 Circle
+2954 856 Circle
+3005 842 Circle
+3056 856 Circle
+% End plot #6
+% Begin plot #7
+0.300 UP
+1.000 UL
+LT6
+0.00 0.00 0.00 C 663 967 M
+714 847 L
+51 5 V
+51 -5 V
+101 45 R
+51 0 V
+51 -27 V
+51 27 V
+102 -29 R
+51 67 V
+51 -7 V
+51 7 V
+203 6 R
+51 0 V
+51 -18 V
+51 18 V
+102 -65 R
+51 0 V
+51 -22 V
+51 22 V
+102 10 R
+51 0 V
+51 -27 V
+51 27 V
+203 17 R
+51 0 V
+51 -29 V
+51 29 V
+102 -38 R
+51 0 V
+51 -18 V
+51 18 V
+101 -3 R
+51 -1 V
+51 -14 V
+51 14 V
+663 967 CircleF
+714 847 CircleF
+765 852 CircleF
+816 847 CircleF
+917 892 CircleF
+968 892 CircleF
+1019 865 CircleF
+1070 892 CircleF
+1172 863 CircleF
+1223 930 CircleF
+1274 923 CircleF
+1325 930 CircleF
+1528 936 CircleF
+1579 936 CircleF
+1630 918 CircleF
+1681 936 CircleF
+1783 871 CircleF
+1834 871 CircleF
+1885 849 CircleF
+1936 871 CircleF
+2038 881 CircleF
+2089 881 CircleF
+2140 854 CircleF
+2191 881 CircleF
+2394 898 CircleF
+2445 898 CircleF
+2496 869 CircleF
+2547 898 CircleF
+2649 860 CircleF
+2700 860 CircleF
+2751 842 CircleF
+2802 860 CircleF
+2903 857 CircleF
+2954 856 CircleF
+3005 842 CircleF
+3056 856 CircleF
+% End plot #7
+% Begin plot #8
+0.300 UP
+1.000 UL
+LT7
+0.00 0.00 0.00 C 663 967 M
+714 847 L
+51 5 V
+51 -5 V
+101 45 R
+51 0 V
+51 -27 V
+51 27 V
+102 -29 R
+51 67 V
+51 -7 V
+51 7 V
+203 6 R
+51 0 V
+51 -18 V
+51 18 V
+102 -65 R
+51 0 V
+51 -22 V
+51 22 V
+102 10 R
+51 0 V
+51 -27 V
+51 27 V
+203 17 R
+51 0 V
+51 -29 V
+51 29 V
+102 -38 R
+51 0 V
+51 -18 V
+51 18 V
+101 -3 R
+51 -1 V
+51 -14 V
+51 14 V
+663 967 TriU
+714 847 TriU
+765 852 TriU
+816 847 TriU
+917 892 TriU
+968 892 TriU
+1019 865 TriU
+1070 892 TriU
+1172 863 TriU
+1223 930 TriU
+1274 923 TriU
+1325 930 TriU
+1528 936 TriU
+1579 936 TriU
+1630 918 TriU
+1681 936 TriU
+1783 871 TriU
+1834 871 TriU
+1885 849 TriU
+1936 871 TriU
+2038 881 TriU
+2089 881 TriU
+2140 854 TriU
+2191 881 TriU
+2394 898 TriU
+2445 898 TriU
+2496 869 TriU
+2547 898 TriU
+2649 860 TriU
+2700 860 TriU
+2751 842 TriU
+2802 860 TriU
+2903 857 TriU
+2954 856 TriU
+3005 842 TriU
+3056 856 TriU
+% End plot #8
+0.000 UL
+LTb
+LCb setrgbcolor
+510 1680 M
+0 -840 V
+2699 0 V
+0 840 V
+-2699 0 R
+0.300 UP
+stroke
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 4110 1163 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 1163 M
+63 0 V
+stroke
+4098 1163 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 10)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+0.50 0.50 0.50 C 4110 1486 M
+2699 0 V
+stroke
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 1486 M
+63 0 V
+stroke
+4098 1486 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 20)]
+] -66.7 MRshow
+0.000 UL
+LTb
+LCb setrgbcolor
+4339 840 M
+0 63 V
+stroke
+4339 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H1)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+4594 840 M
+0 63 V
+stroke
+4594 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H2)]
+] -60.0 MCshow
+4594 510 M
+[ [(Verdana) 180.0 0.0 true true 0 (1 ps)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+4848 840 M
+0 63 V
+stroke
+4848 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H3)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+5205 840 M
+0 63 V
+stroke
+5205 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H1)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+5460 840 M
+0 63 V
+stroke
+5460 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H2)]
+] -60.0 MCshow
+5460 510 M
+[ [(Verdana) 180.0 0.0 true true 0 (2 ps)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+5714 840 M
+0 63 V
+stroke
+5714 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H3)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6071 840 M
+0 63 V
+stroke
+6071 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H1)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6325 840 M
+0 63 V
+stroke
+6325 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H2)]
+] -60.0 MCshow
+6325 510 M
+[ [(Verdana) 180.0 0.0 true true 0 (3 ps)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6580 840 M
+0 63 V
+stroke
+6580 690 M
+[ [(Verdana) 180.0 0.0 true true 0 (H3)]
+] -60.0 MCshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6809 1050 M
+-63 0 V
+stroke
+6773 1050 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 1)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+6809 1470 M
+-63 0 V
+stroke
+6773 1470 M
+[ [(Verdana) 200.0 0.0 true true 0 ( 3)]
+] -66.7 MLshow
+0.000 UL
+LTb
+LCb setrgbcolor
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 1680 M
+0 -840 V
+2699 0 V
+0 840 V
+-2699 0 R
+stroke
+LCb setrgbcolor
+3700 1260 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Symbol) 160.0 -60.0 true true 0 (y)]
+[(Verdana) 128.0 -108.0 true true 0 (5)]
+] -30.7 MCshow
+grestore
+LTb
+LCb setrgbcolor
+7038 1260 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 200.0 0.0 true true 0 (e)]
+[(Verdana) 160.0 -60.0 true true 0 (E)]
+] -46.7 MCshow
+grestore
+LTb
+0.300 UP
+0.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UL
+LT0
+0.11 0.62 0.47 C 1.000 4237 840 52 104 BoxColFill
+4237 840 N
+0 103 V
+51 0 V
+0 -103 V
+-51 0 V
+Z stroke
+1.000 4492 840 52 210 BoxColFill
+4492 840 N
+0 209 V
+51 0 V
+0 -209 V
+-51 0 V
+Z stroke
+1.000 4747 840 51 250 BoxColFill
+4747 840 N
+0 249 V
+50 0 V
+0 -249 V
+-50 0 V
+Z stroke
+1.000 5103 840 52 618 BoxColFill
+5103 840 N
+0 617 V
+51 0 V
+0 -617 V
+-51 0 V
+Z stroke
+1.000 5358 840 52 182 BoxColFill
+5358 840 N
+0 181 V
+51 0 V
+0 -181 V
+-51 0 V
+Z stroke
+1.000 5612 840 52 155 BoxColFill
+5612 840 N
+0 154 V
+51 0 V
+0 -154 V
+-51 0 V
+Z stroke
+1.000 5969 840 52 230 BoxColFill
+5969 840 N
+0 229 V
+51 0 V
+0 -229 V
+-51 0 V
+Z stroke
+1.000 6223 840 52 155 BoxColFill
+6223 840 N
+0 154 V
+51 0 V
+0 -154 V
+-51 0 V
+Z stroke
+1.000 6478 840 52 170 BoxColFill
+6478 840 N
+0 169 V
+51 0 V
+0 -169 V
+-51 0 V
+Z stroke
+% End plot #1
+% Begin plot #2
+1.000 UL
+LT1
+0.85 0.37 0.01 C 1.000 4288 840 52 148 BoxColFill
+4288 840 N
+0 147 V
+51 0 V
+0 -147 V
+-51 0 V
+Z stroke
+1.000 4543 840 52 209 BoxColFill
+4543 840 N
+0 208 V
+51 0 V
+0 -208 V
+-51 0 V
+Z stroke
+1.000 4797 840 52 205 BoxColFill
+4797 840 N
+0 204 V
+51 0 V
+0 -204 V
+-51 0 V
+Z stroke
+1.000 5154 840 52 617 BoxColFill
+5154 840 N
+0 616 V
+51 0 V
+0 -616 V
+-51 0 V
+Z stroke
+1.000 5409 840 52 186 BoxColFill
+5409 840 N
+0 185 V
+51 0 V
+0 -185 V
+-51 0 V
+Z stroke
+1.000 5663 840 52 155 BoxColFill
+5663 840 N
+0 154 V
+51 0 V
+0 -154 V
+-51 0 V
+Z stroke
+1.000 6020 840 52 230 BoxColFill
+6020 840 N
+0 229 V
+51 0 V
+0 -229 V
+-51 0 V
+Z stroke
+1.000 6274 840 52 155 BoxColFill
+6274 840 N
+0 154 V
+51 0 V
+0 -154 V
+-51 0 V
+Z stroke
+1.000 6529 840 52 195 BoxColFill
+6529 840 N
+0 194 V
+51 0 V
+0 -194 V
+-51 0 V
+Z stroke
+% End plot #2
+% Begin plot #3
+1.000 UL
+LT2
+0.46 0.44 0.70 C 1.000 4339 840 52 87 BoxColFill
+4339 840 N
+0 86 V
+51 0 V
+0 -86 V
+-51 0 V
+Z stroke
+1.000 4594 840 52 330 BoxColFill
+4594 840 N
+0 329 V
+51 0 V
+0 -329 V
+-51 0 V
+Z stroke
+1.000 4848 840 52 184 BoxColFill
+4848 840 N
+0 183 V
+51 0 V
+0 -183 V
+-51 0 V
+Z stroke
+1.000 5205 840 52 748 BoxColFill
+5205 840 N
+0 747 V
+51 0 V
+0 -747 V
+-51 0 V
+Z stroke
+1.000 5460 840 51 64 BoxColFill
+5460 840 N
+0 63 V
+50 0 V
+0 -63 V
+-50 0 V
+Z stroke
+1.000 5714 840 52 208 BoxColFill
+5714 840 N
+0 207 V
+51 0 V
+0 -207 V
+-51 0 V
+Z stroke
+1.000 6071 840 52 337 BoxColFill
+6071 840 N
+0 336 V
+51 0 V
+0 -336 V
+-51 0 V
+Z stroke
+1.000 6325 840 52 220 BoxColFill
+6325 840 N
+0 219 V
+51 0 V
+0 -219 V
+-51 0 V
+Z stroke
+1.000 6580 840 52 73 BoxColFill
+6580 840 N
+0 72 V
+51 0 V
+0 -72 V
+-51 0 V
+Z stroke
+% End plot #3
+% Begin plot #4
+1.000 UL
+LT3
+0.91 0.16 0.54 C 1.000 4390 840 52 122 BoxColFill
+4390 840 N
+0 121 V
+51 0 V
+0 -121 V
+-51 0 V
+Z stroke
+1.000 4645 840 52 147 BoxColFill
+4645 840 N
+0 146 V
+51 0 V
+0 -146 V
+-51 0 V
+Z stroke
+1.000 4899 840 52 275 BoxColFill
+4899 840 N
+0 274 V
+51 0 V
+0 -274 V
+-51 0 V
+Z stroke
+1.000 5256 840 52 259 BoxColFill
+5256 840 N
+0 258 V
+51 0 V
+0 -258 V
+-51 0 V
+Z stroke
+1.000 5510 840 52 183 BoxColFill
+5510 840 N
+0 182 V
+51 0 V
+0 -182 V
+-51 0 V
+Z stroke
+1.000 5765 840 52 152 BoxColFill
+5765 840 N
+0 151 V
+51 0 V
+0 -151 V
+-51 0 V
+Z stroke
+1.000 6122 840 51 177 BoxColFill
+6122 840 N
+0 176 V
+50 0 V
+0 -176 V
+-50 0 V
+Z stroke
+1.000 6376 840 52 139 BoxColFill
+6376 840 N
+0 138 V
+51 0 V
+0 -138 V
+-51 0 V
+Z stroke
+1.000 6631 840 52 180 BoxColFill
+6631 840 N
+0 179 V
+51 0 V
+0 -179 V
+-51 0 V
+Z stroke
+% End plot #4
+% Begin plot #5
+0.300 UP
+1.000 UL
+LT4
+0.00 0.00 0.00 C 4263 1097 M
+51 -94 V
+51 -96 V
+51 135 V
+101 25 R
+51 1 V
+51 130 V
+51 -232 V
+102 70 R
+51 -113 V
+51 -54 V
+51 142 V
+203 86 R
+51 1 V
+51 152 V
+51 -384 V
+102 62 R
+51 -6 V
+51 27 V
+51 -23 V
+102 93 R
+51 1 V
+51 84 V
+51 -150 V
+203 158 R
+51 1 V
+51 97 V
+51 -167 V
+102 73 R
+51 0 V
+51 45 V
+51 -86 V
+101 -43 R
+51 -43 V
+51 -37 V
+51 57 V
+4263 1097 BoxF
+4314 1003 BoxF
+4365 907 BoxF
+4416 1042 BoxF
+4517 1067 BoxF
+4568 1068 BoxF
+4619 1198 BoxF
+4670 966 BoxF
+4772 1036 BoxF
+4823 923 BoxF
+4874 869 BoxF
+4925 1011 BoxF
+5128 1097 BoxF
+5179 1098 BoxF
+5230 1250 BoxF
+5281 866 BoxF
+5383 928 BoxF
+5434 922 BoxF
+5485 949 BoxF
+5536 926 BoxF
+5638 1019 BoxF
+5689 1020 BoxF
+5740 1104 BoxF
+5791 954 BoxF
+5994 1112 BoxF
+6045 1113 BoxF
+6096 1210 BoxF
+6147 1043 BoxF
+6249 1116 BoxF
+6300 1116 BoxF
+6351 1161 BoxF
+6402 1075 BoxF
+6503 1032 BoxF
+6554 989 BoxF
+6605 952 BoxF
+6656 1009 BoxF
+% End plot #5
+% Begin plot #6
+0.300 UP
+1.000 UL
+LT5
+0.00 0.00 0.00 C 4263 1097 M
+51 -94 V
+51 -96 V
+51 135 V
+101 25 R
+51 1 V
+51 130 V
+51 -232 V
+102 70 R
+51 -113 V
+51 -54 V
+51 142 V
+203 86 R
+51 1 V
+51 152 V
+51 -384 V
+102 62 R
+51 -6 V
+51 27 V
+51 -23 V
+102 93 R
+51 1 V
+51 84 V
+51 -150 V
+203 158 R
+51 1 V
+51 97 V
+51 -167 V
+102 73 R
+51 0 V
+51 45 V
+51 -86 V
+101 -43 R
+51 -43 V
+51 -37 V
+51 57 V
+4263 1097 Circle
+4314 1003 Circle
+4365 907 Circle
+4416 1042 Circle
+4517 1067 Circle
+4568 1068 Circle
+4619 1198 Circle
+4670 966 Circle
+4772 1036 Circle
+4823 923 Circle
+4874 869 Circle
+4925 1011 Circle
+5128 1097 Circle
+5179 1098 Circle
+5230 1250 Circle
+5281 866 Circle
+5383 928 Circle
+5434 922 Circle
+5485 949 Circle
+5536 926 Circle
+5638 1019 Circle
+5689 1020 Circle
+5740 1104 Circle
+5791 954 Circle
+5994 1112 Circle
+6045 1113 Circle
+6096 1210 Circle
+6147 1043 Circle
+6249 1116 Circle
+6300 1116 Circle
+6351 1161 Circle
+6402 1075 Circle
+6503 1032 Circle
+6554 989 Circle
+6605 952 Circle
+6656 1009 Circle
+% End plot #6
+% Begin plot #7
+0.300 UP
+1.000 UL
+LT6
+0.00 0.00 0.00 C 4263 1097 M
+51 -94 V
+51 -96 V
+51 135 V
+101 25 R
+51 1 V
+51 130 V
+51 -232 V
+102 70 R
+51 -113 V
+51 -54 V
+51 142 V
+203 86 R
+51 1 V
+51 152 V
+51 -384 V
+102 62 R
+51 -6 V
+51 27 V
+51 -23 V
+102 93 R
+51 1 V
+51 84 V
+51 -150 V
+203 158 R
+51 1 V
+51 97 V
+51 -167 V
+102 73 R
+51 0 V
+51 45 V
+51 -86 V
+101 -43 R
+51 -43 V
+51 -37 V
+51 57 V
+4263 1097 CircleF
+4314 1003 CircleF
+4365 907 CircleF
+4416 1042 CircleF
+4517 1067 CircleF
+4568 1068 CircleF
+4619 1198 CircleF
+4670 966 CircleF
+4772 1036 CircleF
+4823 923 CircleF
+4874 869 CircleF
+4925 1011 CircleF
+5128 1097 CircleF
+5179 1098 CircleF
+5230 1250 CircleF
+5281 866 CircleF
+5383 928 CircleF
+5434 922 CircleF
+5485 949 CircleF
+5536 926 CircleF
+5638 1019 CircleF
+5689 1020 CircleF
+5740 1104 CircleF
+5791 954 CircleF
+5994 1112 CircleF
+6045 1113 CircleF
+6096 1210 CircleF
+6147 1043 CircleF
+6249 1116 CircleF
+6300 1116 CircleF
+6351 1161 CircleF
+6402 1075 CircleF
+6503 1032 CircleF
+6554 989 CircleF
+6605 952 CircleF
+6656 1009 CircleF
+% End plot #7
+% Begin plot #8
+0.300 UP
+1.000 UL
+LT7
+0.00 0.00 0.00 C 4263 1097 M
+51 -94 V
+51 -96 V
+51 135 V
+101 25 R
+51 1 V
+51 130 V
+51 -232 V
+102 70 R
+51 -113 V
+51 -54 V
+51 142 V
+203 86 R
+51 1 V
+51 152 V
+51 -384 V
+102 62 R
+51 -6 V
+51 27 V
+51 -23 V
+102 93 R
+51 1 V
+51 84 V
+51 -150 V
+203 158 R
+51 1 V
+51 97 V
+51 -167 V
+102 73 R
+51 0 V
+51 45 V
+51 -86 V
+101 -43 R
+51 -43 V
+51 -37 V
+51 57 V
+4263 1097 TriU
+4314 1003 TriU
+4365 907 TriU
+4416 1042 TriU
+4517 1067 TriU
+4568 1068 TriU
+4619 1198 TriU
+4670 966 TriU
+4772 1036 TriU
+4823 923 TriU
+4874 869 TriU
+4925 1011 TriU
+5128 1097 TriU
+5179 1098 TriU
+5230 1250 TriU
+5281 866 TriU
+5383 928 TriU
+5434 922 TriU
+5485 949 TriU
+5536 926 TriU
+5638 1019 TriU
+5689 1020 TriU
+5740 1104 TriU
+5791 954 TriU
+5994 1112 TriU
+6045 1113 TriU
+6096 1210 TriU
+6147 1043 TriU
+6249 1116 TriU
+6300 1116 TriU
+6351 1161 TriU
+6402 1075 TriU
+6503 1032 TriU
+6554 989 TriU
+6605 952 TriU
+6656 1009 TriU
+% End plot #8
+0.000 UL
+LTb
+LCb setrgbcolor
+4110 1680 M
+0 -840 V
+2699 0 V
+0 840 V
+-2699 0 R
+0.300 UP
+stroke
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Symbol Verdana

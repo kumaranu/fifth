@@ -1,0 +1,145 @@
+\chapter{Conclusion and future work}
+
+\section{Using fragmentation with sampling}
+{\label {samplingSection}}
+Although AIMD has shown to be excellent for small to medium sized molecular
+systems, but it is still impossible to use it for large systems such as biological
+molecules, ion channels with thousands of atoms etc. One of the reasons for this limitation
+is the electronic structure calculations and another reason is that the protein
+structural changes occur in the time scales of micro- to milliseconds. Getting a micro
+or millisecond trajectory using AIMD is inaccessible even for smaller molecules. Though,
+there exist several MD techniques to sample these rare events. But MD lacks quantum
+nuclear effects which are crucial for hydrogen transfer reactions in biological systems.
+Catalytic oxidation of linoleic acid by an enzyme, Soybean lipoxynase-1 (SLO-1) is one
+of these examples \cite{SLO-rare-isotopes, SLO1-Rareevents}. H/D nuclear tunneling has
+been observed in this oxidation reaction by studying kinetic isotope effects. It has
+been shown in Refs. \onlinecite{SLO-rare-isotopes} that the acceptor side in the above
+mentioned oxidation reaction is an octahedral $Fe^{3+}$ complex with OH and isoleucine
+as two of the six ligands. During the proton transfer from carbon of linoleic acid to
+oxygen of the hydroxyl ligand of the acceptor, hydrogen of hydroxyl group makes a
+hydrogen bond with oxygen of carbonyl group attached to isoleucine. Hence there is a
+need to study the correlated potential energy surfaces as a function of reaction
+coordinate. The correlated potential should include both the protons, proton getting
+transferred and the proton of hydroxyl group simultaneously.
+Potential energy surface needs to be approximated by QM/MM calculations on a grid.
+As the number of calculations required to calculate potential energy on the whole
+grid grow exponentially with the number of degrees of freedom, sampling functions
+are used to sample important points
+of the potential so that a small number of calculations can be performed to get an
+interpolated potential with some acceptable accuracy. These sampling functions use
+quantum wavepacket density, approximate potential, gradients and local entropy
+of quantum wavepacket calculated using Shannon information theory \cite{shannonIsoprene}.
+After sampling
+the important points from the grid, there remains another problem and i.e. calculating
+the QM part of the hybrid QM/MM calculations. QM can be further divided into
+fragmentation based electronic structure calculations and post-hartree fock
+accuracy can be achieved for the important regions of the proton transfer molecular
+system. As there are proton transfer reactions, hydrogen atom will change fragmentation
+schemes and hence multiple topologies might be used in these fragment based electronic
+structure calculations. Different type of interpolation schemes such as local Hermite
+curve interpolation, low-pass filtered Lagrange interpolation and monomial symmetrization
+approximation might be used to get interpolated potential surfaces for each of the
+topologies. CTM interpolation can then be used on the topology potentials to get a
+multi-topology based potential energy surface.
+
+\section{Landau-Zener based topological transition probabilities} 
+Under the assumption that the wavefunctions corresponding to the two diabatic topological states
+are orthogonal, at a given time step the probability of hopping from one topological state to another can be written
+as
+
+\begin{equation}
+\label{LandauZEquation}
+P = \exp\bigg[-\frac{2\pi\epsilon_{12}^{2}}{\hbar\nu|F_{1}-F_{2}|}\bigg]
+\end{equation}
+
+where $\epsilon_{12}$ is the off-diagonal element of the Hamiltonian matrix discussed above at the time step, $\nu$
+is the velocity of the whole system calculated at the time step and $F_{1}$ and $F_{2}$ are the forces calculated
+using topologies one and two at the time step respectively.
+
+If the off-diagonal element is a function of the difference in energy of the two states such that 
+the $\epsilon_{12}$ is bounded under $|\epsilon_{1} - \epsilon_{2}| \rightarrow 0$ then as the two
+states come closer and $\nu \rightarrow \infty$, P $\rightarrow$ 1. And also as $\nu \rightarrow 0$
+and if the off-diagonal element is finite under $|\epsilon_{1}-\epsilon_{2}|$ 
+then P $\rightarrow$ 0.
+
+Eq. \ref{LandauZEquation} can be transformed into the following equation:
+\begin{equation}
+P = \exp\bigg[-\frac{2\pi\epsilon_{12}^{2}}{\hbar|\frac{dV_{1}}{dt}-\frac{dV_{2}}{dt}|}\bigg]
+\end{equation}
+
+as $\nu$ is the velocity of the system and $F_{i} = \frac{dV_i}{dR}$ and hence $\nu*F_{i}$ is $\frac{dV}{dt}$.
+
+\section{Stochastic surface hopping based multi-topology scheme}
+One of the key limitations of classical trajectory method is that it can only be used for
+systems for which the nuclear motion can be represented by only one potential energy
+surface. In case of fragment based AIMD this potential is approximated by employing one
+fragmentation topology with the use of Eq. \ref{eq:pie-oniom} and Eq. \ref{oniombasic-2}.
+Molecular collision processes involving nonadiabatic transitions such as charge transfer,
+quenching, radiationless transitions, etc. cannot be represented well by using classical
+trajectory method. Avoided crossing of adiabatic states causes non-adiabatic effects
+\cite{landau1932theory, zener1932non, stueckelberg1932ecg} during dynamics and surface
+hopping methods are known to work well in obtaining effective potential.
+Similarly, when a proton hops between one topology surface to another an interpolation is
+required to get effective potential surface which can be used during dynamics. Analogous to
+topology change in fragment based AIMD or potential surface discussed in chapter 2, the
+non-adiabatic coupling occur in small regions of configurational space. 
+Under the semi-classical treatment of non-adiabatic transitions, the probability $|a_{j}|^2$
+that a system is in state $j$ at time $t$ can be calculated by solving the differential equation
+\begin{equation}
+\label{surfaceHoppingEqn}
+{\dot a}_{j} = - \sum_{i}^{}a_{i}v \big \langle \phi_{j}|\frac{\partial \phi_{i}}{\partial R}
+ \big \rangle exp\bigg[-(i/\hbar)\int_{}^{t} (E_{i}-E_{j})dt  \bigg]
+\end{equation}
+for a given trajectory R(t) \cite{tully1971trajectory}. Here $v$ is nuclear velocity,
+$\phi_{i}$ are electronic eigenstates. $E_{i}$ and $E_{j}$ are electronic energy eigenvalues
+corresponding to $i^{th}$ and $j^{th}$ states respectively. Hence, following our analogy
+between electronic energies and fragment based electronic energies, the surface hopping method
+can utilized with an approximation. The approximation is the assumption that the eigenstates
+corresponding to different topologies are orthogonal and then, Eq. \ref{surfaceHoppingEqn}
+can be solved to get $a_{j}$, who square would give the probability corresponding to the
+$j^{th}$ topology.
+
+%\section{Multidimensional seams and their complexity with the number of protons involved in the
+%scan}
+%To solve the general problem in fragment based potential surface calculations, we have to interpolate
+%between M number of N-dimensional potential surfaces with any number of hops distributed over
+%the whole domain of the potential surface. So far we have done a lot of one dimensional potential
+%interpolations on different waterwires such as $(H_2O)_{12}H^+$, $(H_2O)_{5}H^+$ and $(H_2O)_{3}H^+$
+%along with other water clusters such as eigen cations. All of these one dimensional interpolations are
+%shown to work well in Section \ref{eigenResults} and Section \ref{waterwireResults} of Chapter
+%\ref{chapter3}. Hence we comprehend that the errors in potentials should be of the order of a tenth of
+%a kcal/mol with known hopping points. But in the multidimensional case, we don't have a prior knowledge of the
+%seam and hence we need to solve the problems with unknown seams.
+%\subsection{Dimensionality of seams}
+%For one-dimensional potentials the seam is a point for every hop between two topologies but it more
+%complex for higher dimensional potential surface hopping. For example, in two dimensional potentials
+%the seam is a curved line which represents the intersection of two potential surfaces. Hence for an
+%N-dimensional potential
+%surface, the seam would be an N-1 dimensional surface and we would not know its prior location in the
+%N-dimension space. One of the future goal of this work is to utilize sampling methods as mentioned
+%earlier in Section \ref{samplingSection}, to come up with fewer number of points to do electronic
+%structure calculation to generate the desired potential surface. Sampling functions give irregularly
+%arranged set of points on the grid. We also need to make sure that the interpolation works well with
+%such as fewer number of grid points along the with the unknown seam. One of the possible approaches
+%could be coming up with a modification in the Shannon entropy function to identify seams.
+%
+%\subsection{Estimate for seams in multi-dimensions}
+%Coupled proton motions involve more than two topologies in their multi-topology interpolation scheme.
+%As illustrated by the two dimensional Morse potential problem solved in Section \ref{analyticalPotentials}
+%of Chapter \ref{chapter3} where we have 5 seams, this is complex problem with unknown seams. Hence, we need
+%to come up with estimates about the seam for every hop between two different potential surfaces. One of the
+%methods in this regard can be using Delaunay triangulation of the whole space by using the ``centroids'' of
+%each topology as the nodes. The boundaries (which may not be in general be lines as in higher than two
+%dimensional potentials) would correspond to the direction of hop and a region near center of each edge can
+%be considered as seam.
+
+
+
+
+
+
+
+
+
+
+%\newpage

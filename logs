@@ -1,0 +1,2163 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux)
+ restricted \write18 enabled.
+ Source specials enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(./mitthesis.cls
+Document Class: mitthesis 1999/10/20
+(/usr/share/texmf/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo))
+(/usr/share/texmf/tex/latex/setspace/setspace.sty)
+Thesis document copyright MIT unless otherwise (manually) specified
+) (./lgrind.sty) (/usr/share/texmf/tex/latex/cmap/cmap.sty)
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+(/usr/share/texmf/tex/latex/base/t1enc.def)<<t1.cmap>>)
+(/usr/share/texmf/tex/latex/cite/cite.sty)
+(/usr/share/texmf/tex/latex/base/inputenc.sty
+(/usr/share/texmf/tex/latex/base/utf8.def
+(/usr/share/texmf/tex/latex/base/t1enc.dfu)
+(/usr/share/texmf/tex/latex/base/ot1enc.dfu)
+(/usr/share/texmf/tex/latex/base/omsenc.dfu)))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(/usr/share/texmf/tex/latex/latexconfig/color.cfg)
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty))
+(/usr/share/texmf/tex/latex/colortbl/colortbl.sty
+(/usr/share/texmf/tex/latex/tools/array.sty)))
+(/usr/share/texmf/tex/latex/appendix/appendix.sty)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(/usr/share/texmf/tex/latex/graphics/trig.sty)
+(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg)))
+(/usr/share/texmf/tex/latex/rotating/rotating.sty
+(/usr/share/texmf/tex/latex/base/ifthen.sty))
+
+! LaTeX Error: File `wrapfig.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: (/usr/share/texmf/tex/latex/graphics/lscape.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty)
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texmf/tex/generic/ulem/ulem.sty)
+(/usr/share/texmf/tex/latex/mh/mathtools.sty
+(/usr/share/texmf/tex/latex/tools/calc.sty)
+(/usr/share/texmf/tex/latex/mh/mhsetup.sty))
+(/usr/share/texmf/tex/latex/mdwtools/footnote.sty)
+(/usr/share/texmf/tex/latex/hyphenat/hyphenat.sty)
+(/usr/share/texmf/tex/latex/tools/indentfirst.sty)
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf.sty
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texmf/tex/latex/oberdiek/grfext.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvdefinekeys.sty))
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texmf/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texmf/tex/generic/oberdiek/ifluatex.sty))))
+(/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty))
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg)))
+(/usr/share/texmf/tex/latex/ctable/ctable.sty
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texmf/tex/generic/xkeyval/xkeyval.tex))
+(/usr/share/texmf/tex/latex/tools/tabularx.sty)
+(/usr/share/texmf/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texmf/tex/latex/oberdiek/transparent.sty
+(/usr/share/texmf/tex/latex/oberdiek/auxhook.sty)))
+(/usr/share/texmf/tex/latex/caption/caption.sty
+(/usr/share/texmf/tex/latex/caption/caption3.sty)
+
+! Package caption Error: For a successful cooperation we need at least version
+(caption)                `2003/01/31 v3.6' of package wrapfig,
+(caption)                but only version
+(caption)                `'
+(caption)                is available.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1764 }{}
+          
+? ) (/usr/share/texmf/tex/latex/caption/subcaption.sty)
+(/usr/share/texmf/tex/latex/float/float.sty)
+(/usr/share/texmf/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texmf/tex/latex/etex-pkg/etex.sty))
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/share/texmf/tex/latex/ms/everyshi.sty))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex))) (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux)
+(./chap2.aux) (./chap3.aux) (./chap4.aux) (./appa.aux) (./appb.aux
+
+LaTeX Warning: Label `eq2' multiply defined.
+
+) (./appc.aux
+
+LaTeX Warning: Label `fx_function' multiply defined.
+
+) (./biblio.aux)) (/usr/share/texmf/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) ABD: EveryShipout initializing macros (./cover.tex<<ot1.cmap>>
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd)) [1{/usr/share/texmf/fonts/map/pd
+ftex/updmap/pdftex.map}] (./contents.tex (./main.toc
+Overfull \hbox (25.4344pt too wide) in paragraph at lines 2--2
+ [][] []\T1/cmr/bx/n/12 Rigorous pro-ce-dures to in-clude mul-ti-ple frag-ment 
+topolo-gies in elec-tronic 
+
+Overfull \hbox (8.78032pt too wide) in paragraph at lines 6--6
+ [][][] []\T1/cmr/m/n/12 A pseudo-Hamiltonian for-mal-ism that al-lows con-tin-
+u-ous mor-ph-ing across 
+
+Overfull \hbox (19.34642pt too wide) in paragraph at lines 13--13
+ [][][] []\T1/cmr/m/n/12 Comparison of di-a-batic sur-faces with their CTM in-t
+er-po-la-tion for $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]O\OT1/cmr/m/n/12 )[]\OM
+L/cmm/m/it/12 H[]$ [][]  
+[2]) [3]) (./chap1.tex
+Chapter 1.
+[4]
+Overfull \hbox (20.98021pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 (a) Born-Oppenheimer molec-u-lar dy-nam-ics (BOMD) [22[]31] and 
+(b) ex-tended La-grangian
+
+Overfull \hbox (11.10468pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 La-grangian meth-ods, on the con-trary, si-mul-ta-ne-ously prop-
+a-gate the elec-tronic struc-tural
+
+Overfull \hbox (21.12454pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 pa-ram-e-ters, along with the nu-clear frame-work, through a sim
+-ple ad-just-ment of time-scales.
+
+Overfull \hbox (17.86284pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 ma-trix prop-a-ga-tion (ADMP) [64[]69] method uses atom-centered
+ Gaus-sian ba-sis func-tions
+
+Overfull \hbox (20.92874pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 and sin-gle par-ti-cle elec-tronic den-sity ma-tri-ces as elec-t
+ronic pa-ram-e-ters that are prop-a-gated
+
+Overfull \hbox (16.17253pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 with the nu-clei. The ADMP method has been em-ployed to study vi
+-bra-tional spec-troscopy
+[5]
+Overfull \hbox (7.47089pt too wide) in paragraph at lines 64--93
+\T1/cmr/m/n/12 ONIOM method [95] has been gen-er-al-ized by us-ing the set-theo
+retic, inclusion-exclusion
+[6]
+Overfull \hbox (8.77258pt too wide) in paragraph at lines 94--119
+\T1/cmr/m/n/12 atoms, a full po-ten-tial en-ergy sur-face is a $\OT1/cmr/m/n/12
+ 3\OML/cmm/m/it/12 N$ \T1/cmr/m/n/12 di-men-sional func-tion. Say, we ap-prox-i
+-mate
+
+Overfull \hbox (51.92798pt too wide) in paragraph at lines 120--140
+\T1/cmr/m/n/12 com-bined to ob-tain a smooth, in-ter-po-lated, adap-tive, syste
+m-independent, multi-topology-based
+
+Overfull \hbox (14.85526pt too wide) in paragraph at lines 120--140
+\T1/cmr/m/n/12 Chap-ter 2 that the method of com-put-ing a multi-topology sur-f
+ace re-quires non-Hermitian
+[7] [8]) (./chap2.tex
+Chapter 2.
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 8.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 10.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 12.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 15.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 17.
+
+[9]
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
+line 22.
+
+
+Overfull \hbox (8.97601pt too wide) in paragraph at lines 22--29
+[][]\T1/cmr/m/n/12 The im-age in Fig-ure [](b) is al-ge-braically trans-lated u
+s-ing the set-theoretic prin-ci-ple
+
+Overfull \hbox (8.22424pt too wide) in paragraph at lines 22--29
+\T1/cmr/m/n/12 re-gions carry en-ergy cor-rec-tion to the over-all sys-tem. The
+ as-so-ci-ated inclusion-exclusion
+
+Overfull \hbox (38.46867pt too wide) in paragraph at lines 35--35
+[] 
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
+line 38.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
+line 49.
+
+
+Overfull \hbox (3.50375pt too wide) in paragraph at lines 46--70
+\T1/cmr/m/n/12 both high as well as low level of the-ory cal-cu-la-tion on pri-
+mary and deriva-tive frag-ments.
+[10]
+Overfull \hbox (51.62778pt too wide) in paragraph at lines 71--71
+[]\T1/cmr/bx/n/17.28 Challenges for AIMD and po-ten-tial sur-face cal-cu-la-tio
+ns 
+[11] <figures/bomdEnergy-eps-converted-to.pdf, id=56, 281.05pt x 219.82124pt>
+<use figures/bomdEnergy-eps-converted-to.pdf> [12]
+<figures/graph1all-eps-converted-to.pdf, id=63, 278.03876pt x 253.94875pt>
+<use figures/graph1all-eps-converted-to.pdf>
+<figures/reZoomedInWithoutCTM-eps-converted-to.pdf, id=64, 278.03876pt x 253.94
+875pt> <use figures/reZoomedInWithoutCTM-eps-converted-to.pdf>
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 124--138
+ [][][]  [] 
+
+Overfull \hbox (8.86644pt too wide) in paragraph at lines 141--154
+\T1/cmr/m/n/12 frag-men-ta-tion pro-cess, re-quired in AIMD and in PES cal-cu-l
+a-tions, many such topolo-gies
+[13 <./figures/bomdEnergy-eps-converted-to.pdf>]
+Overfull \hbox (2.08745pt too wide) in paragraph at lines 155--155
+[]\T1/cmr/bx/n/17.28 Formal con-structs for a multi-topology for-mal-ism 
+[14 <./figures/graph1all-eps-converted-to.pdf> <./figures/reZoomedInWithoutCTM-
+eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 15 undefined on input 
+line 177.
+
+
+Overfull \hbox (25.69545pt too wide) in paragraph at lines 183--190
+[][]\T1/cmr/m/n/12 In prob-a-bly the most straight-forward im-ple-men-ta-tion, 
+we cast this multiple-topology
+
+Overfull \hbox (4.62007pt too wide) in paragraph at lines 183--190
+\T1/cmr/m/n/12 This par-tic-u-lar for-mal-ism is com-pletely bench-marked in th
+is re-port and pre-sented
+[15]
+Overfull \hbox (1.09593pt too wide) in paragraph at lines 198--200
+[][]\T1/cmr/m/n/12 Our even-tual goal is to con-struct wavepacket dy-nam-ics on
+ these mul-ti-ple sur-faces
+[16]
+Overfull \hbox (58.8563pt too wide) in paragraph at lines 238--238
+[]\T1/cmr/bx/n/17.28 A pseudo-Hamiltonian for-mal-ism that al-lows con-tin-u-ou
+s
+[17] [18]
+Overfull \hbox (21.81973pt too wide) in paragraph at lines 299--301
+[][]\T1/cmr/m/n/12 We name this method of in-ter-po-la-tion as $[]$
+
+Overfull \hbox (73.76167pt too wide) in paragraph at lines 303--303
+[]\T1/cmr/bx/n/17.28 Computational ef-fi-ciency for po-ten-tial sur-face cal-cu
+-la-tions 
+
+Overfull \hbox (17.32625pt too wide) in paragraph at lines 304--313
+\T1/cmr/m/n/12 cost. Par-al-lel com-put-ing im-ple-men-ta-tion of these frag-me
+nt's po-ten-tial en-ergy cal-cu-la-tions
+[19]
+Overfull \hbox (45.13216pt too wide) in paragraph at lines 319--319
+[]\T1/cmr/bx/n/17.28 NEEDS TO BE MOD-I-FIED Other meth-ods de-vel-oped
+
+Overfull \hbox (3.81625pt too wide) in paragraph at lines 320--363
+\T1/cmr/m/n/12 multi-state em-pir-i-cal va-lence bond model (MS-EVB) [190] to s
+im-u-late pro-ton trans-port
+[20] [21]) (./chap3.tex
+Chapter 3.
+[22]
+<figures/potentialsGraph-eps-converted-to.pdf, id=109, 361.35pt x 252.945pt>
+<use figures/potentialsGraph-eps-converted-to.pdf>
+<figures/diffGraph-eps-converted-to.pdf, id=110, 361.35pt x 252.945pt>
+<use figures/diffGraph-eps-converted-to.pdf>
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 23--36
+ [][][]  [] 
+[23 <./figures/potentialsGraph-eps-converted-to.pdf> <./figures/diffGraph-eps-c
+onverted-to.pdf>] [24]
+Overfull \hbox (42.89026pt too wide) in paragraph at lines 98--107
+\T1/cmr/m/n/12 and $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]O\OT1/cmr/m/n/12 )[]\O
+ML/cmm/m/it/12 H[]$ \T1/cmr/m/n/12 as bench-mark sys-tems for po-ten-tial en-er
+gy sur-face cal-cu-la-tions. Frag-men-ta-tion
+[25]
+Overfull \hbox (36.97057pt too wide) in paragraph at lines 113--113
+[]\T1/cmr/bx/n/17.28 Adaptive de-tec-tion of changes in topo-log-i-cal net-work
+s 
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 26 undefined on input 
+line 136.
+
+
+Overfull \hbox (7.30646pt too wide) in paragraph at lines 126--140
+\T1/cmr/m/n/12 tri-an-gu-la-tion. For a given set of points in a d-dimensional 
+space, De-lau-nay tri-an-gu-la-tion
+[26] [27] [28]
+Overfull \hbox (4.3908pt too wide) in paragraph at lines 206--211
+\T1/cmr/m/n/12 An-other im-por-tant ob-ser-va-tion is that the sur-faces cor-re
+-spond-ing to $\OML/cmm/m/it/12 E[]; E[]$
+<figures/reZoomedIn-eps-converted-to.pdf, id=141, 278.03876pt x 253.94875pt>
+<use figures/reZoomedIn-eps-converted-to.pdf>
+<figures/DiffERepeated-eps-converted-to.pdf, id=142, 361.35pt x 252.945pt>
+<use figures/DiffERepeated-eps-converted-to.pdf>
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 214--227
+ [][][]  [] 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.233 ...pology1}$ on the left side and hence $E$_
+                                                  {CTM}-$E_{Topology1}$
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.233 ... on the left side and hence $E$_{CTM}-$E_
+                                                  {Topology1}$
+? [29 <./figures/reZoomedIn-eps-converted-to.pdf> <./figures/DiffERepeated-eps-co
+nverted-to.pdf>]
+Overfull \hbox (24.64436pt too wide) in paragraph at lines 246--252
+[][]\T1/cmr/m/n/12 Using all the three po-ten-tial dis-cussed above sym-metrize
+d Hamil-to-ni-ans are con-structed
+<figures/DiffEVRepeated-eps-converted-to.pdf, id=158, 361.35pt x 252.945pt>
+<use figures/DiffEVRepeated-eps-converted-to.pdf>
+Overfull \hbox (22.5644pt too wide) in paragraph at lines 269--274
+[][]\T1/cmr/m/n/12 One of the fu-ture goals of this project is to also im-ple-m
+ent a topo-log-i-cal surface-hopping
+[30] [31 <./figures/DiffEVRepeated-eps-converted-to.pdf>]
+<image.png, id=175, 513.41812pt x 513.41812pt> <use image.png>
+
+LaTeX Warning: Reference `figureToShowEigenScans' on page 32 undefined on input
+ line 299.
+
+
+LaTeX Warning: Reference `figureToShowEigenScans' on page 32 undefined on input
+ line 301.
+
+
+Overfull \hbox (117.62885pt too wide) in paragraph at lines 304--307
+[][]\T1/cmr/m/n/12 The er-rors be-tween the CTM method used with pie-oniom (MP2
+/6-31++g(d,p))/(B3LYP/6-31++g(d,p))
+[32] [33 <./image.png>]
+<figures/bars-eps-converted-to.pdf, id=182, 361.35pt x 262.9825pt>
+<use figures/bars-eps-converted-to.pdf> [34] [35 <./figures/bars-eps-converted-
+to.pdf>] <figures/E-eps-converted-to.pdf, id=201, 361.35pt x 252.945pt>
+<use figures/E-eps-converted-to.pdf> [36] [37 <./figures/E-eps-converted-to.pdf
+>]
+<figures/eigenEvalEditted-eps-converted-to.pdf, id=218, 361.35pt x 252.945pt>
+<use figures/eigenEvalEditted-eps-converted-to.pdf> [38 <./figures/eigenEvalEdi
+tted-eps-converted-to.pdf>]
+<figures/autosubScanEigen-eps-converted-to.pdf, id=233, 361.35pt x 252.945pt>
+<use figures/autosubScanEigen-eps-converted-to.pdf> [39] [40 <./figures/autosub
+ScanEigen-eps-converted-to.pdf>]
+<figures/wwbars-eps-converted-to.pdf, id=249, 361.35pt x 273.02pt>
+<use figures/wwbars-eps-converted-to.pdf> [41] [42 <./figures/wwbars-eps-conver
+ted-to.pdf>] <figures/wwE-eps-converted-to.pdf, id=266, 361.35pt x 252.945pt>
+<use figures/wwE-eps-converted-to.pdf> [43 <./figures/wwE-eps-converted-to.pdf>
+] <figures/barsEditted-eps-converted-to.pdf, id=280, 361.35pt x 252.945pt>
+<use figures/barsEditted-eps-converted-to.pdf> [44]
+<figures/threeTopoCase-eps-converted-to.pdf, id=284, 361.35pt x 328.22626pt>
+<use figures/threeTopoCase-eps-converted-to.pdf> [45 <./figures/barsEditted-eps
+-converted-to.pdf>] [46] [47 <./figures/threeTopoCase-eps-converted-to.pdf>])
+(./chap4.tex
+Chapter 4.
+! Undefined control sequence.
+l.15 been shown in Refs. \onlinecite
+                                    {SLO-rare-isotopes} that the acceptor si...
+
+? 
+Overfull \hbox (1.2194pt too wide) in paragraph at lines 4--43
+\T1/cmr/m/n/12 sys-tems, but it is still im-pos-si-ble to use it for large sys-
+tems such as bi-o-log-i-cal molecules,
+[48] [49]
+Overfull \hbox (53.2251pt too wide) in paragraph at lines 45--45
+[]\T1/cmr/bx/n/17.28 Landau-Zener based topo-log-i-cal tran-si-tion prob-a-bil-
+i-ties 
+
+Overfull \hbox (8.39816pt too wide) in paragraph at lines 74--89
+\T1/cmr/m/n/12 col-li-sion pro-cesses in-volv-ing nona-di-a-batic tran-si-tions
+ such as charge trans-fer, quench-ing,
+[50]
+Overfull \hbox (2.97763pt too wide) in paragraph at lines 93--102
+[]\T1/cmr/m/n/12 for a given tra-jec-tory R(t) [187]. Here $\OML/cmm/m/it/12 v$
+ \T1/cmr/m/n/12 is nu-clear ve-loc-ity, $\OML/cmm/m/it/12 ^^^[]$ \T1/cmr/m/n/12
+ are elec-tronic eigen-states.
+
+Overfull \hbox (18.75592pt too wide) in paragraph at lines 93--102
+\OML/cmm/m/it/12 E[]$ \T1/cmr/m/n/12 and $\OML/cmm/m/it/12 E[]$ \T1/cmr/m/n/12 
+are elec-tronic en-ergy eigen-val-ues cor-re-spond-ing to $\OML/cmm/m/it/12 i[]
+$ \T1/cmr/m/n/12 and $\OML/cmm/m/it/12 j[]$ \T1/cmr/m/n/12 states re-spec-tivel
+y.
+
+Overfull \hbox (2.39027pt too wide) in paragraph at lines 93--102
+\T1/cmr/m/n/12 Hence, fol-low-ing our anal-ogy be-tween elec-tronic en-er-gies 
+and frag-ment based elec-tronic
+
+Overfull \hbox (18.44876pt too wide) in paragraph at lines 93--102
+\T1/cmr/m/n/12 ap-prox-i-ma-tion is the as-sump-tion that the eigen-states cor-
+re-spond-ing to dif-fer-ent topolo-gies
+[51]) [52] (./appa.tex
+Appendix A.
+
+Overfull \hbox (18.64453pt too wide) in paragraph at lines 3--9
+[][]\T1/cmr/m/n/12 The mo-ti-va-tion for purely imag-i-nary off-diagonal el-e-m
+ents, and hence a non-Hermitian
+
+Overfull \hbox (7.56068pt too wide) detected at line 19
+[]
+[53]
+Overfull \hbox (7.56068pt too wide) detected at line 43
+[]
+[54] [55]) (./appb.tex
+Appendix B.
+
+Overfull \hbox (6.70157pt too wide) in paragraph at lines 5--13
+\T1/cmr/m/n/12 in-volve these elec-tronic struc-ture cal-cu-la-tions at each po
+int on a grid, the com-pu-ta-tional
+
+Overfull \hbox (6.71921pt too wide) in paragraph at lines 5--13
+\T1/cmr/m/n/12 ex-pense grows ex-po-nen-tially. Use of par-al-lel com-put-ing i
+n the frag-ment based elec-tronic
+[56]
+! Missing } inserted.
+<inserted text> 
+                }
+l.26 T_{1} &     =  ($
+                      t_{Full}^{low}$ + $P.t_{primary}^{high}$ + $D.t_{deriv...
+
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.26 T_{1} &     =  ($t_
+                        {Full}^{low}$ + $P.t_{primary}^{high}$ + $D.t_{deriv...
+
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.27  + D.t_
+            {derivative}^{low}) M
+? ! Missing { inserted.
+<inserted text> 
+                {
+l.28 \end{aligned}
+                  \right.
+? [57] [58] [59]) (./appc.tex
+Appendix C.
+[60]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...tion will tend to a step function as b \to
+                                                   \infty.
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.31 
+     
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.33 boundary, t \in
+                     $\{t_{ij}^{0},t_{ij}^{1}\}$ mentioned in Eq. \ref{param...
+
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.33 boundary, t \in $\{t_
+                          {ij}^{0},t_{ij}^{1}\}$ mentioned in Eq. \ref{param...
+
+? 
+LaTeX Warning: Reference `erfEquation' on page 61 undefined on input line 36.
+
+[61]) (./biblio.tex (./main.bbl
+Underfull \hbox (badness 1354) in paragraph at lines 54--59
+\T1/cmr/m/n/12 Vir-ginia E Teige, and Gre-gory A Voth.  The prop-er-ties of ion
+-water
+[62]
+
+! Package inputenc Error: Unicode char \u8:∙ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 ...predissociation spectra of the h 5 o 2+∙
+                                                   rg n (rg=
+? 
+Underfull \hbox (badness 1565) in paragraph at lines 111--116
+[][]\T1/cmr/m/n/12 R. Benny Ger-ber, My-chel E. Varner, Au-drey D. Ham-merich, 
+Sampsa
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
+[][]\T1/cmr/m/n/12 Barbara Kirch-ner, Philipp J. Di Dio, and Juerg Hut-ter.
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
+|   []\T1/cmr/m/n/12 ,
+
+Underfull \hbox (badness 1248) in paragraph at lines 153--157
+[][]\T1/cmr/m/n/12 K. Bolton, W. L. Hase, and G. H. Pesl-herbe.  |   []   |   [
+]   |   []
+
+Underfull \hbox (badness 2608) in paragraph at lines 153--157
+|   []   |   []   |   []   |   []   |   []\T1/cmr/m/n/12 , chap-ter Di-rect
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 258--262
+[][]\T1/cmr/m/n/12 A Laio and M Par-rinello.  Es-cap-ing Free-Energy Min-ima.
+[65]
+Underfull \hbox (badness 8151) in paragraph at lines 316--320
+[][]\T1/cmr/m/n/12 G. Lip-pert, J. Hut-ter, and M. Par-rinello.  The gaus-sian 
+and
+
+Underfull \hbox (badness 1142) in paragraph at lines 316--320
+\T1/cmr/m/n/12 augmented-plane-wave den-sity func-tional method for ab ini-tio 
+molec-u-lar
+[66] [67]
+Underfull \hbox (badness 1354) in paragraph at lines 403--408
+\T1/cmr/m/n/12 Vir-ginia E Teige, and Gre-gory A Voth.  The prop-er-ties of ion
+-water
+
+Underfull \hbox (badness 3039) in paragraph at lines 424--428
+[][]\T1/cmr/m/n/12 Xiaohu Li, Vir-ginia E Teige, and Srini-vasan S Iyen-gar.  C
+an the
+[68]
+Underfull \hbox (badness 1910) in paragraph at lines 507--511
+[][]\T1/cmr/m/n/12 Lori M Lev-er-ing, M Rox-ana Sierra-Hernandez, and Heather C
+ Allen.
+[69]
+Underfull \hbox (badness 1348) in paragraph at lines 533--538
+[][]\T1/cmr/m/n/12 Lung Wa Chung, Ha-jime Hi-rao, Xin Li, and Keiji Mo-rokuma. 
+ The
+
+Underfull \hbox (badness 1102) in paragraph at lines 533--538
+\T1/cmr/m/n/12 oniom method: its foun-da-tion and ap-pli-ca-tions to met-al-loe
+n-zymes and
+
+Underfull \hbox (badness 5260) in paragraph at lines 540--544
+[][]\T1/cmr/m/n/12 Krishnan Raghavachari and Ar-jun Saha.  Ac-cu-rate com-pos-i
+te and
+
+Underfull \hbox (badness 1308) in paragraph at lines 553--556
+[][]\T1/cmr/m/n/12 Michael A. Collins and Ryan P. A. Bet-tens.  Energy-based mo
+lec-u-lar
+[70]
+Underfull \hbox (badness 7704) in paragraph at lines 617--621
+[][]\T1/cmr/m/n/12 Lin-Wang Wang, Zhengji Zhao, and Juan Meza.  Linear-scaling
+
+Underfull \hbox (badness 4726) in paragraph at lines 617--621
+\T1/cmr/m/n/12 three-dimensional frag-ment method for large-scale elec-tronic s
+truc-ture
+[71] [72]
+Underfull \hbox (badness 1253) in paragraph at lines 728--732
+\T1/cmr/m/n/12 large molecules: Ap-pli-ca-tion to myo-globin.  |   []   |   [] 
+  |   [],
+[73]
+Underfull \hbox (badness 1248) in paragraph at lines 757--761
+[][]\T1/cmr/m/n/12 EA Carter, Gio-vanni Ci-c-cotti, James T Hynes, and Ray-mond
+ Kapral.
+
+Underfull \hbox (badness 3240) in paragraph at lines 810--814
+\T1/cmr/m/n/12 per-tur-ba-tion the-ory cor-rec-tions for the vi-bra-tional self
+-consistent field
+[74]
+Underfull \hbox (badness 3260) in paragraph at lines 853--858
+[][]\T1/cmr/m/n/12 Riccardo Conte, Chen Qu, and Joel M Bow-man.  Per-mu-ta-tion
+-ally
+[75]
+
+! Package inputenc Error: Unicode char \u8:→ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926   ch4→
+               h2+ ch3 reaction.
+? [76]
+Underfull \hbox (badness 1701) in paragraph at lines 949--954
+[][]\T1/cmr/m/n/12 J�rg Behler.  Con-struct-ing high-dimensional neu-ral net-wo
+rk po-ten-tials:
+
+Underfull \hbox (badness 6725) in paragraph at lines 949--954
+\T1/cmr/m/n/12 A tu-to-rial re-view.  |   []   |   []   |   []   |   []   |   [
+],
+
+Underfull \hbox (badness 1694) in paragraph at lines 974--977
+\T1/cmr/m/n/12 by ar-ti-fi-cial neu-ral net-works.  |   []   |   []   |   []   
+|   []   |   []   |   [],
+
+Underfull \hbox (badness 8056) in paragraph at lines 986--990
+\T1/cmr/m/n/12 neu-ral net-work po-ten-tials.  |   []   |   []   |   []   |   [
+],
+
+Underfull \hbox (badness 2359) in paragraph at lines 992--996
+\T1/cmr/m/n/12 of high-dimensional potential-energy sur-faces.  |   []   |   []
+   |   [],
+
+Underfull \hbox (badness 1354) in paragraph at lines 998--1002
+\T1/cmr/m/n/12 tool for large-scale sim-u-la-tions.  |   []   |   []   |   []  
+ |   [],
+
+Underfull \hbox (badness 4954) in paragraph at lines 1004--1009
+\T1/cmr/m/n/12 ab ini-tio molec-u-lar dy-nam-ics with qm/mm and qm/qm tech-niqu
+es:
+[77] [78] [79] [80]
+Underfull \hbox (badness 2261) in paragraph at lines 1208--1211
+[][]\T1/cmr/m/n/12 SR Bil-leter and WF Van Gun-steren.  Pro-toniz-able wa-ter m
+odel for
+[81]
+Underfull \hbox (badness 1320) in paragraph at lines 1276--1279
+[][]\T1/cmr/m/n/12 Charles F Van Loan.  Ma-trix com-pu-ta-tions (johns hop-kins
+ stud-ies in
+)) [82] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+(./chap3.aux) (./chap4.aux) (./appa.aux) (./appb.aux) (./appc.aux)
+(./biblio.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ){/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texm
+f/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.p
+fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/
+fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx12
+00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm070
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on main.pdf (82 pages, 2317911 bytes).
+Transcript written on main.log.
+This is BibTeX, Version 0.99d (TeX Live 2013/TeX Live for SUSE Linux)
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: contents.aux
+A level-1 auxiliary file: chap1.aux
+A level-1 auxiliary file: chap2.aux
+A level-1 auxiliary file: chap3.aux
+A level-1 auxiliary file: chap4.aux
+A level-1 auxiliary file: appa.aux
+A level-1 auxiliary file: appb.aux
+A level-1 auxiliary file: appc.aux
+A level-1 auxiliary file: biblio.aux
+The style file: unsrt.bst
+Database file #1: main.bib
+Repeated entry---line 1475 of file main.bib
+ : @article{schmitt1998multistate
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2006 of file main.bib
+ : @article{ee-mbe-water
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Allen
+Warning--empty journal in Ciccotti
+Warning--can't use both author and editor fields in Kirchner-Hutter-Aimd-Apps
+Warning--empty chapter and pages in Kirchner-Hutter-Aimd-Apps
+Warning--empty publisher in Kirchner-Hutter-Aimd-Apps
+Warning--can't use both author and editor fields in BO-Hase
+Warning--empty title in Hessian
+Warning--can't use both author and editor fields in Hrant-Berny-PESreview
+Warning--empty title in Hrant-Berny-PESreview
+Warning--empty title in formaldehyde
+Warning--empty booktitle in Marx-Cpreview
+Warning--can't use both author and editor fields in Carpar89
+Warning--can't use both author and editor fields in Galli91
+Warning--empty title in Na+solv
+Warning--empty title in NH4+solv
+Warning--empty title in K+solv
+Warning--empty title in SO3solv
+Warning--empty title in Be2+solv
+Warning--empty title in H+OH-solv
+Warning--empty title in CP-Gaussians-Martyna
+Warning--empty title in truhlar
+Warning--can't use both volume and number fields in zener1932non
+(There were 2 error messages)
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux)
+ restricted \write18 enabled.
+ Source specials enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(./mitthesis.cls
+Document Class: mitthesis 1999/10/20
+(/usr/share/texmf/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo))
+(/usr/share/texmf/tex/latex/setspace/setspace.sty)
+Thesis document copyright MIT unless otherwise (manually) specified
+) (./lgrind.sty) (/usr/share/texmf/tex/latex/cmap/cmap.sty)
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+(/usr/share/texmf/tex/latex/base/t1enc.def)<<t1.cmap>>)
+(/usr/share/texmf/tex/latex/cite/cite.sty)
+(/usr/share/texmf/tex/latex/base/inputenc.sty
+(/usr/share/texmf/tex/latex/base/utf8.def
+(/usr/share/texmf/tex/latex/base/t1enc.dfu)
+(/usr/share/texmf/tex/latex/base/ot1enc.dfu)
+(/usr/share/texmf/tex/latex/base/omsenc.dfu)))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(/usr/share/texmf/tex/latex/latexconfig/color.cfg)
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty))
+(/usr/share/texmf/tex/latex/colortbl/colortbl.sty
+(/usr/share/texmf/tex/latex/tools/array.sty)))
+(/usr/share/texmf/tex/latex/appendix/appendix.sty)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(/usr/share/texmf/tex/latex/graphics/trig.sty)
+(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg)))
+(/usr/share/texmf/tex/latex/rotating/rotating.sty
+(/usr/share/texmf/tex/latex/base/ifthen.sty))
+
+! LaTeX Error: File `wrapfig.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: (/usr/share/texmf/tex/latex/graphics/lscape.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty)
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texmf/tex/generic/ulem/ulem.sty)
+(/usr/share/texmf/tex/latex/mh/mathtools.sty
+(/usr/share/texmf/tex/latex/tools/calc.sty)
+(/usr/share/texmf/tex/latex/mh/mhsetup.sty))
+(/usr/share/texmf/tex/latex/mdwtools/footnote.sty)
+(/usr/share/texmf/tex/latex/hyphenat/hyphenat.sty)
+(/usr/share/texmf/tex/latex/tools/indentfirst.sty)
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf.sty
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texmf/tex/latex/oberdiek/grfext.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvdefinekeys.sty))
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texmf/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texmf/tex/generic/oberdiek/ifluatex.sty))))
+(/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty))
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg)))
+(/usr/share/texmf/tex/latex/ctable/ctable.sty
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texmf/tex/generic/xkeyval/xkeyval.tex))
+(/usr/share/texmf/tex/latex/tools/tabularx.sty)
+(/usr/share/texmf/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texmf/tex/latex/oberdiek/transparent.sty
+(/usr/share/texmf/tex/latex/oberdiek/auxhook.sty)))
+(/usr/share/texmf/tex/latex/caption/caption.sty
+(/usr/share/texmf/tex/latex/caption/caption3.sty)
+
+! Package caption Error: For a successful cooperation we need at least version
+(caption)                `2003/01/31 v3.6' of package wrapfig,
+(caption)                but only version
+(caption)                `'
+(caption)                is available.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1764 }{}
+          
+? ) (/usr/share/texmf/tex/latex/caption/subcaption.sty)
+(/usr/share/texmf/tex/latex/float/float.sty)
+(/usr/share/texmf/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texmf/tex/latex/etex-pkg/etex.sty))
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/share/texmf/tex/latex/ms/everyshi.sty))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex))) (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux)
+(./chap2.aux) (./chap3.aux) (./chap4.aux) (./appa.aux) (./appb.aux
+
+LaTeX Warning: Label `eq2' multiply defined.
+
+) (./appc.aux
+
+LaTeX Warning: Label `fx_function' multiply defined.
+
+) (./biblio.aux)) (/usr/share/texmf/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) ABD: EveryShipout initializing macros (./cover.tex<<ot1.cmap>>
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd)) [1{/usr/share/texmf/fonts/map/pd
+ftex/updmap/pdftex.map}] (./contents.tex (./main.toc
+Overfull \hbox (25.4344pt too wide) in paragraph at lines 2--2
+ [][] []\T1/cmr/bx/n/12 Rigorous pro-ce-dures to in-clude mul-ti-ple frag-ment 
+topolo-gies in elec-tronic 
+
+Overfull \hbox (8.78032pt too wide) in paragraph at lines 6--6
+ [][][] []\T1/cmr/m/n/12 A pseudo-Hamiltonian for-mal-ism that al-lows con-tin-
+u-ous mor-ph-ing across 
+
+Overfull \hbox (19.34642pt too wide) in paragraph at lines 13--13
+ [][][] []\T1/cmr/m/n/12 Comparison of di-a-batic sur-faces with their CTM in-t
+er-po-la-tion for $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]O\OT1/cmr/m/n/12 )[]\OM
+L/cmm/m/it/12 H[]$ [][]  
+[2]) [3]) (./chap1.tex
+Chapter 1.
+[4]
+Overfull \hbox (20.98021pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 (a) Born-Oppenheimer molec-u-lar dy-nam-ics (BOMD) [22[]31] and 
+(b) ex-tended La-grangian
+
+Overfull \hbox (11.10468pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 La-grangian meth-ods, on the con-trary, si-mul-ta-ne-ously prop-
+a-gate the elec-tronic struc-tural
+
+Overfull \hbox (21.12454pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 pa-ram-e-ters, along with the nu-clear frame-work, through a sim
+-ple ad-just-ment of time-scales.
+
+Overfull \hbox (17.86284pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 ma-trix prop-a-ga-tion (ADMP) [64[]69] method uses atom-centered
+ Gaus-sian ba-sis func-tions
+
+Overfull \hbox (20.92874pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 and sin-gle par-ti-cle elec-tronic den-sity ma-tri-ces as elec-t
+ronic pa-ram-e-ters that are prop-a-gated
+
+Overfull \hbox (16.17253pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 with the nu-clei. The ADMP method has been em-ployed to study vi
+-bra-tional spec-troscopy
+[5]
+Overfull \hbox (7.47089pt too wide) in paragraph at lines 64--93
+\T1/cmr/m/n/12 ONIOM method [95] has been gen-er-al-ized by us-ing the set-theo
+retic, inclusion-exclusion
+[6]
+Overfull \hbox (8.77258pt too wide) in paragraph at lines 94--119
+\T1/cmr/m/n/12 atoms, a full po-ten-tial en-ergy sur-face is a $\OT1/cmr/m/n/12
+ 3\OML/cmm/m/it/12 N$ \T1/cmr/m/n/12 di-men-sional func-tion. Say, we ap-prox-i
+-mate
+
+Overfull \hbox (51.92798pt too wide) in paragraph at lines 120--140
+\T1/cmr/m/n/12 com-bined to ob-tain a smooth, in-ter-po-lated, adap-tive, syste
+m-independent, multi-topology-based
+
+Overfull \hbox (14.85526pt too wide) in paragraph at lines 120--140
+\T1/cmr/m/n/12 Chap-ter 2 that the method of com-put-ing a multi-topology sur-f
+ace re-quires non-Hermitian
+[7] [8]) (./chap2.tex
+Chapter 2.
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 8.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 10.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 12.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 15.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 17.
+
+[9]
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
+line 22.
+
+
+Overfull \hbox (8.97601pt too wide) in paragraph at lines 22--29
+[][]\T1/cmr/m/n/12 The im-age in Fig-ure [](b) is al-ge-braically trans-lated u
+s-ing the set-theoretic prin-ci-ple
+
+Overfull \hbox (8.22424pt too wide) in paragraph at lines 22--29
+\T1/cmr/m/n/12 re-gions carry en-ergy cor-rec-tion to the over-all sys-tem. The
+ as-so-ci-ated inclusion-exclusion
+
+Overfull \hbox (38.46867pt too wide) in paragraph at lines 35--35
+[] 
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
+line 38.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
+line 49.
+
+
+Overfull \hbox (3.50375pt too wide) in paragraph at lines 46--70
+\T1/cmr/m/n/12 both high as well as low level of the-ory cal-cu-la-tion on pri-
+mary and deriva-tive frag-ments.
+[10]
+Overfull \hbox (51.62778pt too wide) in paragraph at lines 71--71
+[]\T1/cmr/bx/n/17.28 Challenges for AIMD and po-ten-tial sur-face cal-cu-la-tio
+ns 
+[11] <figures/bomdEnergy-eps-converted-to.pdf, id=56, 281.05pt x 219.82124pt>
+<use figures/bomdEnergy-eps-converted-to.pdf> [12]
+<figures/graph1all-eps-converted-to.pdf, id=63, 278.03876pt x 253.94875pt>
+<use figures/graph1all-eps-converted-to.pdf>
+<figures/reZoomedInWithoutCTM-eps-converted-to.pdf, id=64, 278.03876pt x 253.94
+875pt> <use figures/reZoomedInWithoutCTM-eps-converted-to.pdf>
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 124--138
+ [][][]  [] 
+
+Overfull \hbox (8.86644pt too wide) in paragraph at lines 141--154
+\T1/cmr/m/n/12 frag-men-ta-tion pro-cess, re-quired in AIMD and in PES cal-cu-l
+a-tions, many such topolo-gies
+[13 <./figures/bomdEnergy-eps-converted-to.pdf>]
+Overfull \hbox (2.08745pt too wide) in paragraph at lines 155--155
+[]\T1/cmr/bx/n/17.28 Formal con-structs for a multi-topology for-mal-ism 
+[14 <./figures/graph1all-eps-converted-to.pdf> <./figures/reZoomedInWithoutCTM-
+eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 15 undefined on input 
+line 177.
+
+
+Overfull \hbox (25.69545pt too wide) in paragraph at lines 183--190
+[][]\T1/cmr/m/n/12 In prob-a-bly the most straight-forward im-ple-men-ta-tion, 
+we cast this multiple-topology
+
+Overfull \hbox (4.62007pt too wide) in paragraph at lines 183--190
+\T1/cmr/m/n/12 This par-tic-u-lar for-mal-ism is com-pletely bench-marked in th
+is re-port and pre-sented
+[15]
+Overfull \hbox (1.09593pt too wide) in paragraph at lines 198--200
+[][]\T1/cmr/m/n/12 Our even-tual goal is to con-struct wavepacket dy-nam-ics on
+ these mul-ti-ple sur-faces
+[16]
+Overfull \hbox (58.8563pt too wide) in paragraph at lines 238--238
+[]\T1/cmr/bx/n/17.28 A pseudo-Hamiltonian for-mal-ism that al-lows con-tin-u-ou
+s
+[17] [18]
+Overfull \hbox (21.81973pt too wide) in paragraph at lines 299--301
+[][]\T1/cmr/m/n/12 We name this method of in-ter-po-la-tion as $[]$
+
+Overfull \hbox (73.76167pt too wide) in paragraph at lines 303--303
+[]\T1/cmr/bx/n/17.28 Computational ef-fi-ciency for po-ten-tial sur-face cal-cu
+-la-tions 
+
+Overfull \hbox (17.32625pt too wide) in paragraph at lines 304--313
+\T1/cmr/m/n/12 cost. Par-al-lel com-put-ing im-ple-men-ta-tion of these frag-me
+nt's po-ten-tial en-ergy cal-cu-la-tions
+[19]
+Overfull \hbox (45.13216pt too wide) in paragraph at lines 319--319
+[]\T1/cmr/bx/n/17.28 NEEDS TO BE MOD-I-FIED Other meth-ods de-vel-oped
+
+Overfull \hbox (3.81625pt too wide) in paragraph at lines 320--363
+\T1/cmr/m/n/12 multi-state em-pir-i-cal va-lence bond model (MS-EVB) [190] to s
+im-u-late pro-ton trans-port
+[20] [21]) (./chap3.tex
+Chapter 3.
+[22]
+<figures/potentialsGraph-eps-converted-to.pdf, id=109, 361.35pt x 252.945pt>
+<use figures/potentialsGraph-eps-converted-to.pdf>
+<figures/diffGraph-eps-converted-to.pdf, id=110, 361.35pt x 252.945pt>
+<use figures/diffGraph-eps-converted-to.pdf>
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 23--36
+ [][][]  [] 
+[23 <./figures/potentialsGraph-eps-converted-to.pdf> <./figures/diffGraph-eps-c
+onverted-to.pdf>] [24]
+Overfull \hbox (42.89026pt too wide) in paragraph at lines 98--107
+\T1/cmr/m/n/12 and $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]O\OT1/cmr/m/n/12 )[]\O
+ML/cmm/m/it/12 H[]$ \T1/cmr/m/n/12 as bench-mark sys-tems for po-ten-tial en-er
+gy sur-face cal-cu-la-tions. Frag-men-ta-tion
+[25]
+Overfull \hbox (36.97057pt too wide) in paragraph at lines 113--113
+[]\T1/cmr/bx/n/17.28 Adaptive de-tec-tion of changes in topo-log-i-cal net-work
+s 
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 26 undefined on input 
+line 136.
+
+
+Overfull \hbox (7.30646pt too wide) in paragraph at lines 126--140
+\T1/cmr/m/n/12 tri-an-gu-la-tion. For a given set of points in a d-dimensional 
+space, De-lau-nay tri-an-gu-la-tion
+[26] [27] [28]
+Overfull \hbox (4.3908pt too wide) in paragraph at lines 206--211
+\T1/cmr/m/n/12 An-other im-por-tant ob-ser-va-tion is that the sur-faces cor-re
+-spond-ing to $\OML/cmm/m/it/12 E[]; E[]$
+<figures/reZoomedIn-eps-converted-to.pdf, id=141, 278.03876pt x 253.94875pt>
+<use figures/reZoomedIn-eps-converted-to.pdf>
+<figures/DiffERepeated-eps-converted-to.pdf, id=142, 361.35pt x 252.945pt>
+<use figures/DiffERepeated-eps-converted-to.pdf>
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 214--227
+ [][][]  [] 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.233 ...pology1}$ on the left side and hence $E$_
+                                                  {CTM}-$E_{Topology1}$
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.233 ... on the left side and hence $E$_{CTM}-$E_
+                                                  {Topology1}$
+? [29 <./figures/reZoomedIn-eps-converted-to.pdf> <./figures/DiffERepeated-eps-co
+nverted-to.pdf>]
+Overfull \hbox (24.64436pt too wide) in paragraph at lines 246--252
+[][]\T1/cmr/m/n/12 Using all the three po-ten-tial dis-cussed above sym-metrize
+d Hamil-to-ni-ans are con-structed
+<figures/DiffEVRepeated-eps-converted-to.pdf, id=158, 361.35pt x 252.945pt>
+<use figures/DiffEVRepeated-eps-converted-to.pdf>
+Overfull \hbox (22.5644pt too wide) in paragraph at lines 269--274
+[][]\T1/cmr/m/n/12 One of the fu-ture goals of this project is to also im-ple-m
+ent a topo-log-i-cal surface-hopping
+[30] [31 <./figures/DiffEVRepeated-eps-converted-to.pdf>]
+<image.png, id=175, 513.41812pt x 513.41812pt> <use image.png>
+
+LaTeX Warning: Reference `figureToShowEigenScans' on page 32 undefined on input
+ line 299.
+
+
+LaTeX Warning: Reference `figureToShowEigenScans' on page 32 undefined on input
+ line 301.
+
+
+Overfull \hbox (117.62885pt too wide) in paragraph at lines 304--307
+[][]\T1/cmr/m/n/12 The er-rors be-tween the CTM method used with pie-oniom (MP2
+/6-31++g(d,p))/(B3LYP/6-31++g(d,p))
+[32] [33 <./image.png>]
+<figures/bars-eps-converted-to.pdf, id=182, 361.35pt x 262.9825pt>
+<use figures/bars-eps-converted-to.pdf> [34] [35 <./figures/bars-eps-converted-
+to.pdf>] <figures/E-eps-converted-to.pdf, id=201, 361.35pt x 252.945pt>
+<use figures/E-eps-converted-to.pdf> [36] [37 <./figures/E-eps-converted-to.pdf
+>]
+<figures/eigenEvalEditted-eps-converted-to.pdf, id=218, 361.35pt x 252.945pt>
+<use figures/eigenEvalEditted-eps-converted-to.pdf> [38 <./figures/eigenEvalEdi
+tted-eps-converted-to.pdf>]
+<figures/autosubScanEigen-eps-converted-to.pdf, id=233, 361.35pt x 252.945pt>
+<use figures/autosubScanEigen-eps-converted-to.pdf> [39] [40 <./figures/autosub
+ScanEigen-eps-converted-to.pdf>]
+<figures/wwbars-eps-converted-to.pdf, id=249, 361.35pt x 273.02pt>
+<use figures/wwbars-eps-converted-to.pdf> [41] [42 <./figures/wwbars-eps-conver
+ted-to.pdf>] <figures/wwE-eps-converted-to.pdf, id=266, 361.35pt x 252.945pt>
+<use figures/wwE-eps-converted-to.pdf> [43 <./figures/wwE-eps-converted-to.pdf>
+] <figures/barsEditted-eps-converted-to.pdf, id=280, 361.35pt x 252.945pt>
+<use figures/barsEditted-eps-converted-to.pdf> [44]
+<figures/threeTopoCase-eps-converted-to.pdf, id=284, 361.35pt x 328.22626pt>
+<use figures/threeTopoCase-eps-converted-to.pdf> [45 <./figures/barsEditted-eps
+-converted-to.pdf>] [46] [47 <./figures/threeTopoCase-eps-converted-to.pdf>])
+(./chap4.tex
+Chapter 4.
+! Undefined control sequence.
+l.15 been shown in Refs. \onlinecite
+                                    {SLO-rare-isotopes} that the acceptor si...
+
+? 
+Overfull \hbox (1.2194pt too wide) in paragraph at lines 4--43
+\T1/cmr/m/n/12 sys-tems, but it is still im-pos-si-ble to use it for large sys-
+tems such as bi-o-log-i-cal molecules,
+[48] [49]
+Overfull \hbox (53.2251pt too wide) in paragraph at lines 45--45
+[]\T1/cmr/bx/n/17.28 Landau-Zener based topo-log-i-cal tran-si-tion prob-a-bil-
+i-ties 
+
+Overfull \hbox (8.39816pt too wide) in paragraph at lines 74--89
+\T1/cmr/m/n/12 col-li-sion pro-cesses in-volv-ing nona-di-a-batic tran-si-tions
+ such as charge trans-fer, quench-ing,
+[50]
+Overfull \hbox (2.97763pt too wide) in paragraph at lines 93--102
+[]\T1/cmr/m/n/12 for a given tra-jec-tory R(t) [187]. Here $\OML/cmm/m/it/12 v$
+ \T1/cmr/m/n/12 is nu-clear ve-loc-ity, $\OML/cmm/m/it/12 ^^^[]$ \T1/cmr/m/n/12
+ are elec-tronic eigen-states.
+
+Overfull \hbox (18.75592pt too wide) in paragraph at lines 93--102
+\OML/cmm/m/it/12 E[]$ \T1/cmr/m/n/12 and $\OML/cmm/m/it/12 E[]$ \T1/cmr/m/n/12 
+are elec-tronic en-ergy eigen-val-ues cor-re-spond-ing to $\OML/cmm/m/it/12 i[]
+$ \T1/cmr/m/n/12 and $\OML/cmm/m/it/12 j[]$ \T1/cmr/m/n/12 states re-spec-tivel
+y.
+
+Overfull \hbox (2.39027pt too wide) in paragraph at lines 93--102
+\T1/cmr/m/n/12 Hence, fol-low-ing our anal-ogy be-tween elec-tronic en-er-gies 
+and frag-ment based elec-tronic
+
+Overfull \hbox (18.44876pt too wide) in paragraph at lines 93--102
+\T1/cmr/m/n/12 ap-prox-i-ma-tion is the as-sump-tion that the eigen-states cor-
+re-spond-ing to dif-fer-ent topolo-gies
+[51]) [52] (./appa.tex
+Appendix A.
+
+Overfull \hbox (18.64453pt too wide) in paragraph at lines 3--9
+[][]\T1/cmr/m/n/12 The mo-ti-va-tion for purely imag-i-nary off-diagonal el-e-m
+ents, and hence a non-Hermitian
+
+Overfull \hbox (7.56068pt too wide) detected at line 19
+[]
+[53]
+Overfull \hbox (7.56068pt too wide) detected at line 43
+[]
+[54] [55]) (./appb.tex
+Appendix B.
+
+Overfull \hbox (6.70157pt too wide) in paragraph at lines 5--13
+\T1/cmr/m/n/12 in-volve these elec-tronic struc-ture cal-cu-la-tions at each po
+int on a grid, the com-pu-ta-tional
+
+Overfull \hbox (6.71921pt too wide) in paragraph at lines 5--13
+\T1/cmr/m/n/12 ex-pense grows ex-po-nen-tially. Use of par-al-lel com-put-ing i
+n the frag-ment based elec-tronic
+[56]
+! Missing } inserted.
+<inserted text> 
+                }
+l.26 T_{1} &     =  ($
+                      t_{Full}^{low}$ + $P.t_{primary}^{high}$ + $D.t_{deriv...
+
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.26 T_{1} &     =  ($t_
+                        {Full}^{low}$ + $P.t_{primary}^{high}$ + $D.t_{deriv...
+
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.27  + D.t_
+            {derivative}^{low}) M
+? ! Missing { inserted.
+<inserted text> 
+                {
+l.28 \end{aligned}
+                  \right.
+? [57] [58] [59]) (./appc.tex
+Appendix C.
+[60]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...tion will tend to a step function as b \to
+                                                   \infty.
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.31 
+     
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.33 boundary, t \in
+                     $\{t_{ij}^{0},t_{ij}^{1}\}$ mentioned in Eq. \ref{param...
+
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.33 boundary, t \in $\{t_
+                          {ij}^{0},t_{ij}^{1}\}$ mentioned in Eq. \ref{param...
+
+? 
+LaTeX Warning: Reference `erfEquation' on page 61 undefined on input line 36.
+
+[61]) (./biblio.tex (./main.bbl
+Underfull \hbox (badness 1354) in paragraph at lines 54--59
+\T1/cmr/m/n/12 Vir-ginia E Teige, and Gre-gory A Voth.  The prop-er-ties of ion
+-water
+[62]
+
+! Package inputenc Error: Unicode char \u8:∙ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 ...predissociation spectra of the h 5 o 2+∙
+                                                   rg n (rg=
+? 
+Underfull \hbox (badness 1565) in paragraph at lines 111--116
+[][]\T1/cmr/m/n/12 R. Benny Ger-ber, My-chel E. Varner, Au-drey D. Ham-merich, 
+Sampsa
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
+[][]\T1/cmr/m/n/12 Barbara Kirch-ner, Philipp J. Di Dio, and Juerg Hut-ter.
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
+|   []\T1/cmr/m/n/12 ,
+
+Underfull \hbox (badness 1248) in paragraph at lines 153--157
+[][]\T1/cmr/m/n/12 K. Bolton, W. L. Hase, and G. H. Pesl-herbe.  |   []   |   [
+]   |   []
+
+Underfull \hbox (badness 2608) in paragraph at lines 153--157
+|   []   |   []   |   []   |   []   |   []\T1/cmr/m/n/12 , chap-ter Di-rect
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 258--262
+[][]\T1/cmr/m/n/12 A Laio and M Par-rinello.  Es-cap-ing Free-Energy Min-ima.
+[65]
+Underfull \hbox (badness 8151) in paragraph at lines 316--320
+[][]\T1/cmr/m/n/12 G. Lip-pert, J. Hut-ter, and M. Par-rinello.  The gaus-sian 
+and
+
+Underfull \hbox (badness 1142) in paragraph at lines 316--320
+\T1/cmr/m/n/12 augmented-plane-wave den-sity func-tional method for ab ini-tio 
+molec-u-lar
+[66] [67]
+Underfull \hbox (badness 1354) in paragraph at lines 403--408
+\T1/cmr/m/n/12 Vir-ginia E Teige, and Gre-gory A Voth.  The prop-er-ties of ion
+-water
+
+Underfull \hbox (badness 3039) in paragraph at lines 424--428
+[][]\T1/cmr/m/n/12 Xiaohu Li, Vir-ginia E Teige, and Srini-vasan S Iyen-gar.  C
+an the
+[68]
+Underfull \hbox (badness 1910) in paragraph at lines 507--511
+[][]\T1/cmr/m/n/12 Lori M Lev-er-ing, M Rox-ana Sierra-Hernandez, and Heather C
+ Allen.
+[69]
+Underfull \hbox (badness 1348) in paragraph at lines 533--538
+[][]\T1/cmr/m/n/12 Lung Wa Chung, Ha-jime Hi-rao, Xin Li, and Keiji Mo-rokuma. 
+ The
+
+Underfull \hbox (badness 1102) in paragraph at lines 533--538
+\T1/cmr/m/n/12 oniom method: its foun-da-tion and ap-pli-ca-tions to met-al-loe
+n-zymes and
+
+Underfull \hbox (badness 5260) in paragraph at lines 540--544
+[][]\T1/cmr/m/n/12 Krishnan Raghavachari and Ar-jun Saha.  Ac-cu-rate com-pos-i
+te and
+
+Underfull \hbox (badness 1308) in paragraph at lines 553--556
+[][]\T1/cmr/m/n/12 Michael A. Collins and Ryan P. A. Bet-tens.  Energy-based mo
+lec-u-lar
+[70]
+Underfull \hbox (badness 7704) in paragraph at lines 617--621
+[][]\T1/cmr/m/n/12 Lin-Wang Wang, Zhengji Zhao, and Juan Meza.  Linear-scaling
+
+Underfull \hbox (badness 4726) in paragraph at lines 617--621
+\T1/cmr/m/n/12 three-dimensional frag-ment method for large-scale elec-tronic s
+truc-ture
+[71] [72]
+Underfull \hbox (badness 1253) in paragraph at lines 728--732
+\T1/cmr/m/n/12 large molecules: Ap-pli-ca-tion to myo-globin.  |   []   |   [] 
+  |   [],
+[73]
+Underfull \hbox (badness 1248) in paragraph at lines 757--761
+[][]\T1/cmr/m/n/12 EA Carter, Gio-vanni Ci-c-cotti, James T Hynes, and Ray-mond
+ Kapral.
+
+Underfull \hbox (badness 3240) in paragraph at lines 810--814
+\T1/cmr/m/n/12 per-tur-ba-tion the-ory cor-rec-tions for the vi-bra-tional self
+-consistent field
+[74]
+Underfull \hbox (badness 3260) in paragraph at lines 853--858
+[][]\T1/cmr/m/n/12 Riccardo Conte, Chen Qu, and Joel M Bow-man.  Per-mu-ta-tion
+-ally
+[75]
+
+! Package inputenc Error: Unicode char \u8:→ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926   ch4→
+               h2+ ch3 reaction.
+? [76]
+Underfull \hbox (badness 1701) in paragraph at lines 949--954
+[][]\T1/cmr/m/n/12 J�rg Behler.  Con-struct-ing high-dimensional neu-ral net-wo
+rk po-ten-tials:
+
+Underfull \hbox (badness 6725) in paragraph at lines 949--954
+\T1/cmr/m/n/12 A tu-to-rial re-view.  |   []   |   []   |   []   |   []   |   [
+],
+
+Underfull \hbox (badness 1694) in paragraph at lines 974--977
+\T1/cmr/m/n/12 by ar-ti-fi-cial neu-ral net-works.  |   []   |   []   |   []   
+|   []   |   []   |   [],
+
+Underfull \hbox (badness 8056) in paragraph at lines 986--990
+\T1/cmr/m/n/12 neu-ral net-work po-ten-tials.  |   []   |   []   |   []   |   [
+],
+
+Underfull \hbox (badness 2359) in paragraph at lines 992--996
+\T1/cmr/m/n/12 of high-dimensional potential-energy sur-faces.  |   []   |   []
+   |   [],
+
+Underfull \hbox (badness 1354) in paragraph at lines 998--1002
+\T1/cmr/m/n/12 tool for large-scale sim-u-la-tions.  |   []   |   []   |   []  
+ |   [],
+
+Underfull \hbox (badness 4954) in paragraph at lines 1004--1009
+\T1/cmr/m/n/12 ab ini-tio molec-u-lar dy-nam-ics with qm/mm and qm/qm tech-niqu
+es:
+[77] [78] [79] [80]
+Underfull \hbox (badness 2261) in paragraph at lines 1208--1211
+[][]\T1/cmr/m/n/12 SR Bil-leter and WF Van Gun-steren.  Pro-toniz-able wa-ter m
+odel for
+[81]
+Underfull \hbox (badness 1320) in paragraph at lines 1276--1279
+[][]\T1/cmr/m/n/12 Charles F Van Loan.  Ma-trix com-pu-ta-tions (johns hop-kins
+ stud-ies in
+)) [82] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+(./chap3.aux) (./chap4.aux) (./appa.aux) (./appb.aux) (./appc.aux)
+(./biblio.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ){/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texm
+f/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.p
+fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/
+fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx12
+00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm070
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on main.pdf (82 pages, 2317911 bytes).
+Transcript written on main.log.
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux)
+ restricted \write18 enabled.
+ Source specials enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(./mitthesis.cls
+Document Class: mitthesis 1999/10/20
+(/usr/share/texmf/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo))
+(/usr/share/texmf/tex/latex/setspace/setspace.sty)
+Thesis document copyright MIT unless otherwise (manually) specified
+) (./lgrind.sty) (/usr/share/texmf/tex/latex/cmap/cmap.sty)
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+(/usr/share/texmf/tex/latex/base/t1enc.def)<<t1.cmap>>)
+(/usr/share/texmf/tex/latex/cite/cite.sty)
+(/usr/share/texmf/tex/latex/base/inputenc.sty
+(/usr/share/texmf/tex/latex/base/utf8.def
+(/usr/share/texmf/tex/latex/base/t1enc.dfu)
+(/usr/share/texmf/tex/latex/base/ot1enc.dfu)
+(/usr/share/texmf/tex/latex/base/omsenc.dfu)))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+(/usr/share/texmf/tex/latex/latexconfig/color.cfg)
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty))
+(/usr/share/texmf/tex/latex/colortbl/colortbl.sty
+(/usr/share/texmf/tex/latex/tools/array.sty)))
+(/usr/share/texmf/tex/latex/appendix/appendix.sty)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(/usr/share/texmf/tex/latex/graphics/trig.sty)
+(/usr/share/texmf/tex/latex/latexconfig/graphics.cfg)))
+(/usr/share/texmf/tex/latex/rotating/rotating.sty
+(/usr/share/texmf/tex/latex/base/ifthen.sty))
+
+! LaTeX Error: File `wrapfig.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: (/usr/share/texmf/tex/latex/graphics/lscape.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty)
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty)
+(/usr/share/texmf/tex/generic/ulem/ulem.sty)
+(/usr/share/texmf/tex/latex/mh/mathtools.sty
+(/usr/share/texmf/tex/latex/tools/calc.sty)
+(/usr/share/texmf/tex/latex/mh/mhsetup.sty))
+(/usr/share/texmf/tex/latex/mdwtools/footnote.sty)
+(/usr/share/texmf/tex/latex/hyphenat/hyphenat.sty)
+(/usr/share/texmf/tex/latex/tools/indentfirst.sty)
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf.sty
+(/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texmf/tex/latex/oberdiek/grfext.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvdefinekeys.sty))
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texmf/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texmf/tex/generic/oberdiek/ifluatex.sty))))
+(/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty))
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg)))
+(/usr/share/texmf/tex/latex/ctable/ctable.sty
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texmf/tex/generic/xkeyval/xkeyval.tex))
+(/usr/share/texmf/tex/latex/tools/tabularx.sty)
+(/usr/share/texmf/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texmf/tex/latex/oberdiek/transparent.sty
+(/usr/share/texmf/tex/latex/oberdiek/auxhook.sty)))
+(/usr/share/texmf/tex/latex/caption/caption.sty
+(/usr/share/texmf/tex/latex/caption/caption3.sty)
+
+! Package caption Error: For a successful cooperation we need at least version
+(caption)                `2003/01/31 v3.6' of package wrapfig,
+(caption)                but only version
+(caption)                `'
+(caption)                is available.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1764 }{}
+          
+? ) (/usr/share/texmf/tex/latex/caption/subcaption.sty)
+(/usr/share/texmf/tex/latex/float/float.sty)
+(/usr/share/texmf/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texmf/tex/latex/etex-pkg/etex.sty))
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/share/texmf/tex/latex/ms/everyshi.sty))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex))
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex))) (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux)
+(./chap2.aux) (./chap3.aux) (./chap4.aux) (./appa.aux) (./appb.aux
+
+LaTeX Warning: Label `eq2' multiply defined.
+
+) (./appc.aux
+
+LaTeX Warning: Label `fx_function' multiply defined.
+
+) (./biblio.aux)) (/usr/share/texmf/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) ABD: EveryShipout initializing macros (./cover.tex<<ot1.cmap>>
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd)) [1{/usr/share/texmf/fonts/map/pd
+ftex/updmap/pdftex.map}] (./contents.tex (./main.toc
+Overfull \hbox (25.4344pt too wide) in paragraph at lines 2--2
+ [][] []\T1/cmr/bx/n/12 Rigorous pro-ce-dures to in-clude mul-ti-ple frag-ment 
+topolo-gies in elec-tronic 
+
+Overfull \hbox (8.78032pt too wide) in paragraph at lines 6--6
+ [][][] []\T1/cmr/m/n/12 A pseudo-Hamiltonian for-mal-ism that al-lows con-tin-
+u-ous mor-ph-ing across 
+
+Overfull \hbox (19.34642pt too wide) in paragraph at lines 13--13
+ [][][] []\T1/cmr/m/n/12 Comparison of di-a-batic sur-faces with their CTM in-t
+er-po-la-tion for $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]O\OT1/cmr/m/n/12 )[]\OM
+L/cmm/m/it/12 H[]$ [][]  
+[2]) [3]) (./chap1.tex
+Chapter 1.
+[4]
+Overfull \hbox (20.98021pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 (a) Born-Oppenheimer molec-u-lar dy-nam-ics (BOMD) [22[]31] and 
+(b) ex-tended La-grangian
+
+Overfull \hbox (11.10468pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 La-grangian meth-ods, on the con-trary, si-mul-ta-ne-ously prop-
+a-gate the elec-tronic struc-tural
+
+Overfull \hbox (21.12454pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 pa-ram-e-ters, along with the nu-clear frame-work, through a sim
+-ple ad-just-ment of time-scales.
+
+Overfull \hbox (17.86284pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 ma-trix prop-a-ga-tion (ADMP) [64[]69] method uses atom-centered
+ Gaus-sian ba-sis func-tions
+
+Overfull \hbox (20.92874pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 and sin-gle par-ti-cle elec-tronic den-sity ma-tri-ces as elec-t
+ronic pa-ram-e-ters that are prop-a-gated
+
+Overfull \hbox (16.17253pt too wide) in paragraph at lines 23--63
+\T1/cmr/m/n/12 with the nu-clei. The ADMP method has been em-ployed to study vi
+-bra-tional spec-troscopy
+[5]
+Overfull \hbox (7.47089pt too wide) in paragraph at lines 64--93
+\T1/cmr/m/n/12 ONIOM method [95] has been gen-er-al-ized by us-ing the set-theo
+retic, inclusion-exclusion
+[6]
+Overfull \hbox (8.77258pt too wide) in paragraph at lines 94--119
+\T1/cmr/m/n/12 atoms, a full po-ten-tial en-ergy sur-face is a $\OT1/cmr/m/n/12
+ 3\OML/cmm/m/it/12 N$ \T1/cmr/m/n/12 di-men-sional func-tion. Say, we ap-prox-i
+-mate
+
+Overfull \hbox (51.92798pt too wide) in paragraph at lines 120--140
+\T1/cmr/m/n/12 com-bined to ob-tain a smooth, in-ter-po-lated, adap-tive, syste
+m-independent, multi-topology-based
+
+Overfull \hbox (14.85526pt too wide) in paragraph at lines 120--140
+\T1/cmr/m/n/12 Chap-ter 2 that the method of com-put-ing a multi-topology sur-f
+ace re-quires non-Hermitian
+[7] [8]) (./chap2.tex
+Chapter 2.
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 8.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 10.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 12.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 15.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
+ine 17.
+
+[9]
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
+line 22.
+
+
+Overfull \hbox (8.97601pt too wide) in paragraph at lines 22--29
+[][]\T1/cmr/m/n/12 The im-age in Fig-ure [](b) is al-ge-braically trans-lated u
+s-ing the set-theoretic prin-ci-ple
+
+Overfull \hbox (8.22424pt too wide) in paragraph at lines 22--29
+\T1/cmr/m/n/12 re-gions carry en-ergy cor-rec-tion to the over-all sys-tem. The
+ as-so-ci-ated inclusion-exclusion
+
+Overfull \hbox (38.46867pt too wide) in paragraph at lines 35--35
+[] 
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
+line 38.
+
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
+line 49.
+
+
+Overfull \hbox (3.50375pt too wide) in paragraph at lines 46--70
+\T1/cmr/m/n/12 both high as well as low level of the-ory cal-cu-la-tion on pri-
+mary and deriva-tive frag-ments.
+[10]
+Overfull \hbox (51.62778pt too wide) in paragraph at lines 71--71
+[]\T1/cmr/bx/n/17.28 Challenges for AIMD and po-ten-tial sur-face cal-cu-la-tio
+ns 
+[11] <figures/bomdEnergy-eps-converted-to.pdf, id=56, 281.05pt x 219.82124pt>
+<use figures/bomdEnergy-eps-converted-to.pdf> [12]
+<figures/graph1all-eps-converted-to.pdf, id=63, 278.03876pt x 253.94875pt>
+<use figures/graph1all-eps-converted-to.pdf>
+<figures/reZoomedInWithoutCTM-eps-converted-to.pdf, id=64, 278.03876pt x 253.94
+875pt> <use figures/reZoomedInWithoutCTM-eps-converted-to.pdf>
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 124--138
+ [][][]  [] 
+
+Overfull \hbox (8.86644pt too wide) in paragraph at lines 141--154
+\T1/cmr/m/n/12 frag-men-ta-tion pro-cess, re-quired in AIMD and in PES cal-cu-l
+a-tions, many such topolo-gies
+[13 <./figures/bomdEnergy-eps-converted-to.pdf>]
+Overfull \hbox (2.08745pt too wide) in paragraph at lines 155--155
+[]\T1/cmr/bx/n/17.28 Formal con-structs for a multi-topology for-mal-ism 
+[14 <./figures/graph1all-eps-converted-to.pdf> <./figures/reZoomedInWithoutCTM-
+eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 15 undefined on input 
+line 177.
+
+
+Overfull \hbox (25.69545pt too wide) in paragraph at lines 183--190
+[][]\T1/cmr/m/n/12 In prob-a-bly the most straight-forward im-ple-men-ta-tion, 
+we cast this multiple-topology
+
+Overfull \hbox (4.62007pt too wide) in paragraph at lines 183--190
+\T1/cmr/m/n/12 This par-tic-u-lar for-mal-ism is com-pletely bench-marked in th
+is re-port and pre-sented
+[15]
+Overfull \hbox (1.09593pt too wide) in paragraph at lines 198--200
+[][]\T1/cmr/m/n/12 Our even-tual goal is to con-struct wavepacket dy-nam-ics on
+ these mul-ti-ple sur-faces
+[16]
+Overfull \hbox (58.8563pt too wide) in paragraph at lines 238--238
+[]\T1/cmr/bx/n/17.28 A pseudo-Hamiltonian for-mal-ism that al-lows con-tin-u-ou
+s
+[17] [18]
+Overfull \hbox (21.81973pt too wide) in paragraph at lines 299--301
+[][]\T1/cmr/m/n/12 We name this method of in-ter-po-la-tion as $[]$
+
+Overfull \hbox (73.76167pt too wide) in paragraph at lines 303--303
+[]\T1/cmr/bx/n/17.28 Computational ef-fi-ciency for po-ten-tial sur-face cal-cu
+-la-tions 
+
+Overfull \hbox (17.32625pt too wide) in paragraph at lines 304--313
+\T1/cmr/m/n/12 cost. Par-al-lel com-put-ing im-ple-men-ta-tion of these frag-me
+nt's po-ten-tial en-ergy cal-cu-la-tions
+[19]
+Overfull \hbox (45.13216pt too wide) in paragraph at lines 319--319
+[]\T1/cmr/bx/n/17.28 NEEDS TO BE MOD-I-FIED Other meth-ods de-vel-oped
+
+Overfull \hbox (3.81625pt too wide) in paragraph at lines 320--363
+\T1/cmr/m/n/12 multi-state em-pir-i-cal va-lence bond model (MS-EVB) [190] to s
+im-u-late pro-ton trans-port
+[20] [21]) (./chap3.tex
+Chapter 3.
+[22]
+<figures/potentialsGraph-eps-converted-to.pdf, id=109, 361.35pt x 252.945pt>
+<use figures/potentialsGraph-eps-converted-to.pdf>
+<figures/diffGraph-eps-converted-to.pdf, id=110, 361.35pt x 252.945pt>
+<use figures/diffGraph-eps-converted-to.pdf>
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 23--36
+ [][][]  [] 
+[23 <./figures/potentialsGraph-eps-converted-to.pdf> <./figures/diffGraph-eps-c
+onverted-to.pdf>] [24]
+Overfull \hbox (42.89026pt too wide) in paragraph at lines 98--107
+\T1/cmr/m/n/12 and $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 H[]O\OT1/cmr/m/n/12 )[]\O
+ML/cmm/m/it/12 H[]$ \T1/cmr/m/n/12 as bench-mark sys-tems for po-ten-tial en-er
+gy sur-face cal-cu-la-tions. Frag-men-ta-tion
+[25]
+Overfull \hbox (36.97057pt too wide) in paragraph at lines 113--113
+[]\T1/cmr/bx/n/17.28 Adaptive de-tec-tion of changes in topo-log-i-cal net-work
+s 
+
+LaTeX Warning: Reference `dirichlet-tessalation' on page 26 undefined on input 
+line 136.
+
+
+Overfull \hbox (7.30646pt too wide) in paragraph at lines 126--140
+\T1/cmr/m/n/12 tri-an-gu-la-tion. For a given set of points in a d-dimensional 
+space, De-lau-nay tri-an-gu-la-tion
+[26] [27] [28]
+Overfull \hbox (4.3908pt too wide) in paragraph at lines 206--211
+\T1/cmr/m/n/12 An-other im-por-tant ob-ser-va-tion is that the sur-faces cor-re
+-spond-ing to $\OML/cmm/m/it/12 E[]; E[]$
+<figures/reZoomedIn-eps-converted-to.pdf, id=141, 278.03876pt x 253.94875pt>
+<use figures/reZoomedIn-eps-converted-to.pdf>
+<figures/DiffERepeated-eps-converted-to.pdf, id=142, 361.35pt x 252.945pt>
+<use figures/DiffERepeated-eps-converted-to.pdf>
+Overfull \hbox (5.22098pt too wide) in paragraph at lines 214--227
+ [][][]  [] 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.233 ...pology1}$ on the left side and hence $E$_
+                                                  {CTM}-$E_{Topology1}$
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.233 ... on the left side and hence $E$_{CTM}-$E_
+                                                  {Topology1}$
+? [29 <./figures/reZoomedIn-eps-converted-to.pdf> <./figures/DiffERepeated-eps-co
+nverted-to.pdf>]
+Overfull \hbox (24.64436pt too wide) in paragraph at lines 246--252
+[][]\T1/cmr/m/n/12 Using all the three po-ten-tial dis-cussed above sym-metrize
+d Hamil-to-ni-ans are con-structed
+<figures/DiffEVRepeated-eps-converted-to.pdf, id=158, 361.35pt x 252.945pt>
+<use figures/DiffEVRepeated-eps-converted-to.pdf>
+Overfull \hbox (22.5644pt too wide) in paragraph at lines 269--274
+[][]\T1/cmr/m/n/12 One of the fu-ture goals of this project is to also im-ple-m
+ent a topo-log-i-cal surface-hopping
+[30] [31 <./figures/DiffEVRepeated-eps-converted-to.pdf>]
+<image.png, id=175, 513.41812pt x 513.41812pt> <use image.png>
+
+LaTeX Warning: Reference `figureToShowEigenScans' on page 32 undefined on input
+ line 299.
+
+
+LaTeX Warning: Reference `figureToShowEigenScans' on page 32 undefined on input
+ line 301.
+
+
+Overfull \hbox (117.62885pt too wide) in paragraph at lines 304--307
+[][]\T1/cmr/m/n/12 The er-rors be-tween the CTM method used with pie-oniom (MP2
+/6-31++g(d,p))/(B3LYP/6-31++g(d,p))
+[32] [33 <./image.png>]
+<figures/bars-eps-converted-to.pdf, id=182, 361.35pt x 262.9825pt>
+<use figures/bars-eps-converted-to.pdf> [34] [35 <./figures/bars-eps-converted-
+to.pdf>] <figures/E-eps-converted-to.pdf, id=201, 361.35pt x 252.945pt>
+<use figures/E-eps-converted-to.pdf> [36] [37 <./figures/E-eps-converted-to.pdf
+>]
+<figures/eigenEvalEditted-eps-converted-to.pdf, id=218, 361.35pt x 252.945pt>
+<use figures/eigenEvalEditted-eps-converted-to.pdf> [38 <./figures/eigenEvalEdi
+tted-eps-converted-to.pdf>]
+<figures/autosubScanEigen-eps-converted-to.pdf, id=233, 361.35pt x 252.945pt>
+<use figures/autosubScanEigen-eps-converted-to.pdf> [39] [40 <./figures/autosub
+ScanEigen-eps-converted-to.pdf>]
+<figures/wwbars-eps-converted-to.pdf, id=249, 361.35pt x 273.02pt>
+<use figures/wwbars-eps-converted-to.pdf> [41] [42 <./figures/wwbars-eps-conver
+ted-to.pdf>] <figures/wwE-eps-converted-to.pdf, id=266, 361.35pt x 252.945pt>
+<use figures/wwE-eps-converted-to.pdf> [43 <./figures/wwE-eps-converted-to.pdf>
+] <figures/barsEditted-eps-converted-to.pdf, id=280, 361.35pt x 252.945pt>
+<use figures/barsEditted-eps-converted-to.pdf> [44]
+<figures/threeTopoCase-eps-converted-to.pdf, id=284, 361.35pt x 328.22626pt>
+<use figures/threeTopoCase-eps-converted-to.pdf> [45 <./figures/barsEditted-eps
+-converted-to.pdf>] [46] [47 <./figures/threeTopoCase-eps-converted-to.pdf>])
+(./chap4.tex
+Chapter 4.
+! Undefined control sequence.
+l.15 been shown in Refs. \onlinecite
+                                    {SLO-rare-isotopes} that the acceptor si...
+
+? 
+Overfull \hbox (1.2194pt too wide) in paragraph at lines 4--43
+\T1/cmr/m/n/12 sys-tems, but it is still im-pos-si-ble to use it for large sys-
+tems such as bi-o-log-i-cal molecules,
+[48] [49]
+Overfull \hbox (53.2251pt too wide) in paragraph at lines 45--45
+[]\T1/cmr/bx/n/17.28 Landau-Zener based topo-log-i-cal tran-si-tion prob-a-bil-
+i-ties 
+
+Overfull \hbox (8.39816pt too wide) in paragraph at lines 74--89
+\T1/cmr/m/n/12 col-li-sion pro-cesses in-volv-ing nona-di-a-batic tran-si-tions
+ such as charge trans-fer, quench-ing,
+[50]
+Overfull \hbox (2.97763pt too wide) in paragraph at lines 93--102
+[]\T1/cmr/m/n/12 for a given tra-jec-tory R(t) [187]. Here $\OML/cmm/m/it/12 v$
+ \T1/cmr/m/n/12 is nu-clear ve-loc-ity, $\OML/cmm/m/it/12 ^^^[]$ \T1/cmr/m/n/12
+ are elec-tronic eigen-states.
+
+Overfull \hbox (18.75592pt too wide) in paragraph at lines 93--102
+\OML/cmm/m/it/12 E[]$ \T1/cmr/m/n/12 and $\OML/cmm/m/it/12 E[]$ \T1/cmr/m/n/12 
+are elec-tronic en-ergy eigen-val-ues cor-re-spond-ing to $\OML/cmm/m/it/12 i[]
+$ \T1/cmr/m/n/12 and $\OML/cmm/m/it/12 j[]$ \T1/cmr/m/n/12 states re-spec-tivel
+y.
+
+Overfull \hbox (2.39027pt too wide) in paragraph at lines 93--102
+\T1/cmr/m/n/12 Hence, fol-low-ing our anal-ogy be-tween elec-tronic en-er-gies 
+and frag-ment based elec-tronic
+
+Overfull \hbox (18.44876pt too wide) in paragraph at lines 93--102
+\T1/cmr/m/n/12 ap-prox-i-ma-tion is the as-sump-tion that the eigen-states cor-
+re-spond-ing to dif-fer-ent topolo-gies
+[51]) [52] (./appa.tex
+Appendix A.
+
+Overfull \hbox (18.64453pt too wide) in paragraph at lines 3--9
+[][]\T1/cmr/m/n/12 The mo-ti-va-tion for purely imag-i-nary off-diagonal el-e-m
+ents, and hence a non-Hermitian
+
+Overfull \hbox (7.56068pt too wide) detected at line 19
+[]
+[53]
+Overfull \hbox (7.56068pt too wide) detected at line 43
+[]
+[54] [55]) (./appb.tex
+Appendix B.
+
+Overfull \hbox (6.70157pt too wide) in paragraph at lines 5--13
+\T1/cmr/m/n/12 in-volve these elec-tronic struc-ture cal-cu-la-tions at each po
+int on a grid, the com-pu-ta-tional
+
+Overfull \hbox (6.71921pt too wide) in paragraph at lines 5--13
+\T1/cmr/m/n/12 ex-pense grows ex-po-nen-tially. Use of par-al-lel com-put-ing i
+n the frag-ment based elec-tronic
+[56]
+! Missing } inserted.
+<inserted text> 
+                }
+l.26 T_{1} &     =  ($
+                      t_{Full}^{low}$ + $P.t_{primary}^{high}$ + $D.t_{deriv...
+
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.26 T_{1} &     =  ($t_
+                        {Full}^{low}$ + $P.t_{primary}^{high}$ + $D.t_{deriv...
+
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.27  + D.t_
+            {derivative}^{low}) M
+? ! Missing { inserted.
+<inserted text> 
+                {
+l.28 \end{aligned}
+                  \right.
+? [57] [58] [59]) (./appc.tex
+Appendix C.
+[60]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...tion will tend to a step function as b \to
+                                                   \infty.
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.31 
+     
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.33 boundary, t \in
+                     $\{t_{ij}^{0},t_{ij}^{1}\}$ mentioned in Eq. \ref{param...
+
+? ! Missing $ inserted.
+<inserted text> 
+                $
+l.33 boundary, t \in $\{t_
+                          {ij}^{0},t_{ij}^{1}\}$ mentioned in Eq. \ref{param...
+
+? 
+LaTeX Warning: Reference `erfEquation' on page 61 undefined on input line 36.
+
+[61]) (./biblio.tex (./main.bbl
+Underfull \hbox (badness 1354) in paragraph at lines 54--59
+\T1/cmr/m/n/12 Vir-ginia E Teige, and Gre-gory A Voth.  The prop-er-ties of ion
+-water
+[62]
+
+! Package inputenc Error: Unicode char \u8:∙ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 ...predissociation spectra of the h 5 o 2+∙
+                                                   rg n (rg=
+? 
+Underfull \hbox (badness 1565) in paragraph at lines 111--116
+[][]\T1/cmr/m/n/12 R. Benny Ger-ber, My-chel E. Varner, Au-drey D. Ham-merich, 
+Sampsa
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
+[][]\T1/cmr/m/n/12 Barbara Kirch-ner, Philipp J. Di Dio, and Juerg Hut-ter.
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
+|   []\T1/cmr/m/n/12 ,
+
+Underfull \hbox (badness 1248) in paragraph at lines 153--157
+[][]\T1/cmr/m/n/12 K. Bolton, W. L. Hase, and G. H. Pesl-herbe.  |   []   |   [
+]   |   []
+
+Underfull \hbox (badness 2608) in paragraph at lines 153--157
+|   []   |   []   |   []   |   []   |   []\T1/cmr/m/n/12 , chap-ter Di-rect
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 258--262
+[][]\T1/cmr/m/n/12 A Laio and M Par-rinello.  Es-cap-ing Free-Energy Min-ima.
+[65]
+Underfull \hbox (badness 8151) in paragraph at lines 316--320
+[][]\T1/cmr/m/n/12 G. Lip-pert, J. Hut-ter, and M. Par-rinello.  The gaus-sian 
+and
+
+Underfull \hbox (badness 1142) in paragraph at lines 316--320
+\T1/cmr/m/n/12 augmented-plane-wave den-sity func-tional method for ab ini-tio 
+molec-u-lar
+[66] [67]
+Underfull \hbox (badness 1354) in paragraph at lines 403--408
+\T1/cmr/m/n/12 Vir-ginia E Teige, and Gre-gory A Voth.  The prop-er-ties of ion
+-water
+
+Underfull \hbox (badness 3039) in paragraph at lines 424--428
+[][]\T1/cmr/m/n/12 Xiaohu Li, Vir-ginia E Teige, and Srini-vasan S Iyen-gar.  C
+an the
+[68]
+Underfull \hbox (badness 1910) in paragraph at lines 507--511
+[][]\T1/cmr/m/n/12 Lori M Lev-er-ing, M Rox-ana Sierra-Hernandez, and Heather C
+ Allen.
+[69]
+Underfull \hbox (badness 1348) in paragraph at lines 533--538
+[][]\T1/cmr/m/n/12 Lung Wa Chung, Ha-jime Hi-rao, Xin Li, and Keiji Mo-rokuma. 
+ The
+
+Underfull \hbox (badness 1102) in paragraph at lines 533--538
+\T1/cmr/m/n/12 oniom method: its foun-da-tion and ap-pli-ca-tions to met-al-loe
+n-zymes and
+
+Underfull \hbox (badness 5260) in paragraph at lines 540--544
+[][]\T1/cmr/m/n/12 Krishnan Raghavachari and Ar-jun Saha.  Ac-cu-rate com-pos-i
+te and
+
+Underfull \hbox (badness 1308) in paragraph at lines 553--556
+[][]\T1/cmr/m/n/12 Michael A. Collins and Ryan P. A. Bet-tens.  Energy-based mo
+lec-u-lar
+[70]
+Underfull \hbox (badness 7704) in paragraph at lines 617--621
+[][]\T1/cmr/m/n/12 Lin-Wang Wang, Zhengji Zhao, and Juan Meza.  Linear-scaling
+
+Underfull \hbox (badness 4726) in paragraph at lines 617--621
+\T1/cmr/m/n/12 three-dimensional frag-ment method for large-scale elec-tronic s
+truc-ture
+[71] [72]
+Underfull \hbox (badness 1253) in paragraph at lines 728--732
+\T1/cmr/m/n/12 large molecules: Ap-pli-ca-tion to myo-globin.  |   []   |   [] 
+  |   [],
+[73]
+Underfull \hbox (badness 1248) in paragraph at lines 757--761
+[][]\T1/cmr/m/n/12 EA Carter, Gio-vanni Ci-c-cotti, James T Hynes, and Ray-mond
+ Kapral.
+
+Underfull \hbox (badness 3240) in paragraph at lines 810--814
+\T1/cmr/m/n/12 per-tur-ba-tion the-ory cor-rec-tions for the vi-bra-tional self
+-consistent field
+[74]
+Underfull \hbox (badness 3260) in paragraph at lines 853--858
+[][]\T1/cmr/m/n/12 Riccardo Conte, Chen Qu, and Joel M Bow-man.  Per-mu-ta-tion
+-ally
+[75]
+
+! Package inputenc Error: Unicode char \u8:→ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926   ch4→
+               h2+ ch3 reaction.
+? [76]
+Underfull \hbox (badness 1701) in paragraph at lines 949--954
+[][]\T1/cmr/m/n/12 J�rg Behler.  Con-struct-ing high-dimensional neu-ral net-wo
+rk po-ten-tials:
+
+Underfull \hbox (badness 6725) in paragraph at lines 949--954
+\T1/cmr/m/n/12 A tu-to-rial re-view.  |   []   |   []   |   []   |   []   |   [
+],
+
+Underfull \hbox (badness 1694) in paragraph at lines 974--977
+\T1/cmr/m/n/12 by ar-ti-fi-cial neu-ral net-works.  |   []   |   []   |   []   
+|   []   |   []   |   [],
+
+Underfull \hbox (badness 8056) in paragraph at lines 986--990
+\T1/cmr/m/n/12 neu-ral net-work po-ten-tials.  |   []   |   []   |   []   |   [
+],
+
+Underfull \hbox (badness 2359) in paragraph at lines 992--996
+\T1/cmr/m/n/12 of high-dimensional potential-energy sur-faces.  |   []   |   []
+   |   [],
+
+Underfull \hbox (badness 1354) in paragraph at lines 998--1002
+\T1/cmr/m/n/12 tool for large-scale sim-u-la-tions.  |   []   |   []   |   []  
+ |   [],
+
+Underfull \hbox (badness 4954) in paragraph at lines 1004--1009
+\T1/cmr/m/n/12 ab ini-tio molec-u-lar dy-nam-ics with qm/mm and qm/qm tech-niqu
+es:
+[77] [78] [79] [80]
+Underfull \hbox (badness 2261) in paragraph at lines 1208--1211
+[][]\T1/cmr/m/n/12 SR Bil-leter and WF Van Gun-steren.  Pro-toniz-able wa-ter m
+odel for
+[81]
+Underfull \hbox (badness 1320) in paragraph at lines 1276--1279
+[][]\T1/cmr/m/n/12 Charles F Van Loan.  Ma-trix com-pu-ta-tions (johns hop-kins
+ stud-ies in
+)) [82] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+(./chap3.aux) (./chap4.aux) (./appa.aux) (./appb.aux) (./appc.aux)
+(./biblio.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ){/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texm
+f/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.p
+fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/
+fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx12
+00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm070
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on main.pdf (82 pages, 2317911 bytes).
+Transcript written on main.log.
