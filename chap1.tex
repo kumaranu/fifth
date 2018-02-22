@@ -4,39 +4,57 @@ In molecular dynamics the nuclear framework is propagated in time using forces o
 from potential energy gradients. For large systems in equilibrium, this may be done
 using empirical potential energy functions, with parameters determined from experiment
 \cite{Allen, Ciccotti, Haberlandt, Frenkel, Binder, Berne, Esser}. For reactive systems
-however, $\it{ab~ initio}$ strategies may be essential. For the study of an excess proton
-in water \cite{James, VothDay, IyengarPetersen, fragAIMD-elbo, fragAIMD-CC,fragAIMD},
-however, methods such as \cite{polarizability1, polarizability2, aqc} EVB
-(empirical valence bond) and MSEVB (Multi-state EVB) \cite{VothDay} allow special
-handling; but these are not easily generalized for general reactive systems and
-$\it{ab~ initio}$ molecular dynamics (AIMD) methods present a viable, but expensive
+and system involving a high degree of polarization \cite{polarizability1, polarizability2,
+aqc,LOOK for more} however, $\it{ab~ initio}$
+ strategies may be necessary. For the specific but important case of an excess proton
+in water \cite{James, VothDay,PetersenIyengar,IyengarPetersen, fragAIMD-elbo, fragAIMD-CC,fragAIMD},
+however, methods such as EVB (empirical valence bond) \cite{jacs102.6218}
+and MSEVB (Multi-state EVB) \cite{VothDay} allow special
+handling and are not easily generalized for other reactive systems;
+$\it{ab~ initio}$ molecular dynamics (AIMD) \cite{KarplusBO1, Leforestier-BO, Helgaker-AIBO,
+BO-Hase, bernyPESreview, pulay, CPchargedsystems, CP, Madden, Marx-Cpreview, Cpdensity,
+Cptuckerman1, Cptuckerman3, Cpcpks, Carpar89, Galli91, Parrinello-harmonic, Na+solv, NH4+solv,
+K+solv, SO3solv, Be2+solv, H+OH-solv, Parrinello:ClH2O6, CarPar-Laasonen, CP-Wannier1,
+Marzari-Vanderbilt-Wannier, Kohn-Wannier, CP-Gaussians1, CP-Gaussians2, CP-Gaussians-Martyna,
+Galli-mu-problem-BOCP, Galli-mu-problem, carter1, carter2, carter3} methods present a viable, but expensive
 computational option. In AIMD, electronic structure calculations are performed to obtain
 potential energies and gradients in order to propagate the nuclei in time.
 
-Due to the intrinsic scaling of the electronic structure methods, such as 
-$O(N^{3.5})$ for DFT, $O(N^5)$ for MP2, and $O(N^7)$ for CCSD(T), AIMD calculations
-have thus far been restricted to the use of density functional treatment 
+Due to the intrinsic scaling \footnote{The term intrinsic scaling refers to the factor by
+which the computational expense grows with the size of the system. The notation $O(N^{\alpha})$
+is generally used to demonstrate this scaling where $N$ represents the number of basis function
+used in the calculations and $\alpha$ denotes the order of $N$ by which the computational expense
+with grow. For example, if a calculation computed by using $M$ number of basis functions takes
+a cpu time $t$ in MP2 calculations then if the same system is computed by using $2M$ number of
+basis functions will take a cpu time $2^{5} \times t$ to finish the calculation.} of the
+electronic structure methods, such as 
+$O(N^{3.5})$ for DFT, $O(N^5)$ for MP2, and $O(N^{6-7})$ for CCSD(T), AIMD calculations
+have thus far been restricted through the use of density functional treatment 
 \cite{Jutter-2D-MOFs-on-water-DFT-AIMD,Gerber-AIMD-atmospheric-2,Gerber-AIMD-atmospheric,
-Hutter-Review,Kirchner-Hutter-Aimd-Apps}. As the size of system grows the computational
-expense becomes a bottleneck for the application of post Hartree-fock methods in AIMD.
+Hutter-Review,Kirchner-Hutter-Aimd-Apps}. Accurate predictions for the weak intermolecular
+interactions such as Van der Waals force (London-dispersion, induction or polarization and
+electrostatic interactions) and Hydrogen bonds are still some challenges in the area of DFT
+functionals. Hence we need post-Hartree-fock methods to capture these small in energy
+($\sim$ 0.01-0.1 kcal/mol for Van der Waals force and 2.8-7.1 kcal/mol for hydrogen
+bonds) but important interactions. But as the size of system grows the computational expense
+becomes a bottleneck for the application of post-Hartree-fock methods in AIMD.
 
-There are essentially two flavors of ``on-the-fly'' dynamics where the gradients from
+There are essentially two flavors of ``on-the-fly'' AIMD where the gradients from
 electronic structure are employed to propagate the nuclear framework. These include:
 (a) Born-Oppenheimer molecular dynamics (BOMD) \cite{KarplusBO1, Leforestier-BO,
-Helgaker-AIBO, BO-Hase, Hessian, bernyPESreview, Hrant-Berny-PESreview, formaldehyde,
+Helgaker-AIBO, BO-Hase, bernyPESreview, 
 pulay, CPchargedsystems} and (b) extended Lagrangian methods \cite{AndersenEL,
-ParrinelloEL, Parrinello1984jcp-PI}, of which the Car-Parrinello method
+ParrinelloEL}, of which the Car-Parrinello method
 \cite{CP, Madden, Marx-Cpreview, Cpdensity, Cptuckerman1, Cptuckerman3, Cpcpks, Carpar89,
 Galli91, Parrinello-harmonic, Na+solv, NH4+solv, K+solv, SO3solv, Be2+solv, H+OH-solv,
 Parrinello:ClH2O6, CarPar-Laasonen, CP-Wannier1, Marzari-Vanderbilt-Wannier, Kohn-Wannier,
 CP-Gaussians1, CP-Gaussians2, CP-Gaussians-Martyna, Galli-mu-problem-BOCP, Galli-mu-problem,
-carter1, carter2, carter3,Parrinello1984jcp-PI} is perhaps the
-most commonly used. The BOMD method utilizes electronic Schr\"{o}dinger equation to
-compute nuclear gradients that are employed at each step during molecular dynamics
-and simulate classical dynamics on the Born-Oppenheimer surface. The extended Lagrangian
-methods, on the contrary, simultaneously propagate the electronic structural
-parameters, along with the nuclear framework, through a simple adjustment of
-time-scales. The Car-Parrinello method is one of the most commonly employed approach
+carter1, carter2, carter3} is a commonly used example. The BOMD
+method utilizes approximations to the electronic Schr\"{o}dinger equation to
+compute nuclear gradients that are employed to simulate classical dynamics on the
+Born-Oppenheimer surface. The extended Lagrangian methods simultaneously propagate the
+electronic structural parameters, along with the nuclear framework, through an adjustment
+of the relative time-scales. The Car-Parrinello method is one of the most commonly employed approach
 of this kind, where plane-wave basis functions are used to describe the valence
 electrons and pseudopotentials describe core electrons. By contrast, the atom-centered
 density matrix propagation (ADMP) \cite{admp1,admp2,admp3,admp4,IyengarFrisch,
@@ -44,7 +62,7 @@ IyengarSchlegelVoth} method uses atom-centered Gaussian basis functions and sing
 particle electronic density matrices as electronic parameters that are propagated
 with the nuclei. The ADMP method has been employed to study vibrational spectroscopy
 in hydrogen bonded systems beyond the Harmonic approximation
-\cite{IyengarProtonatedWater1,IyengarProtonatedWater2,DietrickIyengar,LiTeigeIyengar,
+\cite{IyengarPetersen,IyengarProtonatedWater2,DietrickIyengar,LiTeigeIyengar,
 LiOomensEyler,IyengarLiSumner}, proton conduction through biological ion-channel
 studies \cite{RegaIyengar}, hydrogen transfer reaction in biological
 \cite{SLO1-Rareevents} and atmospheric \cite{VimalPacheco,PachecoDietrick,
@@ -53,13 +71,13 @@ amphiphilic nature of the hydrated proton \cite{PetersenIyengar,IyengarDayVoth}
 and was later confirmed by several experiments \cite{PetersenIyengar,IyengarDayVoth,
 PetersenSaykally1,PetersenSaykally2,LeveringSierra,MuchaFrigato,KudinCar}. ADMP is
 computationally cheaper than BOMD as it only requires one SCF (self-consistent field)
-cycle instead of complete SCF convergence ($\approx$ 8-12 SCF steps depending on
-complexity of systems, when using incremental Fock-matrix formation) for electronic
-structure calculations. Although the computational expense is divided into many other
+step for electronic structure calculations. Although the computational expense is divided
+into many other
 calculations such as gradient calculations which are common to both ADMP and BOMD. BOMD
 is converged at each time step during dynamics, hence larger than ADMP time steps can
 be used in BOMD. In practice, it turns out that ADMP is twice as fast as BOMD for the
-cases where convergence is not a problem for BOMD \cite{BrorsenZahariev}.
+cases where convergence is not a problem for BOMD \cite{BrorsenZahariev} and recent work
+has shown that comparable time-steps can be used with ADMP \cite{TimsPaper}.
 
 In a recent set of publications \cite{fragAIMD,fragAIMD-elbo}, it
 has been shown how $\it{ab~ initio}$ molecular dynamics simulations can be performed
@@ -76,67 +94,65 @@ Refs. \cite{fragAIMD,fragAIMD-elbo,fragAIMD-CC}, the well-known ONIOM
 method \cite{oniom} has been generalized by using the set-theoretic,
 inclusion-exclusion principle \cite{pie} and allows multiple, overlapping
 ``model'' systems that may cover the entire domain of the full
-system. Our approach is closely related to those from
-Refs. \cite{mim,mta,ONIOM-XO} and in
-Refs. \cite{fragAIMD,fragAIMD-elbo}, we have used this approach to
-compute Born-Oppenheimer dynamics trajectories that agree with MP2-based
-AIMD. In Refs. \cite{fragAIMD-elbo,fragAIMD-CC}, extended-Lagrangian versions 
-of the same have been introduced and these are in agreement with MP2 and
-CCSD based Born-Oppenheimer molecular dynamics. In addition, in
+system. Other closely related approaches are discussed in Refs. \cite{mim,mta,ONIOM-XO}
+and in Refs. \cite{fragAIMD,fragAIMD-elbo}. In Refs. \cite{fragAIMD-elbo,fragAIMD-CC},
+extended-Lagrangian versions of the same have been introduced and these are in agreement
+with MP2 and CCSD based Born-Oppenheimer molecular dynamics. In addition, in
 Ref. \cite{fragAIMD,fragAIMD-elbo}, it has been shown that potential
 surfaces in agreement with CCSD(T) can be obtained for protonated water
-clusters with computational effort that scales as DFT. The Born-Oppenheimer
-version of this approach is called frag-BOMD, whereas, the extended-Lagrangian
-generalization is called atom-centered density matrix propagation with
-post-Hartree-Fock accuracy (ADMP-pHF) since it is derived from the
-ADMP \cite{admp1,admp2,admp3,admp4} Lagrangian.
+clusters with computational effort that scales as DFT.
 
 In addition to classical trajectories, in many problems of interest in
 chemical physics, it is often also required to compute molecular
 potential energy surfaces. The application of this fundamental concept in
 theoretical chemistry is quite broad and applies to a range of topics
 including, the study of nuclear quantization in chemical reactions
-\cite{polarizability1,dikenHeadrick}, reaction path sampling
-\cite{Bolhuis,Dellago,Elber,Gillilan,Henkelman,MacFadyen,Voter,Carter,
+\cite{polarizability1,dikenHeadrick,shannonIsoprene,isaacs1995physical,sheridan2007quantum,
+Klinman2,Sharon-Enzymes-Review-2006,Sharon-Enzymes-Science-2006,Truhlar-Karplus-Enzymes,
+Warshel-SLO-1,Klinman4,Klinman-Pac-Allenz-Tunnel,Truhlar-Gao-Chemrevs-Enzymes-2006-1,
+Truhlar-Gao-Chemrevs-Enzymes-2006-2,Kamerlin2010febsl,hodgkiss2007relation,
+nagel2006tunneling,qwaimd-SLO-1}, reaction path sampling
+\cite{miller1980reaction,Bolhuis,Dellago,Elber,Gillilan,Henkelman,MacFadyen,Voter,Carter,
 VoterChemPhys,VoterPhysRev} and computational vibrational properties
-beyond harmonic approximation \cite{HuangIyengar,Makri,Cao,Bowman,Gerber,
-Jung,Matsunaga,McCoy1,McCoy2,IyengarParker,Meyer}. For a system containing
+beyond harmonic approximation \cite{Bowman,Gerber,Jung,Matsunaga,McCoy1,McCoy2,IyengarParker,
+Meyer,Manolopoulos-waterwire,grotthuss,Agmon:96,AgmonOH}. For a system containing
 $N$ atoms, a full potential energy surface is a $3N$ dimensional function. Say,
-we approximate the
-surface by using a finite number of grid points {$M_1,M_2,...,M_{3N}$} along dimension 1,
-dimension 2,..., dimension 3N respectively. This way we will end up calculating
+we approximate the surface by using a finite number of grid points namely $\left\{ M_i \right\}$
+along dimensions $\left\{ i \right\}$. This way we will end up calculating
 {$\displaystyle\prod_{i=1}^{3N} M_{i}$} number of electronic structure calculations
 to compute the full surface. Computing high dimensional potentials is an active
-area of research \cite{Varandas-PES, truhlar, Bowman-IRPC-PES, ee-mbe-water,
+area of research \cite{shannonIsoprene,Varandas-PES, truhlar, Bowman-IRPC-PES,
 conte2015permutationally, mancini2014new, wang2016five, conte2015trajectory,
 yu2017high, Bowman-polybasis-fitting, aph, saller2014basis, reilly2010determination,
 collins2011ab, evenhuis2005interpolation, zhou2011ab, qwaimd, sumner2007quantum,
-qwaimd-SLO-1, fragAIMD, fragAIMD-elbo, fragAIMD-CC, behler2015constructing,
+qwaimd-SLO-1, behler2015constructing,
 rupp2015machine, botu2015adaptive, kohonen1988introduction, handley2010potential,
 manzhos2015neural, natarajan2015representing, behler2007generalized,
 behler2011neural}. But the challenge remains and is at the fore-font of modern
 computational chemistry.
 
 In this document, we discuss solutions that are applicable to both problems
-discussed above. This document is organized as follows: in chapter 2, we provide
+discussed above. This document is organized as follows: in Chapter 2, we provide
 a brief overview of fragment based AIMD. We then discuss limitations that reside
 at the heart of potential energy surface calculations and also dynamics in many
 reactive systems. Solutions are then discussed which combine multiple fragmentation
 protocols simultaneously into a single calculation. We are strongly influenced here
-by the literature of non-adiabatic dynamics, as we highlight. Specifically,
-multiple topologies in a fragmentation calculation are interpolated as diabatic
+by the literature of non-adiabatic dynamics \cite{allen2012computer}, as we highlight.
+Specifically, multiple topologies in a fragmentation calculation are interpreted as diabatic
 states and the resultant method is multi-configurational in nature, where
 diabatic states are combined to obtain a smooth, interpolated, adaptive,
 system-independent, multi-topology-based fragmentation scheme. In Chapter 3 we
-compute potential surfaces using the proposed method. Conclusions and future
-directions for this work are given in Chapter 4. Two appendices, Appendix A and
+compute potential surfaces using the method discussed in Chapter 2. Future directions
+for this work are given in Chapter 4. Two appendices, Appendix A and
 Appendix B are attached at the end of the report. Appendix A describes
 critical mathematical details. For example, it is found in Chapter 2 that the
-method of computing a multi-topology surface requires non-Hermitian matrices.
+method of computing a multi-topology surface requires non-Hermitian matrices
+(in the basis of the topological fragment-based diabatic states).
 It is shown in Appendix A how the class of matrices used here are in fact
-always have a real spectral span. Appendix B describes analysis of an
-algorithm to reuse results of electronic structure calculations in
-calculation of potential surfaces.
+always have a real spectral span. Appendix B describes algorithmic aspects that
+reduce the number of electronic structure calculations in obtaining of potential surfaces.
+Appendix C describes the details for the choice of function used in obtaining the
+off-diagonal element in Chapter 2.
 \newpage
 
 

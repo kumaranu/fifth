@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=latex 2014.6.20)  16 FEB 2018 16:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/TeX Live for SUSE Linux) (format=latex 2014.6.20)  19 FEB 2018 10:58
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1017,67 +1017,49 @@ u-ous mor-ph-ing across
 
  (./chap1.tex
 Chapter 1.
+
+LaTeX Warning: Citation `LOOKformore' on page 4 undefined on input line 8.
+
 [4
 
 
 
 ]
-Overfull \hbox (20.9802pt too wide) in paragraph at lines 23--63
-\T1/cmr/m/n/12 (a) Born-Oppenheimer molec-u-lar dy-nam-ics (BOMD) [22[]31] and 
+
+LaTeX Warning: Citation `TimsPaper' on page 5 undefined on input line 80.
+
+
+Overfull \hbox (20.9802pt too wide) in paragraph at lines 42--81
+\T1/cmr/m/n/12 (a) Born-Oppenheimer molec-u-lar dy-nam-ics (BOMD) [19[]25] and 
 (b) ex-tended La-grangian
  []
 
 
-Overfull \hbox (11.10466pt too wide) in paragraph at lines 23--63
-\T1/cmr/m/n/12 La-grangian meth-ods, on the con-trary, si-mul-ta-ne-ously prop-
-a-gate the elec-tronic struc-tural
- []
-
-
-Overfull \hbox (21.12453pt too wide) in paragraph at lines 23--63
-\T1/cmr/m/n/12 pa-ram-e-ters, along with the nu-clear frame-work, through a sim
--ple ad-just-ment of time-scales.
- []
-
-
-Overfull \hbox (17.86282pt too wide) in paragraph at lines 23--63
-\T1/cmr/m/n/12 ma-trix prop-a-ga-tion (ADMP) [64[]69] method uses atom-centered
- Gaus-sian ba-sis func-tions
- []
-
-
-Overfull \hbox (20.92873pt too wide) in paragraph at lines 23--63
-\T1/cmr/m/n/12 and sin-gle par-ti-cle elec-tronic den-sity ma-tri-ces as elec-t
-ronic pa-ram-e-ters that are prop-a-gated
- []
-
-
-Overfull \hbox (16.17252pt too wide) in paragraph at lines 23--63
-\T1/cmr/m/n/12 with the nu-clei. The ADMP method has been em-ployed to study vi
--bra-tional spec-troscopy
+Overfull \hbox (4.61319pt too wide) in paragraph at lines 42--81
+\T1/cmr/m/n/12 equa-tion to com-pute nu-clear gra-di-ents that are em-ployed to
+ sim-u-late clas-si-cal dy-nam-ics
  []
 
 [5]
-Overfull \hbox (7.47087pt too wide) in paragraph at lines 64--93
-\T1/cmr/m/n/12 ONIOM method [95] has been gen-er-al-ized by us-ing the set-theo
+Overfull \hbox (7.47087pt too wide) in paragraph at lines 82--104
+\T1/cmr/m/n/12 ONIOM method [91] has been gen-er-al-ized by us-ing the set-theo
 retic, inclusion-exclusion
  []
 
 [6]
-Overfull \hbox (8.77257pt too wide) in paragraph at lines 94--119
-\T1/cmr/m/n/12 atoms, a full po-ten-tial en-ergy sur-face is a $\OT1/cmr/m/n/12
- 3\OML/cmm/m/it/12 N$ \T1/cmr/m/n/12 di-men-sional func-tion. Say, we ap-prox-i
--mate
+Overfull \hbox (20.19768pt too wide) in paragraph at lines 105--133
+\T1/cmr/m/n/12 vi-bra-tional prop-er-ties be-yond har-monic ap-prox-i-ma-tion [
+141[]152]. For a sys-tem con-tain-ing
  []
 
 
-Overfull \hbox (51.92796pt too wide) in paragraph at lines 120--140
+Overfull \hbox (51.92796pt too wide) in paragraph at lines 134--156
 \T1/cmr/m/n/12 com-bined to ob-tain a smooth, in-ter-po-lated, adap-tive, syste
 m-independent, multi-topology-based
  []
 
 
-Overfull \hbox (14.85524pt too wide) in paragraph at lines 120--140
+Overfull \hbox (14.85524pt too wide) in paragraph at lines 134--156
 \T1/cmr/m/n/12 Chap-ter 2 that the method of com-put-ing a multi-topology sur-f
 ace re-quires non-Hermitian
  []
@@ -1103,10 +1085,6 @@ ine 12.
 LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
 ine 15.
 
-
-LaTeX Warning: Reference `dirichlet-tessalation' on page 9 undefined on input l
-ine 17.
-
 [9
 
 
@@ -1114,41 +1092,41 @@ ine 17.
 ]
 
 LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
-line 22.
+line 19.
 
 
-Overfull \hbox (8.976pt too wide) in paragraph at lines 22--29
+Overfull \hbox (8.976pt too wide) in paragraph at lines 19--26
 [][]\T1/cmr/m/n/12 The im-age in Fig-ure [](b) is al-ge-braically trans-lated u
 s-ing the set-theoretic prin-ci-ple
  []
 
 
-Overfull \hbox (8.22423pt too wide) in paragraph at lines 22--29
-\T1/cmr/m/n/12 re-gions carry en-ergy cor-rec-tion to the over-all sys-tem. The
- as-so-ci-ated inclusion-exclusion
+Overfull \hbox (48.09923pt too wide) in paragraph at lines 19--26
+\T1/cmr/m/n/12 re-gions carry en-ergy cor-rec-tions to the over-all sys-tem en-
+ergy. The as-so-ci-ated inclusion-exclusion
  []
 
 
-Overfull \hbox (38.46866pt too wide) in paragraph at lines 35--35
+Overfull \hbox (38.46866pt too wide) in paragraph at lines 32--32
 [] 
  []
 
 
 LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
-line 38.
+line 35.
 
 
 LaTeX Warning: Reference `dirichlet-tessalation' on page 10 undefined on input 
-line 49.
+line 46.
 
 
-Overfull \hbox (3.50374pt too wide) in paragraph at lines 46--70
-\T1/cmr/m/n/12 both high as well as low level of the-ory cal-cu-la-tion on pri-
-mary and deriva-tive frag-ments.
+Overfull \hbox (1.54607pt too wide) in paragraph at lines 43--67
+\T1/cmr/m/n/12 us-ing a scal-ing pa-ram-e-ter that de-pends on the na-ture of b
+ond cut dur-ing frag-men-ta-tion
  []
 
 [10]
-Overfull \hbox (51.62776pt too wide) in paragraph at lines 71--71
+Overfull \hbox (51.62776pt too wide) in paragraph at lines 68--68
 []\T1/cmr/bx/n/17.28 Challenges for AIMD and po-ten-tial sur-face cal-cu-la-tio
 ns 
  []
@@ -1161,76 +1139,76 @@ File: figures/graph1all.eps Graphic file (type eps)
 File: figures/reZoomedInWithoutCTM.eps Graphic file (type eps)
 
 <figures/reZoomedInWithoutCTM.eps>
-Overfull \hbox (5.22096pt too wide) in paragraph at lines 124--138
+Overfull \hbox (5.22096pt too wide) in paragraph at lines 121--135
  [][][]  [] 
  []
 
 
-Overfull \hbox (8.86642pt too wide) in paragraph at lines 141--154
+Overfull \hbox (8.86642pt too wide) in paragraph at lines 138--151
 \T1/cmr/m/n/12 frag-men-ta-tion pro-cess, re-quired in AIMD and in PES cal-cu-l
 a-tions, many such topolo-gies
  []
 
 [13]
-Overfull \hbox (2.08743pt too wide) in paragraph at lines 155--155
+Overfull \hbox (2.08743pt too wide) in paragraph at lines 152--152
 []\T1/cmr/bx/n/17.28 Formal con-structs for a multi-topology for-mal-ism 
  []
 
 [14]
 
 LaTeX Warning: Reference `dirichlet-tessalation' on page 15 undefined on input 
-line 177.
+line 174.
 
 
-Overfull \hbox (25.69543pt too wide) in paragraph at lines 183--190
+Overfull \hbox (25.69543pt too wide) in paragraph at lines 180--187
 [][]\T1/cmr/m/n/12 In prob-a-bly the most straight-forward im-ple-men-ta-tion, 
 we cast this multiple-topology
  []
 
 
-Overfull \hbox (4.62006pt too wide) in paragraph at lines 183--190
+Overfull \hbox (4.62006pt too wide) in paragraph at lines 180--187
 \T1/cmr/m/n/12 This par-tic-u-lar for-mal-ism is com-pletely bench-marked in th
 is re-port and pre-sented
  []
 
 [15]
-Overfull \hbox (1.09592pt too wide) in paragraph at lines 198--200
+Overfull \hbox (1.09592pt too wide) in paragraph at lines 195--197
 [][]\T1/cmr/m/n/12 Our even-tual goal is to con-struct wavepacket dy-nam-ics on
  these mul-ti-ple sur-faces
  []
 
 [16]
-Overfull \hbox (58.85628pt too wide) in paragraph at lines 238--238
+Overfull \hbox (58.85628pt too wide) in paragraph at lines 235--235
 []\T1/cmr/bx/n/17.28 A pseudo-Hamiltonian for-mal-ism that al-lows con-tin-u-ou
 s
  []
 
 [17] [18]
-Overfull \hbox (21.81972pt too wide) in paragraph at lines 300--302
+Overfull \hbox (21.81972pt too wide) in paragraph at lines 297--299
 [][]\T1/cmr/m/n/12 We name this method of in-ter-po-la-tion as $[]$
  []
 
 [19]
-Overfull \hbox (73.76166pt too wide) in paragraph at lines 304--304
+Overfull \hbox (73.76166pt too wide) in paragraph at lines 301--301
 []\T1/cmr/bx/n/17.28 Computational ef-fi-ciency for po-ten-tial sur-face cal-cu
 -la-tions 
  []
 
 
-Overfull \hbox (17.32623pt too wide) in paragraph at lines 305--314
+Overfull \hbox (17.32623pt too wide) in paragraph at lines 302--311
 \T1/cmr/m/n/12 cost. Par-al-lel com-put-ing im-ple-men-ta-tion of these frag-me
 nt's po-ten-tial en-ergy cal-cu-la-tions
  []
 
 
-Overfull \hbox (45.13214pt too wide) in paragraph at lines 320--320
+Overfull \hbox (45.13214pt too wide) in paragraph at lines 317--317
 []\T1/cmr/bx/n/17.28 NEEDS TO BE MOD-I-FIED Other meth-ods de-vel-oped
  []
 
 
-Overfull \hbox (3.81624pt too wide) in paragraph at lines 321--364
-\T1/cmr/m/n/12 multi-state em-pir-i-cal va-lence bond model (MS-EVB) [190] to s
-im-u-late pro-ton trans-port
+Overfull \hbox (4.76414pt too wide) in paragraph at lines 318--361
+\T1/cmr/m/n/12 phase or in en-zymes [18]. Udo W. Schmitt and Gre-gory A. Voth d
+e-vel-oped a multi-state
  []
 
 [20] [21])
@@ -1459,7 +1437,7 @@ Overfull \hbox (8.39815pt too wide) in paragraph at lines 73--88
 
 [58]
 Overfull \hbox (2.97762pt too wide) in paragraph at lines 92--101
-[]\T1/cmr/m/n/12 for a given tra-jec-tory R(t) [187]. Here $\OML/cmm/m/it/12 v$
+[]\T1/cmr/m/n/12 for a given tra-jec-tory R(t) [201]. Here $\OML/cmm/m/it/12 v$
  \T1/cmr/m/n/12 is nu-clear ve-loc-ity, $\OML/cmm/m/it/12 ^^^[]$ \T1/cmr/m/n/12
  are elec-tronic eigen-states.
  []
@@ -1596,153 +1574,136 @@ l.33 boundary, t \in $\{t_
 [69])
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl
-Underfull \hbox (badness 1354) in paragraph at lines 54--59
-\T1/cmr/m/n/12 Vir-ginia E Teige, and Gre-gory A Voth.  The prop-er-ties of ion
--water
- []
-
-[70
+ (./biblio.tex (./main.bbl [70
 
 
 
 ]
-
-! Package inputenc Error: Unicode char \u8:∙ not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 ...predissociation spectra of the h 5 o 2+∙
-                                                   rg n (rg=
-? 
-
-Underfull \hbox (badness 1565) in paragraph at lines 111--116
-[][]\T1/cmr/m/n/12 R. Benny Ger-ber, My-chel E. Varner, Au-drey D. Ham-merich, 
-Sampsa
+Underfull \hbox (badness 1354) in paragraph at lines 81--86
+\T1/cmr/m/n/12 Vir-ginia E Teige, and Gre-gory A Voth.  The prop-er-ties of ion
+-water
  []
 
-[71]
-Underfull \hbox (badness 1442) in paragraph at lines 153--157
+
+Underfull \hbox (badness 1442) in paragraph at lines 136--140
 [][]\T1/cmr/m/n/12 K. Bolton, W. L. Hase, and G. H. Pesl-herbe.  \T1/cmr/m/it/1
 2 Mod-ern Meth-ods for
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 153--157
+Underfull \hbox (badness 3460) in paragraph at lines 136--140
 \T1/cmr/m/it/12 Mul-ti-di-men-sional Dy-nam-ics Com-pu-ta-tion in Chem-istry\T1
 /cmr/m/n/12 , chap-ter Di-rect
  []
 
-[72] [73]
-Underfull \hbox (badness 8151) in paragraph at lines 316--320
+[71] [72]
+Underfull \hbox (badness 8151) in paragraph at lines 269--273
 [][]\T1/cmr/m/n/12 G. Lip-pert, J. Hut-ter, and M. Par-rinello.  The gaus-sian 
 and
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 316--320
+Underfull \hbox (badness 1142) in paragraph at lines 269--273
 \T1/cmr/m/n/12 augmented-plane-wave den-sity func-tional method for ab ini-tio 
 molec-u-lar
  []
 
-[74]
-Underfull \hbox (badness 1354) in paragraph at lines 403--408
-\T1/cmr/m/n/12 Vir-ginia E Teige, and Gre-gory A Voth.  The prop-er-ties of ion
--water
+[73]
+Underfull \hbox (badness 1565) in paragraph at lines 319--324
+[][]\T1/cmr/m/n/12 R. Benny Ger-ber, My-chel E. Varner, Au-drey D. Ham-merich, 
+Sampsa
  []
 
-
-Underfull \hbox (badness 3039) in paragraph at lines 424--428
+[74]
+Underfull \hbox (badness 3039) in paragraph at lines 411--415
 [][]\T1/cmr/m/n/12 Xiaohu Li, Vir-ginia E Teige, and Srini-vasan S Iyen-gar.  C
 an the
  []
 
 [75]
-Underfull \hbox (badness 1910) in paragraph at lines 507--511
+Underfull \hbox (badness 1910) in paragraph at lines 488--492
 [][]\T1/cmr/m/n/12 Lori M Lev-er-ing, M Rox-ana Sierra-Hernandez, and Heather C
  Allen.
  []
 
-[76]
-Underfull \hbox (badness 1348) in paragraph at lines 533--538
+
+Underfull \hbox (badness 1348) in paragraph at lines 514--519
 [][]\T1/cmr/m/n/12 Lung Wa Chung, Ha-jime Hi-rao, Xin Li, and Keiji Mo-rokuma. 
  The
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 533--538
+Underfull \hbox (badness 1102) in paragraph at lines 514--519
 \T1/cmr/m/n/12 oniom method: its foun-da-tion and ap-pli-ca-tions to met-al-loe
 n-zymes and
  []
 
-
-Underfull \hbox (badness 5260) in paragraph at lines 540--544
+[76]
+Underfull \hbox (badness 5260) in paragraph at lines 521--525
 [][]\T1/cmr/m/n/12 Krishnan Raghavachari and Ar-jun Saha.  Ac-cu-rate com-pos-i
 te and
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 553--556
+Underfull \hbox (badness 1308) in paragraph at lines 534--537
 [][]\T1/cmr/m/n/12 Michael A. Collins and Ryan P. A. Bet-tens.  Energy-based mo
 lec-u-lar
  []
 
 [77]
-Underfull \hbox (badness 7704) in paragraph at lines 617--621
+Underfull \hbox (badness 7704) in paragraph at lines 598--602
 [][]\T1/cmr/m/n/12 Lin-Wang Wang, Zhengji Zhao, and Juan Meza.  Linear-scaling
  []
 
 
-Underfull \hbox (badness 4726) in paragraph at lines 617--621
+Underfull \hbox (badness 4726) in paragraph at lines 598--602
 \T1/cmr/m/n/12 three-dimensional frag-ment method for large-scale elec-tronic s
 truc-ture
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 635--640
+Underfull \hbox (badness 1205) in paragraph at lines 616--621
 \T1/cmr/m/n/12 molecules and ma-te-ri-als.  \T1/cmr/m/it/12 Jour-nal of chem-i-
 cal the-ory and com-pu-ta-tion\T1/cmr/m/n/12 ,
  []
 
-[78]
-Underfull \hbox (badness 1418) in paragraph at lines 728--732
+[78] [79] [80]
+Underfull \hbox (badness 1418) in paragraph at lines 806--810
 \T1/cmr/m/n/12 large molecules: Ap-pli-ca-tion to myo-globin.  \T1/cmr/m/it/12 
 Chem-i-cal Physics Let-ters\T1/cmr/m/n/12 ,
  []
 
-[79]
-Underfull \hbox (badness 1043) in paragraph at lines 752--755
+
+Underfull \hbox (badness 1043) in paragraph at lines 830--833
 \T1/cmr/m/n/12 for sim-u-la-tion of in-fre-quent events.  \T1/cmr/m/it/12 The J
 our-nal of Chem-i-cal Physics\T1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 757--761
+Underfull \hbox (badness 1248) in paragraph at lines 835--839
 [][]\T1/cmr/m/n/12 EA Carter, Gio-vanni Ci-c-cotti, James T Hynes, and Ray-mond
  Kapral.
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 810--814
+Underfull \hbox (badness 3240) in paragraph at lines 870--874
 \T1/cmr/m/n/12 per-tur-ba-tion the-ory cor-rec-tions for the vi-bra-tional self
 -consistent field
  []
 
-[80]
-Underfull \hbox (badness 1005) in paragraph at lines 816--820
+
+Underfull \hbox (badness 1005) in paragraph at lines 876--880
 \T1/cmr/m/n/12 state dy-nam-ics and de-cay in clhcl-.  \T1/cmr/m/it/12 The Jour
 -nal of chem-i-cal physics\T1/cmr/m/n/12 ,
  []
 
-
-Underfull \hbox (badness 3260) in paragraph at lines 853--858
+[81]
+Underfull \hbox (badness 3260) in paragraph at lines 934--939
 [][]\T1/cmr/m/n/12 Riccardo Conte, Chen Qu, and Joel M Bow-man.  Per-mu-ta-tion
 -ally
  []
 
-[81]
+[82]
 
 ! Package inputenc Error: Unicode char \u8:→ not set up for use with LaTeX.
 
@@ -1750,76 +1711,76 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.926   ch4→
-               h2+ ch3 reaction.
+l.1008   ch4→
+                h2+ ch3 reaction.
 ? 
 
-Underfull \hbox (badness 1325) in paragraph at lines 936--942
+Underfull \hbox (badness 1325) in paragraph at lines 1018--1024
 \T1/cmr/m/n/12 molec-u-lar dy-nam-ics: An ap-proach for com-put-ing dy-nam-i-ca
 lly av-er-aged
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 950--955
+Underfull \hbox (badness 1701) in paragraph at lines 1026--1031
 [][]\T1/cmr/m/n/12 J�rg Behler.  Con-struct-ing high-dimensional neu-ral net-wo
 rk po-ten-tials:
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 950--955
+Underfull \hbox (badness 7433) in paragraph at lines 1026--1031
 \T1/cmr/m/n/12 A tu-to-rial re-view.  \T1/cmr/m/it/12 In-ter-na-tional Jour-nal
  of Quan-tum Chem-istry\T1/cmr/m/n/12 ,
  []
 
-[82]
-Underfull \hbox (badness 1931) in paragraph at lines 975--978
+[83]
+Underfull \hbox (badness 1931) in paragraph at lines 1051--1054
 \T1/cmr/m/n/12 by ar-ti-fi-cial neu-ral net-works.  \T1/cmr/m/it/12 The Jour-na
 l of Phys-i-cal Chem-istry A\T1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 987--991
+Underfull \hbox (badness 10000) in paragraph at lines 1063--1067
 \T1/cmr/m/n/12 neu-ral net-work po-ten-tials.  \T1/cmr/m/it/12 Phys-i-cal Chem-
 istry Chem-i-cal Physics\T1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 993--997
+Underfull \hbox (badness 2846) in paragraph at lines 1069--1073
 \T1/cmr/m/n/12 of high-dimensional potential-energy sur-faces.  \T1/cmr/m/it/12
  Phys-i-cal re-view let-ters\T1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 999--1003
+Underfull \hbox (badness 1642) in paragraph at lines 1075--1079
 \T1/cmr/m/n/12 tool for large-scale sim-u-la-tions.  \T1/cmr/m/it/12 Phys-i-cal
  Chem-istry Chem-i-cal Physics\T1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 1005--1010
+Underfull \hbox (badness 4954) in paragraph at lines 1086--1091
 \T1/cmr/m/n/12 ab ini-tio molec-u-lar dy-nam-ics with qm/mm and qm/qm tech-niqu
 es:
  []
 
-[83] [84] [85]
-Underfull \hbox (badness 2762) in paragraph at lines 1195--1201
+[84] [85] [86]
+Underfull \hbox (badness 2762) in paragraph at lines 1270--1276
 \T1/cmr/m/n/12 of hydrogen-bonded sys-tems us-ing the mul-tiref-er-ence gen-er-
 al-iza-tion to
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 1239--1242
+Underfull \hbox (badness 2261) in paragraph at lines 1307--1310
 [][]\T1/cmr/m/n/12 SR Bil-leter and WF Van Gun-steren.  Pro-toniz-able wa-ter m
 odel for
  []
 
-[86]
-Underfull \hbox (badness 1320) in paragraph at lines 1307--1310
+[87]
+Underfull \hbox (badness 1320) in paragraph at lines 1375--1378
 [][]\T1/cmr/m/n/12 Charles F Van Loan.  Ma-trix com-pu-ta-tions (johns hop-kins
  stud-ies in
  []
 
-)) [87] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
+)) [88] (./main.aux (./cover.aux) (./contents.aux) (./chap1.aux) (./chap2.aux)
 (./chap3.aux) (./chap4.aux) (./appa.aux) (./appb.aux) (./appc.aux)
 (./biblio.aux))
 
@@ -1830,12 +1791,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14844 strings out of 493316
- 254783 string characters out of 6145919
- 318315 words of memory out of 5000000
- 17826 multiletter control sequences out of 15000+600000
+ 14857 strings out of 493316
+ 255095 string characters out of 6145919
+ 318375 words of memory out of 5000000
+ 17839 multiletter control sequences out of 15000+600000
  34308 words of font info for 100 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  56i,9n,92p,984b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (87 pages, 231844 bytes).
+Output written on main.dvi (88 pages, 236248 bytes).

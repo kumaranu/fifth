@@ -37,6 +37,27 @@ R{\"u}diger Esser, Peter Grassberger~Johannes Grotendorst, and Marius Lewerenz.
 \newblock {\em Molecular Dynamics on Parallel Computers}.
 \newblock World Scientific, 2000.
 
+\bibitem{polarizability1}
+Nathan~I Hammer, Eric~G Diken, Joseph~R Roscioli, Mark~A Johnson, Evgeniy~M
+  Myshakin, Kenneth~D Jordan, Anne~B McCoy, Xinchuan Huang, Joel~M Bowman, and
+  Stuart Carter.
+\newblock The vibrational predissociation spectra of the ${H_5O_2}^+.{RG}_n$
+  ({RG}= {A}r, {N}e) clusters: Correlation of the solvent perturbations in the
+  free {OH} and shared proton transitions of the zundel ion.
+\newblock {\em The Journal of chemical physics}, 122(24):244301, 2005.
+
+\bibitem{polarizability2}
+D~Eisenberg and W~Kauzmann.
+\newblock The structure and properties of water oxford univ.
+\newblock {\em Press, New York}, 1969.
+
+\bibitem{aqc}
+Srinivasan~S Iyengar, Xiaohu Li, and Isaiah Sumner.
+\newblock The study of dynamically averaged vibrational spectroscopy of
+  atmospherically relevant clusters using ab initio molecular dynamics in
+  conjunction with quantum wavepackets.
+\newblock {\em Advances in Quantum Chemistry}, 55:333--353, 2008.
+
 \bibitem{James}
 Tim James and David~J Wales.
 \newblock Protonated water clusters described by an empirical valence bond
@@ -49,6 +70,12 @@ Tyler~JF Day, Alexander~V Soudackov, Martin {\v{C}}uma, Udo~W Schmitt, and
 \newblock A second generation multistate empirical valence bond model for
   proton transport in aqueous systems.
 \newblock {\em The Journal of chemical physics}, 117(12):5839--5849, 2002.
+
+\bibitem{PetersenIyengar}
+Matt~K Petersen, Srinivasan~S Iyengar, Tyler~JF Day, and Gregory~A Voth.
+\newblock The hydrated proton at the water liquid/vapor interface.
+\newblock {\em The Journal of Physical Chemistry B}, 108(39):14804--14806,
+  2004.
 
 \bibitem{IyengarPetersen}
 Srinivasan~S Iyengar, Matt~K Petersen, Tyler~JF Day, Christian~J Burnham,
@@ -80,56 +107,12 @@ Junjie Li and Srinivasan~S. Iyengar.
 \newblock {\em Journal of Chemical Theory and Computation}, 11(9):3978--3991,
   2015.
 
-\bibitem{polarizability1}
-Nathan~I Hammer, Eric~G Diken, Joseph~R Roscioli, Mark~A Johnson, Evgeniy~M
-  Myshakin, Kenneth~D Jordan, Anne~B McCoy, Xinchuan Huang, Joel~M Bowman, and
-  Stuart Carter.
-\newblock The vibrational predissociation spectra of the h 5 o 2+∙ rg n (rg=
-  ar, ne) clusters: Correlation of the solvent perturbations in the free oh and
-  shared proton transitions of the zundel ion.
-\newblock {\em The Journal of chemical physics}, 122(24):244301, 2005.
-
-\bibitem{polarizability2}
-D~Eisenberg and W~Kauzmann.
-\newblock The structure and properties of water oxford univ.
-\newblock {\em Press, New York}, 1969.
-
-\bibitem{aqc}
-Srinivasan~S Iyengar, Xiaohu Li, and Isaiah Sumner.
-\newblock The study of dynamically averaged vibrational spectroscopy of
-  atmospherically relevant clusters using ab initio molecular dynamics in
-  conjunction with quantum wavepackets.
-\newblock {\em Advances in Quantum Chemistry}, 55:333--353, 2008.
-
-\bibitem{Jutter-2D-MOFs-on-water-DFT-AIMD}
-Ralph Koitz, Jurg Hutter, and Marcella Iannuzzi.
-\newblock {Formation and properties of a terpyridine-based 2D MOF on the
-  surface of water}.
-\newblock {\em {2D Materials}}, {3}:{025026}, {2016}.
-
-\bibitem{Gerber-AIMD-atmospheric-2}
-R.~Benny Gerber, Mychel~E. Varner, Audrey~D. Hammerich, Sampsa Riikonen, Garold
-  Murdachaew, Dorit Shemesh, and Barbara~J. Finlayson-Pitts.
-\newblock {Computational Studies Of Atmospherically-Relevant Chemical Reactions
-  In Water Clusters And On Liquid Water And Ice Surfaces}.
-\newblock {\em {Accts. Chem. Res.}}, {48}:{399--406}, {2015}.
-
-\bibitem{Gerber-AIMD-atmospheric}
-R.~Benny Gerber and Jiri Sebek.
-\newblock {Dynamics Simulations of Atmospherically Relevant Molecular
-  Reactions}.
-\newblock {\em {Int. Revs. Phys. Chem.}}, {28}:{207--222}, {2009}.
-
-\bibitem{Hutter-Review}
-Juerg Hutter.
-\newblock {Car-Parrinello Molecular Dynamics}.
-\newblock {\em {WIREs-Comp. Mol. Sci.}}, {2}({4}):{604--612}, {JUL-AUG} {2012}.
-
-\bibitem{Kirchner-Hutter-Aimd-Apps}
-Barbara Kirchner, Philipp~J. Di~Dio, and Juerg Hutter.
-\newblock {\em {Real-World Predictions From Ab Initio Molecular Dynamics
-  Simulations}}, volume {307} of {\em {Topics in Current Chemistry-Series}}.
-\newblock {2012}.
+\bibitem{jacs102.6218}
+Arieh Warshel and Robert~M Weiss.
+\newblock An empirical valence bond approach for comparing reactions in
+  solutions and in enzymes.
+\newblock {\em Journal of the American Chemical Society}, 102(20):6218--6226,
+  1980.
 
 \bibitem{KarplusBO1}
 I.~S.~Y. Wang and M.~Karplus.
@@ -155,25 +138,11 @@ K.~Bolton, W.~L. Hase, and G.~H. Peslherbe.
   Chemistry}, chapter Direct Dynamics of Reactive Systems, page 143.
 \newblock World Scientific, Singapore, 1998.
 
-\bibitem{Hessian}
-J.~M. Millam, V.~Bakken, W.~Chen, W.~L. Hase, and H.~B. Schlegel.
-\newblock {\em J. Chem. Phys.}, 111:3800, 1999.
-
 \bibitem{bernyPESreview}
 H.~Bernhard Schlegel.
 \newblock Exploring potential energy surfaces for chemical reactions: an
   overview of some practical methods.
 \newblock {\em J. Comput. Chem.}, 24:1514, 2003.
-
-\bibitem{Hrant-Berny-PESreview}
-H.~Hratchian and H.~Bernhard Schlegel.
-\newblock chapter Finding minima, transition states, and following reaction
-  pathways on {\em ab intio} potential energy surfaces, page 195.
-\newblock Elsevier, Amsterdam, 2005.
-
-\bibitem{formaldehyde}
-X.~Li, J.~M. Millam, and H.~B. Schlegel.
-\newblock {\em J. Chem. Phys.}, 113:10062, 2000.
 
 \bibitem{pulay}
 P.~Pulay.
@@ -186,22 +155,6 @@ R.~N. Barnett and U.~Landman.
 \newblock Born-oppenheimer molecular-dynamics simulations of finite systems -
   structure and dynamics of (h$_2$o)$_2$.
 \newblock {\em Phys. Rev. B}, 48:2081, 1993.
-
-\bibitem{AndersenEL}
-Hans~C. Andersen.
-\newblock Molecular dynamics simulations at constant pressure and/or
-  temperature.
-\newblock {\em J. Chem. Phys.}, 72:2384, 1980.
-
-\bibitem{ParrinelloEL}
-M.~Parrinello and A.~Rahman.
-\newblock Crystal structure and pair potentials: A molecular-dynamics study.
-\newblock {\em Phys. Rev. Lett.}, 45:1196, 1980.
-
-\bibitem{Parrinello1984jcp-PI}
-M.~Parrinello and A.~Rahman.
-\newblock Study of an f center in molten kcl.
-\newblock {\em J. Chem. Phys.}, 80:860, 1984.
 
 \bibitem{CP}
 R.~Car and M.~Parrinello.
@@ -356,6 +309,47 @@ B.~Hartke and E.~A. Carter.
 \newblock Spin eigenstate dependent hartree-fock molecular dynamics.
 \newblock {\em Chem. Phys. Lett.}, 189:358, 1992.
 
+\bibitem{Jutter-2D-MOFs-on-water-DFT-AIMD}
+Ralph Koitz, Jurg Hutter, and Marcella Iannuzzi.
+\newblock {Formation and properties of a terpyridine-based 2D MOF on the
+  surface of water}.
+\newblock {\em {2D Materials}}, {3}:{025026}, {2016}.
+
+\bibitem{Gerber-AIMD-atmospheric-2}
+R.~Benny Gerber, Mychel~E. Varner, Audrey~D. Hammerich, Sampsa Riikonen, Garold
+  Murdachaew, Dorit Shemesh, and Barbara~J. Finlayson-Pitts.
+\newblock {Computational Studies Of Atmospherically-Relevant Chemical Reactions
+  In Water Clusters And On Liquid Water And Ice Surfaces}.
+\newblock {\em {Accts. Chem. Res.}}, {48}:{399--406}, {2015}.
+
+\bibitem{Gerber-AIMD-atmospheric}
+R.~Benny Gerber and Jiri Sebek.
+\newblock {Dynamics Simulations of Atmospherically Relevant Molecular
+  Reactions}.
+\newblock {\em {Int. Revs. Phys. Chem.}}, {28}:{207--222}, {2009}.
+
+\bibitem{Hutter-Review}
+Juerg Hutter.
+\newblock {Car-Parrinello Molecular Dynamics}.
+\newblock {\em {WIREs-Comp. Mol. Sci.}}, {2}({4}):{604--612}, {JUL-AUG} {2012}.
+
+\bibitem{Kirchner-Hutter-Aimd-Apps}
+Barbara Kirchner, Philipp~J. Di~Dio, and Juerg Hutter.
+\newblock {\em {Real-World Predictions From Ab Initio Molecular Dynamics
+  Simulations}}, volume {307} of {\em {Topics in Current Chemistry-Series}}.
+\newblock {2012}.
+
+\bibitem{AndersenEL}
+Hans~C. Andersen.
+\newblock Molecular dynamics simulations at constant pressure and/or
+  temperature.
+\newblock {\em J. Chem. Phys.}, 72:2384, 1980.
+
+\bibitem{ParrinelloEL}
+M.~Parrinello and A.~Rahman.
+\newblock Crystal structure and pair potentials: A molecular-dynamics study.
+\newblock {\em Phys. Rev. Lett.}, 45:1196, 1980.
+
 \bibitem{admp1}
 H~Bernhard Schlegel, John~M Millam, Srinivasan~S Iyengar, Gregory~A Voth,
   Andrew~D Daniels, Gustavo~E Scuseria, and Michael~J Frisch.
@@ -398,13 +392,6 @@ Srinivasan~S Iyengar, H~Bernhard Schlegel, and Gregory~A Voth.
 \newblock Atom-centered density matrix propagation (admp): generalizations
   using bohmian mechanics.
 \newblock {\em The Journal of Physical Chemistry A}, 107(37):7269--7277, 2003.
-
-\bibitem{IyengarProtonatedWater1}
-Srinivasan~S Iyengar, Matt~K Petersen, Tyler~JF Day, Christian~J Burnham,
-  Virginia~E Teige, and Gregory~A Voth.
-\newblock The properties of ion-water clusters. i. the protonated 21-water
-  cluster.
-\newblock {\em The Journal of chemical physics}, 123(8):084309, 2005.
 
 \bibitem{IyengarProtonatedWater2}
 Srinivasan~S Iyengar.
@@ -478,12 +465,6 @@ Scott~M Dietrick, Alexander~B Pacheco, Prasad Phatak, Philip~S Stevens, and
   study of the oh+ isoprene reaction intermediate using ab initio molecular
   dynamics.
 \newblock {\em The Journal of Physical Chemistry A}, 116(1):399--414, 2011.
-
-\bibitem{PetersenIyengar}
-Matt~K Petersen, Srinivasan~S Iyengar, Tyler~JF Day, and Gregory~A Voth.
-\newblock The hydrated proton at the water liquid/vapor interface.
-\newblock {\em The Journal of Physical Chemistry B}, 108(39):14804--14806,
-  2004.
 
 \bibitem{IyengarDayVoth}
 Srinivasan~S Iyengar, Tyler~JF Day, and Gregory~A Voth.
@@ -567,21 +548,21 @@ Weitao Yang.
 
 \bibitem{oniom}
 Feliu Maseras and Keiji Morokuma.
-\newblock Imomm: A new integrated ab initio+ molecular mechanics geometry
+\newblock {IMOMM}: A new integrated ab initio+ molecular mechanics geometry
   optimization scheme of equilibrium structures and transition states.
 \newblock {\em Journal of Computational Chemistry}, 16(9):1170--1179, 1995.
 
 \bibitem{oniomxs}
 Teerakiat Kerdcharoen and Keiji Morokuma.
-\newblock Oniom-xs: an extension of the oniom method for molecular simulation
+\newblock {ONIOM-XS}: an extension of the oniom method for molecular simulation
   in condensed phase.
 \newblock {\em Chemical physics letters}, 355(3):257--262, 2002.
 
 \bibitem{EFP}
 Mark~S Gordon, Mark~A Freitag, Pradipta Bandyopadhyay, Jan~H Jensen, Visvaldas
   Kairys, and Walter~J Stevens.
-\newblock The effective fragment potential method: A qm-based mm approach to
-  modeling environmental effects in chemistry.
+\newblock The effective fragment potential method: A {QM}-based {MM} approach
+  to modeling environmental effects in chemistry.
 \newblock {\em The Journal of Physical Chemistry A}, 105(2):293--307, 2001.
 
 \bibitem{FMO-feature-article}
@@ -627,7 +608,7 @@ V~Ganesh, Rameshwar~K Dongare, P~Balanarayan, and Shridhar~R Gadre.
 
 \bibitem{ONIOM-XO}
 Wenping Guo, Anan Wu, and Xin Xu.
-\newblock Xo: An extended oniom method for accurate and efficient geometry
+\newblock {XO}: An extended oniom method for accurate and efficient geometry
   optimization of large molecules.
 \newblock {\em Chemical Physics Letters}, 498(1):203--208, 2010.
 
@@ -713,6 +694,103 @@ Eric~G Diken, Jeffrey~M Headrick, Joseph~R Roscioli, Joseph~C Bopp, Mark~A
   complexes.
 \newblock {\em The Journal of Physical Chemistry A}, 109(8):1487--1490, 2005.
 
+\bibitem{shannonIsoprene}
+Nicole DeGregorio and Srinivasan~S Iyengar.
+\newblock Efficient and adaptive methods for computing accurate potential
+  surfaces for quantum nuclear effects: Applications to hydrogen-transfer
+  reactions.
+\newblock {\em Journal of chemical theory and computation}, 14(1):30--47, 2017.
+
+\bibitem{isaacs1995physical}
+Neil~S Isaacs et~al.
+\newblock {\em Physical organic chemistry}.
+\newblock Longman Scientific \& Technical, 1995.
+
+\bibitem{sheridan2007quantum}
+ROBERTS Sheridan.
+\newblock {\em Quantum mechanical tunneling in organic reactive intermediates}.
+\newblock Wiley-Interscience: Hoboken, NJ, 2007.
+
+\bibitem{Klinman2}
+B.~J. Bahnson, T.~D. Colby, J.~K. Chin, B.~M. Goldstein, and J.~P. Klinman.
+\newblock A link between protein structure and enzyme catalyzed hydrogen
+  tunneling.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 94:12797, 1997.
+
+\bibitem{Sharon-Enzymes-Review-2006}
+S.~Hammes-Schiffer and S.~J. Benkovic.
+\newblock Relating protein motion to catalysis.
+\newblock {\em Annu. Rev. Biochem.}, 75:519, 2006.
+
+\bibitem{Sharon-Enzymes-Science-2006}
+S.~J. Benkovic and S.~Hammes-Schiffer.
+\newblock Biochemistry - enzyme motions inside and out.
+\newblock {\em Science}, 312:208, 2006.
+
+\bibitem{Truhlar-Karplus-Enzymes}
+M.~Garcia-Viloca, J.~Gao, M.~Karplus, and D.~G. Truhlar.
+\newblock How enzymes work: Analysis by modern rate theory and computer
+  simulations.
+\newblock {\em Science}, 303:5655, 2004.
+
+\bibitem{Warshel-SLO-1}
+M.~H.~M. Olsson, P.~E.~M. Siegbahn, and A.~Warshel.
+\newblock Simulations of the large kinetic isotope effect and the temperature0
+  dependence of the hydrogen atom transfer in lipoxygenase.
+\newblock {\em J. Am. Chem. Soc.}, 126:2820, 2004.
+
+\bibitem{Klinman4}
+Z.~X. Liang and J.~P. Klinman.
+\newblock Structural bases of hydrogen tunneling in enzymes: Progress and
+  puzzles.
+\newblock {\em Curr. Opin. Struct. Biol.}, 14:648, 2004.
+
+\bibitem{Klinman-Pac-Allenz-Tunnel}
+J.~P. Klinman.
+\newblock Dynamic barriers and tunneling. new views of hydrogen transfer in
+  enzyme reactions.
+\newblock {\em Pure And Applied Chemistry}, 75:601, 2003.
+
+\bibitem{Truhlar-Gao-Chemrevs-Enzymes-2006-1}
+J.~Z. Pu, J.~L. Gao, and D.~G. Truhlar.
+\newblock Multidimensional tunneling, recrossing, and the transmission
+  coefficient for enzymatic reactions.
+\newblock {\em Chem. Revs.}, 106:3140, 2006.
+
+\bibitem{Truhlar-Gao-Chemrevs-Enzymes-2006-2}
+J.~L. Gao, S.~H. Ma, D.~T. Major, K.~Nam, J.~Z. Pu, and D.~G. Truhlar.
+\newblock Mechanisms and free energies of enzymatic reactions.
+\newblock {\em Chem. Revs.}, 106:3188, 2006.
+
+\bibitem{Kamerlin2010febsl}
+S.C.L. Kamerlin, J.~Mavri, and A.~Warshel.
+\newblock Examining the case for the effect of barrier compression on
+  tunneling, vibrationally enhanced catalysis, catalytic entropy and related
+  issues.
+\newblock {\em FEBS Lett.}, 584:2759, 2010.
+
+\bibitem{hodgkiss2007relation}
+Justin~M Hodgkiss, Joel Rosenthal, and Daniel~G Nocera.
+\newblock The relation between hydrogen atom transfer and proton-coupled
+  electron transfer in model systems.
+\newblock {\em Hydrogen-Transfer Reactions}, pages 503--562, 2007.
+
+\bibitem{nagel2006tunneling}
+Zachary~D Nagel and Judith~P Klinman.
+\newblock Tunneling and dynamics in enzymatic hydride transfer.
+\newblock {\em Chemical reviews}, 106(8):3095--3118, 2006.
+
+\bibitem{qwaimd-SLO-1}
+S.~S. Iyengar, I.~Sumner, and J.~Jakowski.
+\newblock Hydrogen tunneling in an enzyme active site: A quantum wavepacket
+  dynamical perspective.
+\newblock {\em J. Phys. Chem. B}, 112:7601, 2008.
+
+\bibitem{miller1980reaction}
+William~H Miller, Nicholas~C Handy, and John~E Adams.
+\newblock Reaction path hamiltonian for polyatomic molecules.
+\newblock {\em The Journal of chemical physics}, 72(1):99--112, 1980.
+
 \bibitem{Bolhuis}
 Peter~G Bolhuis, David Chandler, Christoph Dellago, and Phillip~L Geissler.
 \newblock Transition path sampling: Throwing ropes over rough mountain passes,
@@ -770,24 +848,6 @@ Arthur~F Voter.
 \newblock Hyperdynamics: Accelerated molecular dynamics of infrequent events.
 \newblock {\em Physical Review Letters}, 78(20):3908, 1997.
 
-\bibitem{HuangIyengar}
-Youhong Huang, Srinivasan~S Iyengar, Donald~J Kouri, and David~K Hoffman.
-\newblock Further analysis of solutions to the time-independent wave packet
-  equations of quantum dynamics. ii. scattering as a continuous function of
-  energy using finite, discrete approximate hamiltonians.
-\newblock {\em The Journal of chemical physics}, 105(3):927--939, 1996.
-
-\bibitem{Makri}
-Nancy Makri.
-\newblock Feynman path integration in quantum dynamics.
-\newblock {\em Computer physics communications}, 63(1-3):389--414, 1991.
-
-\bibitem{Cao}
-Jianshu Cao and Gregory~A Voth.
-\newblock The formulation of quantum statistical mechanics based on the feynman
-  path centroid density. ii. dynamical properties.
-\newblock {\em The Journal of chemical physics}, 100(7):5106--5117, 1994.
-
 \bibitem{Bowman}
 Joel~M Bowman.
 \newblock The self-consistent-field approach to polyatomic vibrations.
@@ -826,13 +886,34 @@ Anne~B McCoy, Xinchuan Huang, Stuart Carter, and Joel~M Bowman.
 \bibitem{IyengarParker}
 Srinivasan~S Iyengar, Gregory~A Parker, Donald~J Kouri, and David~K Hoffman.
 \newblock Symmetry-adapted distributed approximating functionals: Theory and
-  application to the ro-vibrational states of h 3+.
+  application to the ro-vibrational states of ${H_3}^+$.
 \newblock {\em The Journal of chemical physics}, 110(21):10283--10298, 1999.
 
 \bibitem{Meyer}
 H-D Meyer, Uwe Manthe, and Lorenz~S Cederbaum.
 \newblock The multi-configurational time-dependent hartree approach.
 \newblock {\em Chemical Physics Letters}, 165(1):73--78, 1990.
+
+\bibitem{Manolopoulos-waterwire}
+Mariana Rossi, Michele Ceriotti, and D.~E. Manolopoulos.
+\newblock Nuclear quantum effects in h+ and oh- diffusion along confined water
+  wires.
+\newblock {\em J. Phys. Chem. Lett.}, 7:3001, 2016.
+
+\bibitem{grotthuss}
+N.~Agmon.
+\newblock The grotthuss mechanism.
+\newblock {\em Chem. Phys. Lett.}, 244:456, 1995.
+
+\bibitem{Agmon:96}
+N.~Agmon.
+\newblock Hydrogen bonds, water rotation and proton mobility.
+\newblock {\em J. Chim. Phys.}, 93:1714, 1996.
+
+\bibitem{AgmonOH}
+N.~Agmon.
+\newblock Mechanism of hydroxide mobility.
+\newblock {\em Chem. Phys. Lett.}, 319:247, 2000.
 
 \bibitem{Varandas-PES}
 J.N. Murrell, S.~Carter, S.C. Farantos, P.~Huxley, and A.J.C. Varandas.
@@ -878,8 +959,9 @@ Riccardo Conte, Paul~L Houston, and Joel~M Bowman.
 
 \bibitem{yu2017high}
 Qi~Yu and Joel~M Bowman.
-\newblock High-level quantum calculations of the ir spectra of the eigen,
-  zundel, and ring isomers of h+ (h2o) 4 find a single match to experiment.
+\newblock High-level quantum calculations of the {IR} spectra of the {E}igen,
+  {Z}undel, and {R}ing {I}somers of ${H}^+{(H_{2}O)}_4$ {F}ind a {S}ingle
+  {M}atch to {E}xperiment.
 \newblock {\em Journal of the American Chemical Society}, 139(32):10984--10987,
   2017.
 
@@ -940,12 +1022,6 @@ Isaiah Sumner and Srinivasan~S Iyengar.
 \newblock {\em The Journal of Physical Chemistry A}, 111(41):10313--10324,
   2007.
 
-\bibitem{qwaimd-SLO-1}
-S.~S. Iyengar, I.~Sumner, and J.~Jakowski.
-\newblock Hydrogen tunneling in an enzyme active site: A quantum wavepacket
-  dynamical perspective.
-\newblock {\em J. Phys. Chem. B}, 112:7601, 2008.
-
 \bibitem{behler2015constructing}
 J{\"o}rg Behler.
 \newblock Constructing high-dimensional neural network potentials: A tutorial
@@ -1001,6 +1077,11 @@ J{\"o}rg Behler.
   large-scale simulations.
 \newblock {\em Physical Chemistry Chemical Physics}, 13(40):17930--17955, 2011.
 
+\bibitem{allen2012computer}
+Mike~P Allen and Dominic~J Tildesley.
+\newblock {\em Computer simulation in chemical physics}, volume 397.
+\newblock Springer Science \& Business Media, 2012.
+
 \bibitem{qwaimdqmmm}
 Isaiah Sumner and Srinivasan~S Iyengar.
 \newblock Combining quantum wavepacket ab initio molecular dynamics with qm/mm
@@ -1020,8 +1101,8 @@ Scott~M Dietrick, Alexander~B Pacheco, Prasad Phatak, Philip~S Stevens, and
   Srinivasan~S Iyengar.
 \newblock Influence of water on anharmonicity, stability, and vibrational
   energy distribution of hydrogen-bonded adducts in atmospheric reactions: Case
-  study of the oh+ isoprene reaction intermediate using ab initio molecular
-  dynamics.
+  study of the ${OH}^{+}$ isoprene reaction intermediate using ab initio
+  molecular dynamics.
 \newblock {\em The Journal of Physical Chemistry A}, 116(1):399--414, 2011.
 
 \bibitem{qmmmadmp}
@@ -1044,8 +1125,9 @@ Diane~E Sagnella, Kari Laasonen, and Michael~L Klein.
 
 \bibitem{pomesRoux1}
 Regis Pomes and Benoit Roux.
-\newblock Structure and dynamics of a proton wire: a theoretical study of h+
-  translocation along the single-file water chain in the gramicidin a channel.
+\newblock Structure and dynamics of a proton wire: a theoretical study of
+  ${H}^{+}$ translocation along the single-file water chain in the gramicidin a
+  channel.
 \newblock {\em Biophysical journal}, 71(1):19--39, 1996.
 
 \bibitem{nagle1978molecular}
@@ -1136,20 +1218,13 @@ Hideki Kandori.
 \bibitem{tully1971trajectory}
 John~C Tully and Richard~K Preston.
 \newblock Trajectory surface hopping approach to nonadiabatic molecular
-  collisions: the reaction of h+ with d2.
+  collisions: the reaction of ${H}^{+}$ with ${D}_2$.
 \newblock {\em The Journal of Chemical Physics}, 55(2):562--572, 1971.
 
 \bibitem{feynman2010quantum}
 Richard~P Feynman, Albert~R Hibbs, and Daniel~F Styer.
 \newblock {\em Quantum mechanics and path integrals}.
 \newblock Courier Corporation, 2010.
-
-\bibitem{jacs102.6218}
-Arieh Warshel and Robert~M Weiss.
-\newblock An empirical valence bond approach for comparing reactions in
-  solutions and in enzymes.
-\newblock {\em Journal of the American Chemical Society}, 102(20):6218--6226,
-  1980.
 
 \bibitem{schmitt1998multistate}
 Udo~W Schmitt and Gregory~A Voth.
@@ -1165,8 +1240,8 @@ Z~Luz and S~Meiboom.
 
 \bibitem{kerdcharoen1996qm}
 Teerakiat Kerdcharoen, Klaus~R Liedl, and Bernd~M Rode.
-\newblock A qm/mm simulation method applied to the solution of li+ in liquid
-  ammonia.
+\newblock A {QM/MM} simulation method applied to the solution of ${Li}^{+}$ in
+  liquid ammonia.
 \newblock {\em Chemical physics}, 211(1):313--323, 1996.
 
 \bibitem{hofer2005structure}
@@ -1178,8 +1253,8 @@ Thomas~S Hofer, Andreas~B Pribil, Bernhard~R Randolf, and Bernd~M Rode.
 
 \bibitem{schwenk2003structure}
 Christian~F Schwenk, Hannes~H Loeffler, and Bernd~M Rode.
-\newblock Structure and dynamics of metal ions in solution: Qm/mm molecular
-  dynamics simulations of mn2+ and v2+.
+\newblock Structure and dynamics of metal ions in solution: {QM/MM} molecular
+  dynamics simulations of ${M}n^{2+}$ and ${V}^{2+}$.
 \newblock {\em Journal of the American Chemical Society}, 125(6):1618--1624,
   2003.
 
@@ -1205,13 +1280,6 @@ David Hocker, Xiaohu Li, and Srinivasan~S Iyengar.
   efficient “on-the-fly” quantum dynamics and electronic structure.
 \newblock {\em Journal of chemical theory and computation}, 7(2):256--268,
   2011.
-
-\bibitem{shannonIsoprene}
-Nicole DeGregorio and Srinivasan~S Iyengar.
-\newblock Efficient and adaptive methods for computing accurate potential
-  surfaces for quantum nuclear effects: Applications to hydrogen-transfer
-  reactions.
-\newblock {\em Journal of chemical theory and computation}, 14(1):30--47, 2017.
 
 \bibitem{lobaugh1996quantum}
 J~Lobaugh and Gregory~A Voth.
